@@ -1,0 +1,486 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Facebook Events 3.2\n"
+"POT-Creation-Date: 2014-02-04 18:20-0800\n"
+"PO-Revision-Date: 2014-02-12 17:07+0100\n"
+"Last-Translator: Jeroen Cornelissen <jeroen@toedoes.nl>\n"
+"Language-Team: Modern Tribe, Inc. <support@tri.be>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nl_NL\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../the-events-calendar-facebook-importer.php:135
+#, php-format
+msgid ""
+"As of version 1.0.6, you need to enter your own Facebook App ID and App "
+"secret. Visit %s to generate yours. Enter your App ID and App Secret on the "
+"<a href='%s'>event's settings page</a>. "
+msgstr ""
+"Vanaf versie 1.0.6 moet je je eigen Facebook App ID en App secret invoeren. "
+"Bezoek %s om de jouwe te genereren. Voer je App IC en App Secret in op de <a "
+"href='%s'>event's instellingen pagina</a>"
+
+#: ../the-events-calendar-facebook-importer.php:162
+#, php-format
+msgid ""
+"Signing up for a Facebook App ID and Secret only takes a second. Visit %s to "
+"create yours. "
+msgstr ""
+"Aanmelden voor een Facebook App ID en Secret kost maar een paar seconden. "
+"Bezoe %s om de jouwe te creeeren"
+
+#: ../the-events-calendar-facebook-importer.php:163
+#, php-format
+msgid "Visit %s to learn more about Facebook App Ids and Secrets. "
+msgstr "Bezoek %s om meer te weten te komen over Facebook App ID en Secret "
+
+#: ../the-events-calendar-facebook-importer.php:164
+#, php-format
+msgid ""
+"You must enter a Facebook App ID and App Secret to continue importing events "
+"from Facebook. Visit %s to create yours. "
+msgstr ""
+"Je moet een Facebook App ID en Secret invoeren om door te kunnen gaan met "
+"importeren van evenementen van Faceboek. Bezoek %s om de jouwe te genereren. "
+
+#: ../the-events-calendar-facebook-importer.php:355
+msgid "Could not successfully import the image for unknown reasons."
+msgstr ""
+"Om onbekende reden waren we niet in staat om het plaatje te importeren."
+
+#: ../the-events-calendar-facebook-importer.php:419
+msgid "The return argument should be object or id"
+msgstr "Het antwoord zou moeten zijn; object of id"
+
+#: ../the-events-calendar-facebook-importer.php:468
+msgid "Object type provided is invalid"
+msgstr "Het aangeleverde object type is ongeldig"
+
+#: ../the-events-calendar-facebook-importer.php:740
+#, php-format
+msgid "%s. Event Image Error: Failed to save record into database."
+msgstr "%s. Evenement plaatje fout: Kon niet opslaan."
+
+#: ../the-events-calendar-facebook-importer.php:743
+#, php-format
+msgid "%s. Event Image Error: The file cannot be saved."
+msgstr "%s. Evenement plaatje fout: Kon bestand niet opslaan."
+
+#: ../the-events-calendar-facebook-importer.php:746
+#, php-format
+msgid "%s. Event Image Error: \"%s\" is not a valid image. %s"
+msgstr "%s. Evenement plaatje fout: \"%s\" is geen geldig format. %s"
+
+#: ../the-events-calendar-facebook-importer.php:785
+#, php-format
+msgid "The event \"%s\" was already imported from Facebook."
+msgstr "Het evenement \"%s\"  is al geimporteerd vanuit Facebook"
+
+#: ../the-events-calendar-facebook-importer.php:789
+#, php-format
+msgid ""
+"Either the event with ID %s does not exist, is marked as private on Facebook "
+"or we couldn't reach the Facebook API"
+msgstr ""
+"Of het evenement met ID %s bestaat niet, is op Facebook gemarkeerd als "
+"privé, of we kondern de Facebook API niet benaderen"
+
+#: ../the-events-calendar-facebook-importer.php:827
+msgid "The Facebook event IDs provided must be numeric and one per line."
+msgstr ""
+"De aangeleverde Facebook evenementen IDs moeten numeriek zijn en één per "
+"regel"
+
+#: ../the-events-calendar-facebook-importer.php:842
+msgid "Import: Facebook"
+msgstr "Importeer: Facebook"
+
+#: ../the-events-calendar-facebook-importer.php:883
+#: ../the-events-calendar-facebook-importer.php:1091
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../the-events-calendar-facebook-importer.php:934
+msgid ""
+"No valid events were provided for import. The import failed as a result."
+msgstr ""
+"Geen geldige evenementen zijn aangeleverd om te importeren. Importeren "
+"mislukt."
+
+#: ../the-events-calendar-facebook-importer.php:961
+msgid "Facebook API Error: "
+msgstr "Facebook API fout: "
+
+#: ../the-events-calendar-facebook-importer.php:974
+msgid "(previously imported)"
+msgstr "(eerder geimporteerd)"
+
+#: ../the-events-calendar-facebook-importer.php:1061
+msgid "Once Weekly"
+msgstr "Eén keer per week"
+
+#: ../the-events-calendar-facebook-importer.php:1082
+msgid "Import"
+msgstr "Importeer"
+
+#: ../the-events-calendar-facebook-importer.php:1100
+msgid "Facebook Events"
+msgstr "Facebook Evenementen"
+
+#: ../the-events-calendar-facebook-importer.php:1115
+msgid "Settings"
+msgstr "Instellingen"
+
+#: ../the-events-calendar-facebook-importer.php:1161
+msgid "The Events Calendar"
+msgstr "The Events Calendar"
+
+#: ../the-events-calendar-facebook-importer.php:1162
+#, php-format
+msgid ""
+"To begin using The Events Calendar: Facebook Events, please install the "
+"latest version of %s."
+msgstr ""
+"Om te beginnen met gebruik van The Events Calender: Facebook Events, "
+"installeer de laatste versie van %s."
+
+#: ../admin-views/import-page.php:8
+msgid "settings page"
+msgstr "Instellingen pagina"
+
+#: ../admin-views/import-page.php:9
+msgid "Go take a look at your event(s)"
+msgstr "Bekijk je evenementen"
+
+#: ../admin-views/import-page.php:16 ../admin-views/settings-tab.php:14
+msgid "Import Facebook Events"
+msgstr "Importeer Facebook evenementen"
+
+#: ../admin-views/import-page.php:20
+msgid "The following errors have occurred:"
+msgstr "De volgende fouten zijn ontstaan:"
+
+#: ../admin-views/import-page.php:27
+msgid "Please note that as a result, no events were successfully imported."
+msgstr "Let op: Als gevolg daarvan zijn er geen evenementen geimporteerd."
+
+#: ../admin-views/import-page.php:29
+msgid "Please note that other events have been successfully imported."
+msgstr "Let op: Andere evenementen zijn wel succesvol geimporteerd"
+
+#: ../admin-views/import-page.php:45
+msgid "The following errors have occurred during importing images:"
+msgstr "De volgende fouten zijn ontstaan bij het importeren van plaatjes:"
+
+#: ../admin-views/import-page.php:51
+msgid ""
+"Please note that this does not effect importing of associated events unless "
+"noted."
+msgstr ""
+"Let op dat dit geen effect heeft op het importeren van gerelateerde "
+"evenementen, tenzij dit expliciet wordt aangegeven"
+
+#: ../admin-views/import-page.php:56
+msgid "How to Import Facebook Events"
+msgstr "Hoe importeer ik Facebook evenementen"
+
+#: ../admin-views/import-page.php:58
+#, php-format
+msgid ""
+"Select which events you want to import from specific Facebook Pages or Users "
+"by entering their details on the  %s. Return to this page to choose which of "
+"their events you would like to import."
+msgstr ""
+"Selecteer de evenementen die je wilt importeren van specifieke Facebook "
+"pagina's of gebruikers door hun gegevens op te voeren op de %s. Ga terug "
+"naar deze pagina om te kiezen welke van hun evenementen je werkelijk wilt "
+"importeren"
+
+#: ../admin-views/import-page.php:60
+msgid ""
+"Since you've already setup some Facebook organization(s) or page(s) to "
+"import from, you can import their events below. Visit the settings page to "
+"modify the Facebook organization(s) or page(s) you want to import from."
+msgstr ""
+"Aangezien je al één of meerdere Facebook bedrijven/organisatie(s) of "
+"pagina(s) hebt opgezet om van te importeren, kan je de evenementen hieronder "
+"importeren. Bezoek de instellingen pagina om de Facebook organisatie(s) of "
+"pagina(s) aan te passen vanwaar je wilt importeren."
+
+#: ../admin-views/import-page.php:62
+msgid ""
+"You can also import any specific event by entering Facebook event IDs in the "
+"text area below."
+msgstr ""
+"Je kunt ook specifieke evenementen importeren door Facebook evenement IDs in "
+"het veld hieronder in te voeren"
+
+#: ../admin-views/import-page.php:63
+#, php-format
+msgid ""
+"You can determine an event's Facebook ID by looking at the URL of the event. "
+"For example, the ID of this event: %s would be %s"
+msgstr ""
+"Je kunt een Facebook evenementen ID afleiden uit de URL van het evenement. "
+"Bijvoorbeeld, het ID van dit evenement: %s zou zijn %s"
+
+#: ../admin-views/import-page.php:72
+msgid "Events from Facebook organizations(s) or page(s) you've added:"
+msgstr ""
+"Evenementen van Facebook organisatie(s) of pagina(s) die je hebt toegevoegd:"
+
+#: ../admin-views/import-page.php:78
+msgid "Import events by their Facebook ID:"
+msgstr "Importeer evenementen via hun Facebook ID:"
+
+#: ../admin-views/import-page.php:81
+msgid "One event ID per line"
+msgstr "Eén evenement ID per regel"
+
+#: ../admin-views/import-page.php:86
+msgid "Import events"
+msgstr "Importeer evenement"
+
+#: ../admin-views/import-page.php:104
+msgid "Please select or enter the ID of at least one event to import"
+msgstr "Kies of voer het ID van tenminste één te importeren evenement in"
+
+#: ../admin-views/settings-tab.php:15
+msgid "Getting Started"
+msgstr "Aan de slag"
+
+#: ../admin-views/settings-tab.php:16
+msgid ""
+"You need a Facebook App ID and App Secret to access data via the Facebook "
+"Graph API to import your events from Facebook."
+msgstr ""
+"Je moet een Facebook App ID en Secret invoeren om toegang te krijgen tot "
+"gegevens via de Faceboo Graph API om je evenementen te importeren van "
+"Facebook"
+
+#: ../admin-views/settings-tab.php:18
+#, php-format
+msgid "%s to learn more about Facebook Apps"
+msgstr "%s om meer te leren over Facebook Apps"
+
+#: ../admin-views/settings-tab.php:18 ../admin-views/settings-tab.php:19
+#: ../admin-views/settings-tab.php:37 ../admin-views/settings-tab.php:46
+msgid "Click here"
+msgstr "Klik hier"
+
+#: ../admin-views/settings-tab.php:19
+#, php-format
+msgid "%s to view or create Facebook Apps"
+msgstr "%s om Facebook Apps te bekijken of  maken"
+
+#: ../admin-views/settings-tab.php:21
+msgid "Selecting pages or organizations to import events with"
+msgstr ""
+"Selecteren van paginas of organisaties om evenementen mee te importeren"
+
+#: ../admin-views/settings-tab.php:22
+msgid ""
+"You can retrieve and import events belonging to a Facebook organization or a "
+"Facebook page. You will need the username(s) or ID of each organization or "
+"page that you want to fetch events from. We do not currently support "
+"retrieving events from personal profiles. If you want to import an event "
+"from an individual, you can do that with the event ID on the"
+msgstr ""
+"Je kunt evenementen ophalen of importeren die van Facebook organisaties of "
+"Facebook pagina's zijn. Je hebt de username(s) of ID van iedere organisatie "
+"of pagina nodig waar je evenementen vandaan wilt halen. We ondersteunen "
+"momenteel niet het ophalen van evenementen van persoonlijke profielen. Als "
+"je een evenement wilt importeren van een persoon, dan kun je dat doen met "
+"het event ID op de"
+
+#: ../admin-views/settings-tab.php:22
+msgid "Import: Facebook page"
+msgstr "Importeer: Facebook pagina"
+
+#: ../admin-views/settings-tab.php:23
+#, php-format
+msgid ""
+"A page or organization's username or ID can be found in the URL used to "
+"access its profile. Modern Tribe's page is %s and the username is "
+"'ModernTribeInc'. If a page or organization doesn't have a username, you "
+"will see the ID (numerical) in the URL.</p>"
+msgstr ""
+"Een pagina's of organisatie's username of ID can je vinden in de URL die je "
+"gebruikt om bij dat profiel te komen. Modern Tribe's pagina is %s en de "
+"username is 'Modern TribeInc'. Als een pagina of organiatie geen username of "
+"ID heeft, dan zie je het ID (numeriek) in de URL.</p>"
+
+#: ../admin-views/settings-tab.php:32
+msgid "Account Settings"
+msgstr "Account Instellingen"
+
+#: ../admin-views/settings-tab.php:36
+msgid "Facebook App ID"
+msgstr "Facebook App ID"
+
+#: ../admin-views/settings-tab.php:37
+#, php-format
+msgid "<p>%s to view or create your Facebook Apps"
+msgstr "<p>%s om je Facebook Apps te bekijken of te maken"
+
+#: ../admin-views/settings-tab.php:45
+msgid "Facebook App secret"
+msgstr "Facebook App secret"
+
+#: ../admin-views/settings-tab.php:46
+#, php-format
+msgid "<p>%s to view or create your App Secret"
+msgstr "<p>%s om je App Secret te bekijken of te maken"
+
+#: ../admin-views/settings-tab.php:54
+msgid "Organization and page usernames / IDs to fetch events from"
+msgstr "Organisatie en pagina usernames / IDs om evenementen van op te halen"
+
+#: ../admin-views/settings-tab.php:55
+msgid "Please put one entry per line."
+msgstr "Eén invoer per regel"
+
+#: ../admin-views/settings-tab.php:55
+msgid "Follow the instructions above to find usernames or IDs."
+msgstr "Volg de bovenstaande instructies om usernames of IDs te vinden."
+
+#: ../admin-views/settings-tab.php:55
+msgid ""
+"Events can only be fetched from organizations and pages, not individuals."
+msgstr ""
+"Evenementen kunnen alleen worden opgehaald van organisaties en paginas, niet "
+"van personen"
+
+#: ../admin-views/settings-tab.php:64
+msgid "Import Settings"
+msgstr "Importeer instellingen"
+
+#: ../admin-views/settings-tab.php:68
+msgid "Default status to use for imported events"
+msgstr "Standaard status te gebruiken voor geimporteerde evenementen"
+
+#: ../admin-views/settings-tab.php:69
+msgid "Published"
+msgstr "Gepubliceerd"
+
+#: ../admin-views/settings-tab.php:69
+msgid "Draft"
+msgstr "Draft"
+
+#: ../admin-views/settings-tab.php:69
+msgid "Pending Review"
+msgstr "In afwachting van beoordeling"
+
+#: ../admin-views/settings-tab.php:75
+msgid "Enable Google Maps on imported events"
+msgstr "Zet Google Maps aan op geimporteerde evenementen"
+
+#: ../admin-views/settings-tab.php:76
+msgid ""
+"Check to enable maps for imported events in the frontend. Please enable "
+"Google Maps on the \"General\" tab to ensure your events will have map "
+"options."
+msgstr ""
+"Vink aan om maps/kaarten mogelijk te maen voor geimporteerde evenementen aan "
+"de voorkant. Activeer Google Maps op de \"General\" tab om zeker te zijn dat "
+"je evenementen map/kaart opties hebben."
+
+#: ../admin-views/settings-tab.php:83
+msgid "Auto import from Facebook"
+msgstr "Importeer automatisch van Facebook"
+
+#: ../admin-views/settings-tab.php:84
+msgid ""
+"If selected, events will be automatically imported from Facebook at the set "
+"interval."
+msgstr ""
+"Indien aangekozen worden evenementen automatisch geimporteerd van Facebook "
+"volgens de ingestelde frequentie."
+
+#: ../admin-views/settings-tab.php:90
+msgid "Import frequency"
+msgstr "Importeer frequentie"
+
+#: ../admin-views/settings-tab.php:91
+msgid ""
+"How often should we fetch events from Facebook. Only applies if Auto Import "
+"is set."
+msgstr ""
+"Hoe vaak moeten we evenementen ophalen van Facebook. Alleen van toepassing "
+"als Auto Import aan staat."
+
+#: ../admin-views/settings-tab.php:92
+msgid "Weekly"
+msgstr "Wekelijks"
+
+#: ../admin-views/settings-tab.php:92
+msgid "Daily"
+msgstr "Dagelijks"
+
+#: ../admin-views/settings-tab.php:92
+msgid "Twice daily"
+msgstr "Twee keer per dag"
+
+#: ../admin-views/settings-tab.php:92
+msgid "Hourly"
+msgstr "Ieder uur"
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:9
+#: ../vendor/pue-client/admin-views/license-key.view.php:13
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:291
+msgid "License Key"
+msgstr "Licentiesleutel"
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:10
+msgid "A valid license key is required for support and updates."
+msgstr "Een geldige Licentiesleutel is noodzakelijk voor support en updates"
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:16
+msgid "Replace empty fields"
+msgstr "Vervang lege velden"
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:25
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:292
+msgid "A valid license key is required for support and updates"
+msgstr "A valid license key is required for support and updates."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:360
+msgid "License key(s) updated."
+msgstr "Licentiesleutel(s) geactualiseerd"
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:400
+msgid "Sorry, key validation server is not available."
+msgstr "Sorry, Licentiesleutel validatie server is niet beschikbaar"
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:402
+msgid "Sorry, this key is expired."
+msgstr "Sorry, deze Licentiesleutel is verlopen"
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:404
+msgid "Sorry, this key is out of installs."
+msgstr "Sorry, deze Licentiesleutel heeft geen vrije installaties meer"
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:406
+msgid "Sorry, this key is not valid."
+msgstr "Sorry, deze Licentiesleutel is niet geldig"
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:409
+#, php-format
+msgid "Valid Key! Expires on %s"
+msgstr "Geldige Licentiesleutel! Verloopt op %s"
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:413
+#, php-format
+msgid ""
+"Hmmm... something's wrong with this validator. Please contact <a href=\"%s"
+"\">support.</a>"
+msgstr ""
+"Hmmm.... er ging iets mis met de controle. Neem aub contact op met <a href="
+"\"%s\">support.</a>"

@@ -1,0 +1,502 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: The Events Calendar: Facebook Events v3.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-02-05 10:04:56+0000\n"
+"Last-Translator: torbjorn <torbjorn@bergen.ungdomslag.no>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Norwegian-Nynorsk\n"
+"X-Poedit-Country: NORWAY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin-views/import-page.php:8
+#@ tribe-fb-import
+msgid "settings page"
+msgstr "innstillingar"
+
+#: admin-views/import-page.php:9
+#@ tribe-fb-import
+msgid "Go take a look at your event(s)"
+msgstr "Sjå hendinga/hendingane dine"
+
+#: admin-views/import-page.php:16
+#: admin-views/settings-tab.php:14
+#@ tribe-fb-import
+msgid "Import Facebook Events"
+msgstr "Hent Facebook-hendingar"
+
+#: admin-views/import-page.php:20
+#@ tribe-fb-import
+msgid "The following errors have occurred:"
+msgstr "Følgjande feil har oppstått:"
+
+#: admin-views/import-page.php:27
+#@ tribe-fb-import
+msgid "Please note that as a result, no events were successfully imported."
+msgstr "På grunn av dette kunne me ikkje hente hendingane."
+
+#: admin-views/import-page.php:29
+#@ tribe-fb-import
+msgid "Please note that other events have been successfully imported."
+msgstr "Hendingane vart henta."
+
+#: admin-views/import-page.php:36
+#, php-format
+#@ tribe-fb-import
+msgid "The selected event has been successfully imported."
+msgid_plural "The %d selected events have been successfully imported."
+msgstr[0] "Den valte hendinga vart henta."
+msgstr[1] "Dei valte hendingane vart henta."
+
+#: admin-views/import-page.php:45
+#@ tribe-fb-import
+msgid "The following errors have occurred during importing images:"
+msgstr "Følgjande feil oppstod når me prøvde å hente bilete:"
+
+#: admin-views/import-page.php:51
+#@ tribe-fb-import
+msgid "Please note that this does not effect importing of associated events unless noted."
+msgstr "Med mindre det vert sagt annleis vil ikkje dette påverke hentinga av hendingane."
+
+#: admin-views/import-page.php:56
+#@ tribe-fb-import
+msgid "How to Import Facebook Events"
+msgstr "Korleis Hente Facebook-hendingar"
+
+#: admin-views/import-page.php:58
+#, php-format
+#@ tribe-fb-import
+msgid "Select which events you want to import from specific Facebook Pages or Users by entering their details on the  %s. Return to this page to choose which of their events you would like to import."
+msgstr "Vel kva hendingar du ønskjer å hente frå spesifikke sider eller brukarar ved å skrive inn detaljane deira på %s. Kom attende til denne sida for å velje kva hendingar du ønskjer å hente."
+
+#: admin-views/import-page.php:60
+#@ tribe-fb-import
+msgid "Since you've already setup some Facebook organization(s) or page(s) to import from, you can import their events below. Visit the settings page to modify the Facebook organization(s) or page(s) you want to import from."
+msgstr "Sidan du allereie har valt somme Facebook-organisasjonar eller -sider å hente frå, kan du hente hendingane deira under. Sjå innstillingane for å endre kva organisasjonar eller sider du ønskjer å hente hendingar frå."
+
+#: admin-views/import-page.php:62
+#@ tribe-fb-import
+msgid "You can also import any specific event by entering Facebook event IDs in the text area below."
+msgstr "Du kan òg hente spesifikke hendingar ved å skrive hendings-IDen i tekstboksen under."
+
+#: admin-views/import-page.php:63
+#, php-format
+#@ tribe-fb-import
+msgid "You can determine an event's Facebook ID by looking at the URL of the event. For example, the ID of this event: %s would be %s"
+msgstr "Du kan finne ei Facebook-hending si ID ved å sjå på URLen for hendinga. Til dømes, IDen til denne hendinga: %s er %s"
+
+#: admin-views/import-page.php:72
+#@ tribe-fb-import
+msgid "Events from Facebook organizations(s) or page(s) you've added:"
+msgstr "Hendingar frå Facebook-organisasjonar eller sider du har lagt til:"
+
+#: admin-views/import-page.php:78
+#@ tribe-fb-import
+msgid "Import events by their Facebook ID:"
+msgstr "Hent hendingar med Facebook-ID:"
+
+#: admin-views/import-page.php:81
+#@ tribe-fb-import
+msgid "One event ID per line"
+msgstr "Berre ei hendings-ID per linje"
+
+#: admin-views/import-page.php:86
+#@ tribe-fb-import
+msgid "Import events"
+msgstr "Hent hendingar"
+
+#: admin-views/import-page.php:104
+#@ tribe-fb-import
+msgid "Please select or enter the ID of at least one event to import"
+msgstr "Vel, eller skriv ein ID til, minst ei hending du ønskjer å hente"
+
+#: admin-views/settings-tab.php:15
+#@ tribe-fb-import
+msgid "Getting Started"
+msgstr "Kome i gang"
+
+#: admin-views/settings-tab.php:16
+#@ tribe-fb-import
+msgid "You need a Facebook App ID and App Secret to access data via the Facebook Graph API to import your events from Facebook."
+msgstr "Du treng ein \\\"Facebook App ID\\\" og \\\"App Secret\\\" for å få tilgang til data via \\\"Facebook Graph API\\\" for å kunne hente hendingane dine frå Facebook."
+
+#: admin-views/settings-tab.php:18
+#, php-format
+#@ tribe-fb-import
+msgid "%s to learn more about Facebook Apps"
+msgstr "%s for å lære meir om Facebook-tilleggsfunksjonar"
+
+#: admin-views/settings-tab.php:18
+#: admin-views/settings-tab.php:19
+#: admin-views/settings-tab.php:37
+#: admin-views/settings-tab.php:46
+#@ tribe-fb-import
+msgid "Click here"
+msgstr "Trykk her"
+
+#: admin-views/settings-tab.php:19
+#, php-format
+#@ tribe-fb-import
+msgid "%s to view or create Facebook Apps"
+msgstr "%s for å sjå eller lage Facebook-tilleggsfunksjonar"
+
+#: admin-views/settings-tab.php:21
+#@ tribe-fb-import
+msgid "Selecting pages or organizations to import events with"
+msgstr "Vel sider eller organisasjonar å hente hendingar frå med"
+
+#: admin-views/settings-tab.php:22
+#@ tribe-fb-import
+msgid "You can retrieve and import events belonging to a Facebook organization or a Facebook page. You will need the username(s) or ID of each organization or page that you want to fetch events from. We do not currently support retrieving events from personal profiles. If you want to import an event from an individual, you can do that with the event ID on the"
+msgstr "Du kan hente inn hendingar tilhøyrande ei Facebook-side. Du må ha brukarnamn(a) eller IDen til kvar side du ønskjer å hente hendingar frå. Førebels er det ikkje mogleg å hente hendingar frå personlege profilar. Om du ønskjer å hente hendingar frå ein person kan du gjere det med hendings-IDen i"
+
+#: admin-views/settings-tab.php:22
+#@ tribe-fb-import
+msgid "Import: Facebook page"
+msgstr "Import: Facebookside"
+
+#: admin-views/settings-tab.php:23
+#, php-format
+#@ tribe-fb-import
+msgid "A page or organization's username or ID can be found in the URL used to access its profile. Modern Tribe's page is %s and the username is 'ModernTribeInc'. If a page or organization doesn't have a username, you will see the ID (numerical) in the URL.</p>"
+msgstr "Brukarnamnet eller IDen til ei side kan du finne i URLen du nyttar for å få tilgang til den. Modern Tribe's side er %s og brukarnamnet er \\\"ModernTribeInc\\\". Om ei side ikkje har eit brukarnamn vil du sjå IDen (numerisk) i URLen.</p>"
+
+#: admin-views/settings-tab.php:32
+#@ tribe-events-calendar-pro
+msgid "Account Settings"
+msgstr "Kontoinnstillingar"
+
+#: admin-views/settings-tab.php:36
+#@ tribe-fb-import
+msgid "Facebook App ID"
+msgstr "Facebook App-ID"
+
+#: admin-views/settings-tab.php:37
+#, php-format
+#@ tribe-fb-import
+msgid "<p>%s to view or create your Facebook Apps"
+msgstr "<p>%s for å sjå eller lage dine Facebook-apper."
+
+#: admin-views/settings-tab.php:45
+#@ tribe-fb-import
+msgid "Facebook App secret"
+msgstr "Facebook App-løyndom"
+
+#: admin-views/settings-tab.php:46
+#, php-format
+#@ tribe-fb-import
+msgid "<p>%s to view or create your App Secret"
+msgstr "<p>%s for å sjå eller lage din App-løyndom"
+
+#: admin-views/settings-tab.php:54
+#@ tribe-fb-import
+msgid "Organization and page usernames / IDs to fetch events from"
+msgstr "Brukarnamn/IDer for facebooksider me henter hendingar frå"
+
+#: admin-views/settings-tab.php:55
+#@ tribe-fb-import
+msgid "Please put one entry per line."
+msgstr "Eit brukarnamn/ID per line."
+
+#: admin-views/settings-tab.php:55
+#@ tribe-fb-import
+msgid "Follow the instructions above to find usernames or IDs."
+msgstr "Følg instruksjonane over for å finne brukarnamn eller IDer."
+
+#: admin-views/settings-tab.php:55
+#@ tribe-fb-import
+msgid "Events can only be fetched from organizations and page, not individuals."
+msgstr "Hendingar kan berre bli henta frå sider, ikkje personar."
+
+#: admin-views/settings-tab.php:64
+#@ tribe-events-calendar-pro
+msgid "Import Settings"
+msgstr "Importinnstillingar"
+
+#: admin-views/settings-tab.php:68
+#@ tribe-fb-import
+msgid "Default status to use for imported events"
+msgstr "Standardstatus for importerte hendingar"
+
+#: admin-views/settings-tab.php:69
+#@ tribe-fb-import
+msgid "Published"
+msgstr "Publisert"
+
+#: admin-views/settings-tab.php:69
+#@ tribe-fb-import
+msgid "Draft"
+msgstr "Utkast"
+
+#: admin-views/settings-tab.php:69
+#@ tribe-fb-import
+msgid "Pending Review"
+msgstr "Ventar på godkjenning"
+
+#: admin-views/settings-tab.php:75
+#@ tribe-events-calendar
+msgid "Enable Google Maps on imported events"
+msgstr "Slå på Google Maps på importerte hendingar"
+
+#: admin-views/settings-tab.php:76
+#@ tribe-fb-import
+msgid "Check to enable maps for imported events in the frontend. Please enable Google Maps on the \"General\" tab to ensure your events will have map options."
+msgstr "Kryss av for å slå på kart for importerte hendingar på nettsida. Du må slå på Google-kart i \"Generelt\"-fana for å gi hendingane dine kartval."
+
+#: admin-views/settings-tab.php:83
+#@ tribe-fb-import
+msgid "Auto import from Facebook"
+msgstr "Automatisk import frå Facebook"
+
+#: admin-views/settings-tab.php:84
+#@ tribe-fb-import
+msgid "If selected, events will be automatically imported from Facebook at the set interval."
+msgstr "Om valt vil hendingar blir automatisk henta frå Facebook på eit jamleg basis du sjølv vel."
+
+#: admin-views/settings-tab.php:90
+#@ tribe-fb-import
+msgid "Import frequency"
+msgstr "Importfrekvens"
+
+#: admin-views/settings-tab.php:91
+#@ tribe-fb-import
+msgid "How often should we fetch events from Facebook. Only applies if Auto Import is set."
+msgstr "Kor ofte skal me hente hendingar frå Facebook? Dette gjel berre om Automatisk Import er valt."
+
+#: admin-views/settings-tab.php:92
+#@ tribe-fb-import
+msgid "Weekly"
+msgstr "Vekentleg"
+
+#: admin-views/settings-tab.php:92
+#@ tribe-fb-import
+msgid "Daily"
+msgstr "Dagleg"
+
+#: admin-views/settings-tab.php:92
+#@ tribe-fb-import
+msgid "Twice daily"
+msgstr "To gonger dagleg"
+
+#: admin-views/settings-tab.php:92
+#@ tribe-fb-import
+msgid "Hourly"
+msgstr "Kvar time"
+
+#: the-events-calendar-facebook-importer.php:135
+#, php-format
+#@ default
+msgid "As of version 1.0.6, you need to enter your own Facebook App ID and App secret. Visit %s to generate yours. Enter your App ID and App Secret on the <a href='%s'>event's settings page</a>. "
+msgstr "Med versjon 1.0.6 er du nøydd til å fyll inn din eigen Facebook-App-ID og App-løyndom. Gå til %s for å lage dine eigne. Skriv inn App-IDen og App-løyndomen på sida for <a href='%s'>hendingsinnstillingar</a>."
+
+#: the-events-calendar-facebook-importer.php:162
+#, php-format
+#@ default
+msgid "Signing up for a Facebook App ID and Secret only takes a second. Visit %s to create yours. "
+msgstr "Å skaffe seg App-ID og App-løyndom tek berre nokre sekund. Gå til %s for å lage dine eigne."
+
+#: the-events-calendar-facebook-importer.php:163
+#, php-format
+#@ default
+msgid "Visit %s to learn more about Facebook App Ids and Secrets. "
+msgstr "Gå til %s for å lære meir om App-IDar og App-løyndomar."
+
+#: the-events-calendar-facebook-importer.php:164
+#, php-format
+#@ default
+msgid "You must enter a Facebook App ID and App Secret to continue importing events from Facebook. Visit %s to create yours. "
+msgstr "Du må skrive inn ein Facebook-App-ID og App-løyndom for å kunne halde fram med å hente hendingar frå Facebook. Gå til %s for å lage dine eigne."
+
+#: the-events-calendar-facebook-importer.php:346
+#@ tribe-fb-import
+msgid "Could not successfully import the image for unknown reasons."
+msgstr "Kunne ikkje hente bilete for uklare grunnar."
+
+#: the-events-calendar-facebook-importer.php:373
+#@ tribe-fb-import
+msgid "The return argument should be object or id"
+msgstr "Return argument må vere eit objekt eller id"
+
+#: the-events-calendar-facebook-importer.php:422
+#@ tribe-fb-import
+msgid "Object type provided is invalid"
+msgstr "Object type er ugyldig"
+
+#: the-events-calendar-facebook-importer.php:694
+#, php-format
+#@ tribe-fb-import
+msgid "%s. Event Image Error: Failed to save record into database."
+msgstr "%s. Hendingsbiletefeilmelding: Kunne ikkje lagre til database."
+
+#: the-events-calendar-facebook-importer.php:697
+#, php-format
+#@ tribe-fb-import
+msgid "%s. Event Image Error: The file cannot be saved."
+msgstr "%s. Hendingarbiletefeilmelding: Fila kunne ikkje bli lagra."
+
+#: the-events-calendar-facebook-importer.php:700
+#, php-format
+#@ tribe-fb-import
+msgid "%s. Event Image Error: \"%s\" is not a valid image. %s"
+msgstr "%s. Hendingsbiletefeilmelding: \"%s\" er ikkje eit gyldig bilete. %s"
+
+#: the-events-calendar-facebook-importer.php:739
+#, php-format
+#@ tribe-fb-import
+msgid "The event \"%s\" was already imported from Facebook."
+msgstr "Hendinga \"%s\" er allereie henta frå Facebook."
+
+#: the-events-calendar-facebook-importer.php:743
+#, php-format
+#@ tribe-fb-import
+msgid "Either the event with ID %s does not exist, is marked as private on Facebook or we couldn't reach the Facebook API"
+msgstr "Anten eksisterer ikkje hendinga med ID %s, den er markert som privat på Facebook, eller me kunne ikkje nå Facebook-APIen."
+
+#: the-events-calendar-facebook-importer.php:781
+#@ tribe-fb-import
+msgid "The Facebook event IDs provided must be numeric and one per line."
+msgstr "Hendings-IDen må vere numerisk og berre ein per line."
+
+#: the-events-calendar-facebook-importer.php:796
+#@ tribe-fb-import
+msgid "Import: Facebook"
+msgstr "Import: Facebook"
+
+#: the-events-calendar-facebook-importer.php:837
+#: the-events-calendar-facebook-importer.php:1045
+#@ tribe-fb-import
+#@ tribe-events-calendar
+msgid "Facebook"
+msgstr "Facebook"
+
+#: the-events-calendar-facebook-importer.php:888
+#@ tribe-fb-import
+msgid "No valid events were provided for import. The import failed as a result."
+msgstr "Fann ingen gyldige hendingar me kunne hente."
+
+#: the-events-calendar-facebook-importer.php:915
+#@ tribe-fb-import
+msgid "Facebook API Error: "
+msgstr "Facebook-API-feilmelding: "
+
+#: the-events-calendar-facebook-importer.php:920
+#, php-format
+#@ tribe-fb-import
+msgctxt "%s is the name of the Facebook user or page"
+msgid "Events from %s:"
+msgstr "Hendingar frå %s:"
+
+#: the-events-calendar-facebook-importer.php:928
+#@ tribe-fb-import
+msgid "(previously imported)"
+msgstr "(allereie henta)"
+
+#: the-events-calendar-facebook-importer.php:940
+#, php-format
+#@ tribe-fb-import
+msgctxt "%s is the name of the Facebook user or page"
+msgid "%s does not have any Facebook events"
+msgstr "%s har ingen Facebookhendingar"
+
+#: the-events-calendar-facebook-importer.php:1015
+#@ tribe-fb-import
+msgid "Once Weekly"
+msgstr "Vekentleg"
+
+#: the-events-calendar-facebook-importer.php:1036
+#@ tribe-events-calendar
+msgid "Import"
+msgstr "Hent"
+
+#: the-events-calendar-facebook-importer.php:1054
+#@ tribe-events-calendar
+msgid "Facebook Events"
+msgstr "Facebookhendingar"
+
+#: the-events-calendar-facebook-importer.php:1069
+#@ tribe-fb-import
+msgid "Settings"
+msgstr "Innstillingar"
+
+#: the-events-calendar-facebook-importer.php:1115
+#@ tribe-fb-import
+msgid "The Events Calendar"
+msgstr "Hendingskalenderen"
+
+#: the-events-calendar-facebook-importer.php:1116
+#, php-format
+#@ tribe-fb-import
+msgid "To begin using <b>The Events Calendar: Facebook Events</b>, please install the latest version of %s."
+msgstr "For å bruka <b>Hendingskalenderen: Facebookhendingar</b> må du ha siste versjon av %s."
+
+#: vendor/pue-client/admin-views/license-key.view.php:9
+#: vendor/pue-client/admin-views/license-key.view.php:13
+#: vendor/pue-client/lib/pue_plugin_update_engine.class.php:291
+#@ tribe-plugin-update-engine
+msgid "License Key"
+msgstr "Lisensnøkkel"
+
+#: vendor/pue-client/admin-views/license-key.view.php:10
+#@ tribe-plugin-update-engine
+msgid "A valid license key is required for support and updates."
+msgstr "For å få brukarstøtte og oppdateringar må du ha ein gyldig lisensnøkkel."
+
+#: vendor/pue-client/admin-views/license-key.view.php:16
+#@ tribe-plugin-update-engine
+msgid "Replace empty fields"
+msgstr "Bytt ut tomme felt"
+
+#: vendor/pue-client/admin-views/license-key.view.php:25
+#: vendor/pue-client/lib/pue_plugin_update_engine.class.php:292
+#@ tribe-plugin-update-engine
+msgid "A valid license key is required for support and updates"
+msgstr "For å få brukarstøtte og oppdateringar må du ha ein gyldig lisensnøkkel"
+
+#: vendor/pue-client/lib/pue_plugin_update_engine.class.php:360
+#@ tribe-plugin-update-engine
+msgid "License key(s) updated."
+msgstr "Lisensnøklar oppdatert."
+
+#: vendor/pue-client/lib/pue_plugin_update_engine.class.php:400
+#@ tribe-plugin-update-engine
+msgid "Sorry, key validation server is not available."
+msgstr "Nøkkelvalideringsserveren er ikkje tilgjengeleg nett no."
+
+#: vendor/pue-client/lib/pue_plugin_update_engine.class.php:402
+#@ tribe-plugin-update-engine
+msgid "Sorry, this key is expired."
+msgstr "Denne nøkkelen er diverre ikkje lenger gyldig."
+
+#: vendor/pue-client/lib/pue_plugin_update_engine.class.php:404
+#@ tribe-plugin-update-engine
+msgid "Sorry, this key is out of installs."
+msgstr "Det er diverre ikkje fleire installasjonar på denne nøkkelen."
+
+#: vendor/pue-client/lib/pue_plugin_update_engine.class.php:406
+#@ tribe-plugin-update-engine
+msgid "Sorry, this key is not valid."
+msgstr "Denne nøkkelen er diverre ikkje gyldig."
+
+#: vendor/pue-client/lib/pue_plugin_update_engine.class.php:409
+#, php-format
+#@ tribe-plugin-update-engine
+msgid "Valid Key! Expires on %s"
+msgstr "Gyldig nøkkel! Den er gyldig fram til %s"
+
+#: vendor/pue-client/lib/pue_plugin_update_engine.class.php:413
+#, php-format
+#@ plugin-update-engine
+msgid "Hmmm... something's wrong with this validator. Please contact <a href=\"%s\">support.</a>"
+msgstr "Hmmm... noko er gale med validatoren. Ta kontakt med <a href=\"%s\">brukarstøtte</a>."
+

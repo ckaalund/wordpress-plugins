@@ -1,0 +1,485 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Facebook Events 3.5\n"
+"POT-Creation-Date: 2014-05-26 09:28-0800\n"
+"PO-Revision-Date: 2014-06-20 12:02-0800\n"
+"Last-Translator: \n"
+"Language-Team: Modern Tribe, Inc. <pro@tri.be>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin-views/import-page.php:8
+msgid "settings page"
+msgstr "設定頁面"
+
+#: ../admin-views/import-page.php:9
+msgid "Go take a look at your event(s)"
+msgstr "前往查看你的活動"
+
+#: ../admin-views/import-page.php:16 ../admin-views/settings-tab.php:14
+msgid "Import Facebook Events"
+msgstr "匯入 Facebook 活動"
+
+#: ../admin-views/import-page.php:20
+msgid "The following errors have occurred:"
+msgstr "發生下列錯誤："
+
+#: ../admin-views/import-page.php:27
+msgid "Please note that as a result, no events were successfully imported."
+msgstr "請注意結果未有活動成功匯入。"
+
+#: ../admin-views/import-page.php:29
+msgid "Please note that other events have been successfully imported."
+msgstr "請注意其它活動已成功匯入。"
+
+#: ../admin-views/import-page.php:36
+#, php-format
+msgid "The selected event has been successfully imported."
+msgid_plural "The %d selected events have been successfully imported."
+msgstr[0] "選取的 %d 筆活動資料已成功匯入。"
+
+#: ../admin-views/import-page.php:45
+msgid "The following errors have occurred during importing images:"
+msgstr "匯入圖片期間發生以下錯誤："
+
+#: ../admin-views/import-page.php:51
+msgid ""
+"Please note that this does not effect importing of associated events unless "
+"noted."
+msgstr "請注意此將不影響相關活動的匯入，除非出現提示。"
+
+#: ../admin-views/import-page.php:56
+msgid "How to Import Facebook Events"
+msgstr "如何匯入 Facebook 活動"
+
+#: ../admin-views/import-page.php:58
+#, php-format
+msgid ""
+"Select which events you want to import from specific Facebook Pages or Users "
+"by entering their details on the  %s. Return to this page to choose which of "
+"their events you would like to import."
+msgstr ""
+"選擇有哪些活動你想從特定的 Facebook 粉絲專頁或使用者藉由輸入其名細於 %s 匯"
+"入，回到此頁以選擇有哪些他們的活動你想要匯入。"
+
+#: ../admin-views/import-page.php:60
+msgid ""
+"Since you've already setup some Facebook organization(s) or page(s) to "
+"import from, you can import their events below. Visit the settings page to "
+"modify the Facebook organization(s) or page(s) you want to import from."
+msgstr ""
+"由於你已設定一些你想匯入的 Facebook 組織或專頁，你可以於下匯入他們的活動，前"
+"往設定頁面修改你想要匯入的 Facebook 組織或專頁。"
+
+#: ../admin-views/import-page.php:62
+msgid ""
+"You can also import any specific event by entering Facebook event IDs in the "
+"text area below."
+msgstr "藉由輸入 Facebook 活動 IDs 於以下文字區你也可以匯入任何特定活動。"
+
+#: ../admin-views/import-page.php:63
+#, php-format
+msgid ""
+"You can determine an event's Facebook ID by looking at the URL of the event. "
+"For example, the ID of this event: %s would be %s"
+msgstr ""
+"你可以從觀察活動的網址來判定一個活動的 Facebook ID，例如，此活動的 ID：%s 可"
+"能是 %s"
+
+#: ../admin-views/import-page.php:72
+msgid "Events from Facebook organizations(s) or page(s) you've added:"
+msgstr " 你所新增來自 Facebook 組織或專頁的活動："
+
+#: ../admin-views/import-page.php:78
+msgid "Import events by their Facebook ID:"
+msgstr "匯入活動，藉由 Facebook ID："
+
+#: ../admin-views/import-page.php:81
+msgid "One event ID per line"
+msgstr "每行一個活動 ID"
+
+#: ../admin-views/import-page.php:86
+msgid "Import events"
+msgstr "匯入活動"
+
+#: ../admin-views/import-page.php:104
+msgid "Please select or enter the ID of at least one event to import"
+msgstr "請選取或輸入至少一個活動 ID 以匯入"
+
+#: ../admin-views/settings-tab.php:15
+msgid "Getting Started"
+msgstr "開始"
+
+#: ../admin-views/settings-tab.php:16
+msgid ""
+"You need a Facebook App ID and App Secret to access data via the Facebook "
+"Graph API to import your events from Facebook."
+msgstr ""
+"你需要 Facebook App ID 和 App Secret 進入資料庫並透過 Facebook Graph API 從 "
+"Facebook 匯入你的活動。"
+
+#: ../admin-views/settings-tab.php:18
+#, php-format
+msgid "%s to learn more about Facebook Apps"
+msgstr "%s 了解更多關於 Facebook Apps"
+
+#: ../admin-views/settings-tab.php:18 ../admin-views/settings-tab.php:19
+#: ../admin-views/settings-tab.php:37 ../admin-views/settings-tab.php:46
+msgid "Click here"
+msgstr "點擊這裡"
+
+#: ../admin-views/settings-tab.php:19
+#, php-format
+msgid "%s to view or create Facebook Apps"
+msgstr "%s 檢視或建立 Facebook Apps"
+
+#: ../admin-views/settings-tab.php:21
+msgid "Selecting pages or organizations to import events with"
+msgstr "選取專頁或組織以匯入活動"
+
+#: ../admin-views/settings-tab.php:22
+msgid ""
+"You can retrieve and import events belonging to a Facebook organization or a "
+"Facebook page. You will need the username(s) or ID of each organization or "
+"page that you want to fetch events from. We do not currently support "
+"retrieving events from personal profiles. If you want to import an event "
+"from an individual, you can do that with the event ID on the"
+msgstr ""
+"你可以擷取並匯入屬於任一 Facebook 組織或 Facebook 粉絲專頁的活動，你將需要每"
+"一你想抓取其活動的組織或專頁的使用者名稱或 ID，我們目前沒有支援從個人資料擷取"
+"活動，如果你想要從個人頁面匯入活動，你可以藉由輸入其活動 ID 於"
+
+#: ../admin-views/settings-tab.php:22
+msgid "Import: Facebook page"
+msgstr "匯入：Facebook 粉絲專頁"
+
+#: ../admin-views/settings-tab.php:23
+#, php-format
+msgid ""
+"A page or organization's username or ID can be found in the URL used to "
+"access its profile. Modern Tribe's page is %s and the username is "
+"'ModernTribeInc'. If a page or organization doesn't have a username, you "
+"will see the ID (numerical) in the URL.</p>"
+msgstr ""
+"專頁或組織的使用者名稱或 ID 可以於其連結網址中找到，Modern Tribe 的粉絲專頁"
+"是 %s 而其使用者名稱則為 'ModernTribeInc'。 如果專頁或組織不含使用者名稱，你"
+"將可以發現其 ID (數字) 於其網址中。</p>"
+
+#: ../admin-views/settings-tab.php:32
+msgid "Account Settings"
+msgstr "帳號設定"
+
+#: ../admin-views/settings-tab.php:36
+msgid "Facebook App ID"
+msgstr "Facebook App ID"
+
+#: ../admin-views/settings-tab.php:37
+#, php-format
+msgid "<p>%s to view or create your Facebook Apps"
+msgstr "<p>%s 檢視或建立你的 Facebook Apps"
+
+#: ../admin-views/settings-tab.php:45
+msgid "Facebook App secret"
+msgstr "Facebook App secret"
+
+#: ../admin-views/settings-tab.php:46
+#, php-format
+msgid "<p>%s to view or create your App Secret"
+msgstr "<p>%s 檢視或建立你的 App Secret"
+
+#: ../admin-views/settings-tab.php:54
+msgid "Organization and page usernames / IDs to fetch events from"
+msgstr "組織及專頁的使用者名稱 / IDs 以抓取活動"
+
+#: ../admin-views/settings-tab.php:55
+msgid "Please put one entry per line."
+msgstr "請每行置入一個項目"
+
+#: ../admin-views/settings-tab.php:55
+msgid "Follow the instructions above to find usernames or IDs."
+msgstr "依以上操作說明找到使用者名稱或 IDs."
+
+#: ../admin-views/settings-tab.php:55
+msgid ""
+"Events can only be fetched from organizations and pages, not individuals."
+msgstr "只能從組織及專頁抓取活動，不能從個人頁面。"
+
+#: ../admin-views/settings-tab.php:64
+msgid "Import Settings"
+msgstr "匯入設定"
+
+#: ../admin-views/settings-tab.php:68
+msgid "Default status to use for imported events"
+msgstr "使用於匯入活動的預設狀態"
+
+#: ../admin-views/settings-tab.php:69
+msgid "Published"
+msgstr "發佈"
+
+#: ../admin-views/settings-tab.php:69
+msgid "Draft"
+msgstr "草稿"
+
+#: ../admin-views/settings-tab.php:69
+msgid "Pending Review"
+msgstr "待審中"
+
+#: ../admin-views/settings-tab.php:75
+msgid "Enable Google Maps on imported events"
+msgstr "啟用 Google 地圖於所匯入的活動"
+
+#: ../admin-views/settings-tab.php:76
+msgid ""
+"Check to enable maps for imported events in the frontend. Please enable "
+"Google Maps on the \"General\" tab to ensure your events will have map "
+"options."
+msgstr ""
+"勾選以啟用地圖於前台來匯入活動，請於 \"一般\" 工具列標籤啟用 Google 地圖以確"
+"保你所匯入的活動中含有地圖選項。"
+
+#: ../admin-views/settings-tab.php:83
+msgid "Auto import from Facebook"
+msgstr "自動從 Facebook 匯入"
+
+#: ../admin-views/settings-tab.php:84
+msgid ""
+"If selected, events will be automatically imported from Facebook at the set "
+"interval."
+msgstr "如果選取，活動將依設定的間隔自動從 Facebook 匯入。"
+
+#: ../admin-views/settings-tab.php:90
+msgid "Import frequency"
+msgstr "匯入頻率"
+
+#: ../admin-views/settings-tab.php:91
+msgid ""
+"How often should we fetch events from Facebook. Only applies if Auto Import "
+"is set."
+msgstr "我們多久須從 Facebook 抓取活動一次，只須設定自動匯入即可。"
+
+#: ../admin-views/settings-tab.php:92
+msgid "Weekly"
+msgstr "每週"
+
+#: ../admin-views/settings-tab.php:92
+msgid "Daily"
+msgstr "每天"
+
+#: ../admin-views/settings-tab.php:92
+msgid "Twice daily"
+msgstr "一天二次"
+
+#: ../admin-views/settings-tab.php:92
+msgid "Hourly"
+msgstr "每小時"
+
+#: ../the-events-calendar-facebook-importer.php:151
+#, php-format
+msgid ""
+"As of version 1.0.6, you need to enter your own Facebook App ID and App "
+"secret. Visit %s to generate yours. Enter your App ID and App Secret on the "
+"<a href='%s'>event's settings page</a>. "
+msgstr ""
+"截至版本 1.0.6 為止，你需要輸入你自己的 Facebook App ID 和 App secret，前往 "
+"%s 申請產生你的 App ID and App Secret ，輸入你的 App ID and App Secret 於 <a "
+"href='%s'>活動設定頁面</a>。 "
+
+#: ../the-events-calendar-facebook-importer.php:178
+#, php-format
+msgid ""
+"Signing up for a Facebook App ID and Secret only takes a second. Visit %s to "
+"create yours. "
+msgstr "訂閱 Facebook App ID 和 Secret 只需很短的時間，請前往 %s 建立你的。"
+
+#: ../the-events-calendar-facebook-importer.php:179
+#, php-format
+msgid "Visit %s to learn more about Facebook App Ids and Secrets. "
+msgstr "前往 %s 了解更多關於 Facebook App Ids 和 Secrets。"
+
+#: ../the-events-calendar-facebook-importer.php:180
+#, php-format
+msgid ""
+"You must enter a Facebook App ID and App Secret to continue importing events "
+"from Facebook. Visit %s to create yours. "
+msgstr ""
+"你必須輸入 Facebook App ID 和 App Secret 以繼續從 Facebook 匯入活動， 請前往 "
+"%s 建立你的。 "
+
+#: ../the-events-calendar-facebook-importer.php:366
+msgid "Could not successfully import the image for unknown reasons."
+msgstr "不明原因造成無法成功匯入圖片。"
+
+#: ../the-events-calendar-facebook-importer.php:433
+msgid "The return argument should be object or id"
+msgstr "返回參數應是物件或 id"
+
+#: ../the-events-calendar-facebook-importer.php:482
+msgid "Object type provided is invalid"
+msgstr "物件類型提供無效"
+
+#: ../the-events-calendar-facebook-importer.php:749
+#, php-format
+msgid "%s. Event Image Error: Failed to save record into database."
+msgstr "%s. 活動圖片錯誤：儲存紀錄到資料庫失敗。"
+
+#: ../the-events-calendar-facebook-importer.php:752
+#, php-format
+msgid "%s. Event Image Error: The file cannot be saved."
+msgstr "%s. 活動圖片錯誤：檔案無法儲存。"
+
+#: ../the-events-calendar-facebook-importer.php:755
+#, php-format
+msgid "%s. Event Image Error: \"%s\" is not a valid image. %s"
+msgstr "%s. 活動圖片錯誤：\"%s\" 圖片無效。%s"
+
+#: ../the-events-calendar-facebook-importer.php:791
+#, php-format
+msgid "The event \"%s\" was already imported from Facebook."
+msgstr "活動已從 \"%s\" Facebook 匯入。"
+
+#: ../the-events-calendar-facebook-importer.php:795
+#, php-format
+msgid ""
+"Either the event with ID %s does not exist, is marked as private on Facebook "
+"or we couldn't reach the Facebook API"
+msgstr ""
+"活動 ID %s 不存在，可能於 Facebook 中被標記為私人活動或是我們無法找到 "
+"Facebook API"
+
+#: ../the-events-calendar-facebook-importer.php:854
+msgid "The Facebook event IDs provided must be numeric and one per line."
+msgstr "所提供的 Facebook 活動 IDs 必須是數字並每行一個。"
+
+#: ../the-events-calendar-facebook-importer.php:869
+msgid "Import: Facebook"
+msgstr "匯入：Facebook"
+
+#: ../the-events-calendar-facebook-importer.php:913
+#: ../the-events-calendar-facebook-importer.php:1161
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../the-events-calendar-facebook-importer.php:964
+msgid ""
+"No valid events were provided for import. The import failed as a result."
+msgstr "沒有可供匯入的有效活動，匯入結果失敗。"
+
+#: ../the-events-calendar-facebook-importer.php:990
+#, php-format
+msgctxt "%s is the name of the Facebook user or page"
+msgid "Events from %s:"
+msgstr "活動從 %s："
+
+#: ../the-events-calendar-facebook-importer.php:995
+#, php-format
+msgid ""
+"%s appears to be an individual. At this time events can only be fetched from "
+"organizations and pages, not individuals. If you would like to import an "
+"event from an individual, you can do so by entering the Facebook event ID in "
+"the box below."
+msgstr ""
+"%s 出現於個人頁面，目前我們僅能從組織及專頁中抓取活動，無法從個人頁面，如果你"
+"想要從個人頁面匯入活動，你可以輸入 Facebook event ID 於下列對話盒中。"
+
+#: ../the-events-calendar-facebook-importer.php:1016
+#, php-format
+msgid "Facebook API Error: %s"
+msgstr "Facebook API 錯誤：%s"
+
+#: ../the-events-calendar-facebook-importer.php:1045
+msgid "(previously imported)"
+msgstr "(上一次匯入)"
+
+#: ../the-events-calendar-facebook-importer.php:1059
+#, php-format
+msgctxt "%s is the name of the Facebook user or page"
+msgid "%s does not have any Facebook events"
+msgstr "%s 沒有任何 Facebook 活動"
+
+#: ../the-events-calendar-facebook-importer.php:1131
+msgid "Once Weekly"
+msgstr "每週一次"
+
+#: ../the-events-calendar-facebook-importer.php:1152
+msgid "Import"
+msgstr "匯入"
+
+#: ../the-events-calendar-facebook-importer.php:1170
+msgid "Facebook Events"
+msgstr "Facebook Events"
+
+#: ../the-events-calendar-facebook-importer.php:1185
+msgid "Settings"
+msgstr "設定"
+
+#: ../the-events-calendar-facebook-importer.php:1231
+msgid "The Events Calendar"
+msgstr "The Events Calendar"
+
+#: ../the-events-calendar-facebook-importer.php:1232
+#, php-format
+msgid ""
+"To begin using The Events Calendar: Facebook Events, please install the "
+"latest version of %s."
+msgstr "開始使用 The Events Calendar: Facebook Events，請安裝最新版本的 %s。"
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:9
+#: ../vendor/pue-client/admin-views/license-key.view.php:13
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:291
+msgid "License Key"
+msgstr "授權密鑰"
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:10
+msgid "A valid license key is required for support and updates."
+msgstr "需求支援及更新時須填入有效的授權密鑰。"
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:16
+msgid "Replace empty fields"
+msgstr "取代空白欄位"
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:25
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:292
+msgid "A valid license key is required for support and updates"
+msgstr "需求支援及更新時須填入有效的授權密鑰。"
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:360
+msgid "License key(s) updated."
+msgstr "授權密鑰已更新。"
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:400
+msgid "Sorry, key validation server is not available."
+msgstr "對不起，密鑰驗證伺服器忙碌中。"
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:402
+msgid "Sorry, this key is expired."
+msgstr "對不起，此密鑰已到期。"
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:404
+msgid "Sorry, this key is out of installs."
+msgstr "對不起，此密鑰尚未安裝。"
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:406
+msgid "Sorry, this key is not valid."
+msgstr "對不起，此密鑰無效。"
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:409
+#, php-format
+msgid "Valid Key! Expires on %s"
+msgstr "有效密鑰！到期日為 %s"
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:413
+#, php-format
+msgid ""
+"Hmmm... something's wrong with this validator. Please contact <a href=\"%s"
+"\">support.</a>"
+msgstr "嗯... 密鑰驗證器似乎發生錯誤，請聯絡 <a href=\"%s\">支援。</a>"

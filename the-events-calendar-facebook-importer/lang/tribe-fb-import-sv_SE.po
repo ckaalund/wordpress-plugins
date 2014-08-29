@@ -1,0 +1,492 @@
+# Copyright (C) 2012 The Events Calendar: Facebook Importer
+# This file is distributed under the same license as the The Events Calendar: Facebook Importer package.
+msgid ""
+msgstr ""
+"Project-Id-Version: The Events Calendar: Facebook Events 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-06-26 13:09-0800\n"
+"PO-Revision-Date: 2013-06-26 13:09-0800\n"
+"Last-Translator: Andreas Bodin <andreas.bodin@me.com>\n"
+"Language-Team: Modern Tribe Inc. <pro@tri.be>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_ex;_x;_n;_c;_n_noop;_nc;__ngetttext;"
+"__ngettext_noop;_nx;_nx_noop;esc_attr__;esc_html__;est_attr_e;esc_html_e;"
+"esc_attr_x;esc_html_x\n"
+"X-Poedit-Basepath: ./\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../the-events-calendar-facebook-importer.php:141
+#, fuzzy, php-format
+msgid ""
+"As of version 1.0.6, you need to enter your own Facebook App ID and App "
+"secret. Visit %s to generate yours. Enter your App ID and App Secret on the "
+"<a href='%s'>event's settings page</a>. "
+msgstr ""
+"Från och med version 1.0.6 behöver du ange dina egna Facebook App ID och App "
+"lösen. Besök %s för att generera dina egna. Ange ditt App ID och App lösen "
+"på <a href='%s'>events inställningssida</a>."
+
+#: ../the-events-calendar-facebook-importer.php:168
+#, fuzzy, php-format
+msgid ""
+"Signing up for a Facebook App ID and Secret only takes a second. Visit %s to "
+"create yours. "
+msgstr ""
+"Att anmäla sig för ett Facebook App ID och lösen tar enbart ett par "
+"sekunder. Besök %s för att skapa dina egna."
+
+#: ../the-events-calendar-facebook-importer.php:169
+#, fuzzy, php-format
+msgid "Visit %s to learn more about Facebook App Ids and Secrets. "
+msgstr "Besök %s för att lära dig mer om Facebook App ID's och lösen."
+
+#: ../the-events-calendar-facebook-importer.php:170
+#, fuzzy, php-format
+msgid ""
+"You must enter a Facebook App ID and App Secret to continue importing events "
+"from Facebook. Visit %s to create yours. "
+msgstr ""
+"Du måste ange ett Facebook App ID och App lösen för att fortsätta importera "
+"events från Facebook. Besök %s och skapa dina egna."
+
+#: ../the-events-calendar-facebook-importer.php:367
+msgid "The return argument should be object or id"
+msgstr "Retur argumentet bör vara objekt eller id"
+
+#: ../the-events-calendar-facebook-importer.php:416
+msgid "Object type provided is invalid"
+msgstr "Anginen Objekt typ är ogiltig"
+
+#: ../the-events-calendar-facebook-importer.php:689
+#, php-format
+msgid "%s. Event Image Error: Failed to save record into database."
+msgstr "%s. Misslyckades att spara posten i databasen."
+
+#: ../the-events-calendar-facebook-importer.php:692
+#, php-format
+msgid "%s. Event Image Error: The file cannot be saved."
+msgstr "%s. Filen kan inte sparas."
+
+#: ../the-events-calendar-facebook-importer.php:695
+#, php-format
+msgid "%s. Event Image Error: \"%s\" is not a valid image. %s"
+msgstr " %s. \"%s\" är inte en giltig bild. %s"
+
+#: ../the-events-calendar-facebook-importer.php:734
+#, php-format
+msgid "The event \"%s\" was already imported from Facebook."
+msgstr "Eventet \"%s\" var redan importerat från Facebook."
+
+#: ../the-events-calendar-facebook-importer.php:737
+#, php-format
+msgid ""
+"Either the event with ID %s does not exist, is marked as private on Facebook "
+"or we couldn't reach the Facebook API"
+msgstr ""
+"Antingen existerar inte ID %s, eller så är det markerat som privat på "
+"Facebook eller så kunde vi inte nå Facebook API"
+
+#: ../the-events-calendar-facebook-importer.php:775
+msgid "The Facebook event IDs provided must be numeric and one per line."
+msgstr "Det angivna Facebook event ID'et måste vara numeriskt och ett per rad."
+
+#: ../the-events-calendar-facebook-importer.php:790
+msgid "Import: Facebook"
+msgstr "Importera: Facebook"
+
+#: ../the-events-calendar-facebook-importer.php:831
+#: ../the-events-calendar-facebook-importer.php:1038
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../the-events-calendar-facebook-importer.php:882
+msgid ""
+"No valid events were provided for import. The import failed as a result."
+msgstr "Inga giltiga events angavs för import. Importeringen misslyckades."
+
+#: ../the-events-calendar-facebook-importer.php:909
+#, fuzzy
+msgid "Facebook API Error: "
+msgstr "Facebook App ID"
+
+#: ../the-events-calendar-facebook-importer.php:914
+#, php-format
+msgid "Events from %s:"
+msgstr "Events från %s:"
+
+#: ../the-events-calendar-facebook-importer.php:922
+msgid "(previously imported)"
+msgstr "(tidigare importerat)"
+
+#: ../the-events-calendar-facebook-importer.php:933
+#, php-format
+msgid "%s does not have any Facebook events"
+msgstr "%s har inga Facebook events"
+
+#: ../the-events-calendar-facebook-importer.php:1008
+msgid "Once Weekly"
+msgstr "En gång i veckan"
+
+#: ../the-events-calendar-facebook-importer.php:1029
+msgid "Import"
+msgstr "Importera"
+
+#: ../the-events-calendar-facebook-importer.php:1047
+msgid "Facebook Events"
+msgstr "Facebook Events"
+
+#: ../the-events-calendar-facebook-importer.php:1062
+msgid "Settings"
+msgstr "Inställningar"
+
+#: ../the-events-calendar-facebook-importer.php:1108
+msgid "The Events Calendar"
+msgstr "The Events Calendar"
+
+#: ../the-events-calendar-facebook-importer.php:1109
+#, php-format
+msgid ""
+"To begin using <b>The Events Calendar: Facebook Events</b>, please install "
+"the latest version of %s."
+msgstr ""
+"För att börja använda <b>The Events Calendar: Facebook Events</b>, vänligen "
+"installera den senaste versionen av %s."
+
+#: ../admin-views/import-page.php:8
+msgid "settings page"
+msgstr "inställningssida"
+
+#: ../admin-views/import-page.php:9
+msgid "Go take a look at your event(s)"
+msgstr "Ta en titt på dina events"
+
+#: ../admin-views/import-page.php:16 ../admin-views/settings-tab.php:14
+msgid "Import Facebook Events"
+msgstr "Importera Facebook Events"
+
+#: ../admin-views/import-page.php:20
+msgid "The following errors have occurred:"
+msgstr "Följande fel har ägt rum:"
+
+#: ../admin-views/import-page.php:27
+msgid "Please note that as a result, no events were successfully imported."
+msgstr ""
+"Vänligen notera att resultatet innebar att inga events lyckades importeras."
+
+#: ../admin-views/import-page.php:29
+msgid "Please note that other events have been successfully imported."
+msgstr "Vänligen notera att andra events har framgångsrikt importerats."
+
+#: ../admin-views/import-page.php:36
+msgid "The selected event has been successfully imported."
+msgstr "Det valda eventet har framgångsrikt importerats."
+
+#: ../admin-views/import-page.php:45
+#, fuzzy
+msgid "The following errors have occurred during importing images:"
+msgstr "Följande fel har ägt rum:"
+
+#: ../admin-views/import-page.php:51
+msgid ""
+"Please note that this does not effect importing of associated events unless "
+"noted."
+msgstr ""
+
+#: ../admin-views/import-page.php:56
+msgid "How to Import Facebook Events"
+msgstr "Hur man importerar Facebook Events"
+
+#: ../admin-views/import-page.php:58
+#, php-format
+msgid ""
+"Select which events you want to import from specific Facebook Pages or Users "
+"by entering their details on the  %s. Return to this page to choose which of "
+"their events you would like to import."
+msgstr ""
+"Välj vilka events du vill importera ifrån specifika Facebook sidor eller "
+"användare genom att ange deras information på %s. Gå tillbaka till denna "
+"sida och välj vilket av deras events du vill importera."
+
+#: ../admin-views/import-page.php:60
+#, fuzzy
+msgid ""
+"Since you've already setup some Facebook organization(s) or page(s) to "
+"import from, you can import their events below. Visit the settings page to "
+"modify the Facebook organization(s) or page(s) you want to import from."
+msgstr ""
+"Eftersom du redan har satt upp några Facebook användare eller sidor att "
+"importera ifrån, så kan du importera deras events nedan. Besök %s för att "
+"modifiera Facebook användare eller sidor du vill importera ifrån."
+
+#: ../admin-views/import-page.php:62
+msgid ""
+"You can also import any specific event by entering Facebook event IDs in the "
+"text area below."
+msgstr ""
+"Du kan också importera vilket specifikt event som helst genom att ange "
+"Facebook event ID'n i textfältet nedan."
+
+#: ../admin-views/import-page.php:63
+#, php-format
+msgid ""
+"You can determine an event's Facebook ID by looking at the URL of the event. "
+"For example, the ID of this event: %s would be %s"
+msgstr ""
+"Du kan avgöra ett events Facebook ID genom att titta på URL'en för eventet. "
+"Exempel, ID'et för detta event: %s skulle vara %s"
+
+#: ../admin-views/import-page.php:72
+msgid "Events from Facebook organizations(s) or page(s) you've added:"
+msgstr "Events från Facebook organisationer eller sidor som du lagt till:"
+
+#: ../admin-views/import-page.php:78
+msgid "Import events by their Facebook ID:"
+msgstr "Importera events via deras Facebook ID:"
+
+#: ../admin-views/import-page.php:81
+msgid "One event ID per line"
+msgstr "Ett event ID per rad"
+
+#: ../admin-views/import-page.php:86
+msgid "Import events"
+msgstr "Importera events"
+
+#: ../admin-views/import-page.php:104
+msgid "Please select or enter the ID of at least one event to import"
+msgstr "Vänligen välj eller ange ID för åtminstone ett event att importera"
+
+#: ../admin-views/settings-tab.php:15
+msgid "Getting Started"
+msgstr "Kom igång"
+
+#: ../admin-views/settings-tab.php:16
+msgid ""
+"You need a Facebook App ID and App Secret to access data via the Facebook "
+"Graph API to import your events from Facebook."
+msgstr ""
+"Du behöver ett Facebook App ID och App lösen för att komma åt data via "
+"Facebook Graph API för att importera dina events från Facebook."
+
+#: ../admin-views/settings-tab.php:18
+#, php-format
+msgid "%s to learn more about Facebook Apps"
+msgstr "%s för att lära dig mer om Facebook Apps"
+
+#: ../admin-views/settings-tab.php:18 ../admin-views/settings-tab.php:19
+#: ../admin-views/settings-tab.php:37 ../admin-views/settings-tab.php:46
+msgid "Click here"
+msgstr "Klicka här"
+
+#: ../admin-views/settings-tab.php:19
+#, php-format
+msgid "%s to view or create Facebook Apps"
+msgstr "%s för att visa eller skapa Facebook Apps"
+
+#: ../admin-views/settings-tab.php:21
+#, fuzzy
+msgid "Selecting pages or organizations to import events with"
+msgstr "Välj sidor eller användare att synka events med"
+
+#: ../admin-views/settings-tab.php:22
+#, fuzzy
+msgid ""
+"You can retrieve and import events belonging to a Facebook organization or a "
+"Facebook page. You will need the username(s) or ID of each organization or "
+"page that you want to fetch events from. We do not currently support "
+"retrieving events from personal profiles. If you want to import an event "
+"from an individual, you can do that with the event ID on the"
+msgstr ""
+"Du kan importera events som tillhör en Facebook organisation eller en "
+"Facebook sida. Du behöver användarnamnet/användarnamnet eller ID'n för varje "
+"organization eller sida som du vill hämta events ifrån. Vi stödjer "
+"förnärvarande inte möjligheten att importera events från personliga profiler."
+
+#: ../admin-views/settings-tab.php:22
+#, fuzzy
+msgid "Import: Facebook page"
+msgstr "Importera: Facebook"
+
+#: ../admin-views/settings-tab.php:23
+#, php-format
+msgid ""
+"A page or organization's username or ID can be found in the URL used to "
+"access its profile. Modern Tribe's page is %s and the username is "
+"'ModernTribeInc'. If a page or organization doesn't have a username, you "
+"will see the ID (numerical) in the URL.</p>"
+msgstr ""
+"En sida eller organisations användarnamn eller ID kan återfinnas i URL'en "
+"som används för att komma dess profil. Modern Tribe's sida är %s och "
+"användarnamnet är 'ModernTribeInc'. Om en sida eller organisation inte har "
+"något användarnamn, kommer du att se ID'et (numeriskt) i URL'en.</p>"
+
+#: ../admin-views/settings-tab.php:32
+msgid "Account Settings"
+msgstr "Kontoinställningar"
+
+#: ../admin-views/settings-tab.php:36
+msgid "Facebook App ID"
+msgstr "Facebook App ID"
+
+#: ../admin-views/settings-tab.php:37
+#, php-format
+msgid "<p>%s to view or create your Facebook Apps"
+msgstr "<p>%s för att visa eller skapa din Facebook App"
+
+#: ../admin-views/settings-tab.php:45
+msgid "Facebook App secret"
+msgstr "Facebook App lösen"
+
+#: ../admin-views/settings-tab.php:46
+#, php-format
+msgid "<p>%s to view or create your App Secret"
+msgstr "<p>%s för att visa eller skapa din App Lösen"
+
+#: ../admin-views/settings-tab.php:54
+#, fuzzy
+msgid "Organization and page usernames / IDs to fetch events from"
+msgstr "Organisations och sid användarnamn / ID'n att synkronisera med"
+
+#: ../admin-views/settings-tab.php:55
+msgid "Please put one entry per line."
+msgstr "Vänligen sätt en post per rad."
+
+#: ../admin-views/settings-tab.php:55
+msgid "Follow the instructions above to find usernames or IDs."
+msgstr "Följ instruktionen ovan för att finna användarnamn eller ID'n."
+
+#: ../admin-views/settings-tab.php:55
+msgid ""
+"Events can only be fetched from organizations and page, not individuals."
+msgstr ""
+
+#: ../admin-views/settings-tab.php:64
+msgid "Import Settings"
+msgstr "Importinställningar"
+
+#: ../admin-views/settings-tab.php:68
+msgid "Default status to use for imported events"
+msgstr "Standard status för importerade events"
+
+#: ../admin-views/settings-tab.php:69
+msgid "Published"
+msgstr "Publicerad"
+
+#: ../admin-views/settings-tab.php:69
+msgid "Draft"
+msgstr "Utkast"
+
+#: ../admin-views/settings-tab.php:69
+msgid "Pending Review"
+msgstr "Avvaktar granskning"
+
+#: ../admin-views/settings-tab.php:75
+msgid "Enable Google Maps on imported events"
+msgstr "Aktivera Google Maps för importerade events"
+
+#: ../admin-views/settings-tab.php:76
+msgid ""
+"Check to enable maps for imported events in the frontend. Please enable "
+"Google Maps on the \"General\" tab to ensure your events will have map "
+"options."
+msgstr ""
+"Välj för att aktivera kartor för importerade events i frontens. Vänligen "
+"aktivera Goolge Maps på \"General\" fliken för att försäkra dig om att dina "
+"events får alternativ för kartor."
+
+#: ../admin-views/settings-tab.php:83
+msgid "Auto import from Facebook"
+msgstr "Automatisk import från Facebook"
+
+#: ../admin-views/settings-tab.php:84
+msgid ""
+"If selected, events will be automatically imported from Facebook at the set "
+"interval."
+msgstr ""
+"Om vald, kommer events att automatiskt importeras från Facebook vid angivet "
+"intervall."
+
+#: ../admin-views/settings-tab.php:90
+msgid "Import frequency"
+msgstr "Importeringsfrekvens"
+
+#: ../admin-views/settings-tab.php:91
+msgid ""
+"How often should we fetch events from Facebook. Only applies if Auto Import "
+"is set."
+msgstr ""
+"Hur ofta skall vi hämta events från Facebook. Endast giltigt om Automatisk "
+"Import är inställt."
+
+#: ../admin-views/settings-tab.php:92
+msgid "Weekly"
+msgstr "Veckovis"
+
+#: ../admin-views/settings-tab.php:92
+msgid "Daily"
+msgstr "Dagligen"
+
+#: ../admin-views/settings-tab.php:92
+msgid "Twice daily"
+msgstr "Två gånger om dagen"
+
+#: ../admin-views/settings-tab.php:92
+msgid "Hourly"
+msgstr "Per timma"
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:9
+#: ../vendor/pue-client/admin-views/license-key.view.php:13
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:185
+msgid "License Key"
+msgstr "Licens nyckel"
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:10
+msgid "A valid license key is required for support and updates."
+msgstr "En giltig licens nyckel krävs för support och uppdateringar."
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:16
+msgid "Replace empty fields"
+msgstr "Ersätt tomma fält"
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:25
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:186
+msgid "A valid license key is required for support and updates"
+msgstr "En giltig licens nyckel krävs för support och uppdateringar"
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:254
+msgid "License key(s) updated."
+msgstr "Licens nyckel/nycklar uppdaterade."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:294
+msgid "Sorry, key validation server is not available."
+msgstr "Tyvärr, servern för att validera nyckeln är inte tillgänglig."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:296
+msgid "Sorry, this key is expired."
+msgstr "Tyvärr, denna nyckel har gått ut."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:298
+msgid "Sorry, this key is out of installs."
+msgstr "Tyvärr, denna nyckel kan ej användas för fler installationer."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:300
+msgid "Sorry, this key is not valid."
+msgstr "Tyvärr, denna nyckel är inte giltig."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:303
+#, php-format
+msgid "Valid Key! Expires on %s"
+msgstr "Giltig nyckel! Upphör den %s"
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:307
+#, fuzzy, php-format
+msgid ""
+"Hmmm... something's wrong with this validator. Please contact <a href=\"%s"
+"\">support.</a>"
+msgstr ""
+"Hmmm… någonting är fel med denna validerare. Vänligen kontakta <a href="
+"\"http://tri.be/support\">supporten.</a>"

@@ -1,0 +1,515 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Facebook Events 3.5\n"
+"POT-Creation-Date: 2014-05-26 09:28-0800\n"
+"PO-Revision-Date: 2014-07-07 00:04+0700\n"
+"Last-Translator: Didik Priyanto <didik.priyanto@gmail.com>\n"
+"Language-Team: Modern Tribe, Inc. <pro@tri.be>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: id_ID\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin-views/import-page.php:8
+msgid "settings page"
+msgstr "halaman pengaturan"
+
+#: ../admin-views/import-page.php:9
+msgid "Go take a look at your event(s)"
+msgstr "Cek event Anda"
+
+#: ../admin-views/import-page.php:16 ../admin-views/settings-tab.php:14
+msgid "Import Facebook Events"
+msgstr "Impor Facebook Events"
+
+#: ../admin-views/import-page.php:20
+msgid "The following errors have occurred:"
+msgstr "Error berikut telah terjadi:"
+
+#: ../admin-views/import-page.php:27
+msgid "Please note that as a result, no events were successfully imported."
+msgstr ""
+"Harap dicatat bahwa sebagai akibatnya, tidak ada event yang berhasil diimpor."
+
+#: ../admin-views/import-page.php:29
+msgid "Please note that other events have been successfully imported."
+msgstr "Harap dicatat bahwa event lain telah berhasil diimpor."
+
+#: ../admin-views/import-page.php:36
+#, php-format
+msgid "The selected event has been successfully imported."
+msgid_plural "The %d selected events have been successfully imported."
+msgstr[0] "Event terpilih %d berhasil diimpor."
+
+#: ../admin-views/import-page.php:45
+msgid "The following errors have occurred during importing images:"
+msgstr "Error berikut telah terjadi selama mengimpor gambar:"
+
+#: ../admin-views/import-page.php:51
+msgid ""
+"Please note that this does not effect importing of associated events unless "
+"noted."
+msgstr ""
+"Harap dicatat bahwa ini tidak berpengaruh mengimpor event terkait kecuali "
+"dicatat."
+
+#: ../admin-views/import-page.php:56
+msgid "How to Import Facebook Events"
+msgstr "Cara Impor Facebook Events"
+
+#: ../admin-views/import-page.php:58
+#, php-format
+msgid ""
+"Select which events you want to import from specific Facebook Pages or Users "
+"by entering their details on the  %s. Return to this page to choose which of "
+"their events you would like to import."
+msgstr ""
+"Pilih event yang ingin diimpor dari Halaman atau Pengguna Facebook spesifik "
+"dengan memasukkan rincian mereka pada %s . Kembali ke halaman ini untuk "
+"memilih event yang ingin Anda impor."
+
+#: ../admin-views/import-page.php:60
+msgid ""
+"Since you've already setup some Facebook organization(s) or page(s) to "
+"import from, you can import their events below. Visit the settings page to "
+"modify the Facebook organization(s) or page(s) you want to import from."
+msgstr ""
+"Karena Anda sudah sudah setup beberapa organisasi Facebook atau halaman "
+"untuk mengimpor dari, Anda dapat mengimpor event mereka di bawah ini. "
+"Kunjungi halaman pengaturan untuk memodifikasi organisasi Facebook atau "
+"halaman Anda ingin mengimpor dari."
+
+#: ../admin-views/import-page.php:62
+msgid ""
+"You can also import any specific event by entering Facebook event IDs in the "
+"text area below."
+msgstr ""
+"Anda juga dapat mengimpor event tertentu dengan memasukkan event ID Facebook "
+"pada area teks di bawah ini."
+
+#: ../admin-views/import-page.php:63
+#, php-format
+msgid ""
+"You can determine an event's Facebook ID by looking at the URL of the event. "
+"For example, the ID of this event: %s would be %s"
+msgstr ""
+"Anda dapat menentukan Facebook ID event dengan melihat URL event. Sebagai "
+"contoh, ID event ini: %s adalah %s"
+
+#: ../admin-views/import-page.php:72
+msgid "Events from Facebook organizations(s) or page(s) you've added:"
+msgstr "Event dari organisasi atau halaman Facebook yang telah Anda tambahkan:"
+
+#: ../admin-views/import-page.php:78
+msgid "Import events by their Facebook ID:"
+msgstr "Impor event berdasarkan ID Facebook mereka:"
+
+#: ../admin-views/import-page.php:81
+msgid "One event ID per line"
+msgstr "Satu ID event per baris"
+
+#: ../admin-views/import-page.php:86
+msgid "Import events"
+msgstr "Impor event"
+
+#: ../admin-views/import-page.php:104
+msgid "Please select or enter the ID of at least one event to import"
+msgstr ""
+"Silahkan pilih atau masukkan ID dari setidaknya satu event untuk mengimpor"
+
+#: ../admin-views/settings-tab.php:15
+msgid "Getting Started"
+msgstr "Memulai"
+
+#: ../admin-views/settings-tab.php:16
+msgid ""
+"You need a Facebook App ID and App Secret to access data via the Facebook "
+"Graph API to import your events from Facebook."
+msgstr ""
+"Anda memerlukan App ID Facebook dan App Secret untuk mengakses data melalui "
+"Facebook Graph API untuk mengimpor event Anda dari Facebook."
+
+#: ../admin-views/settings-tab.php:18
+#, php-format
+msgid "%s to learn more about Facebook Apps"
+msgstr "%s untuk mempelajari lebih lanjut tentang Facebook Apps"
+
+#: ../admin-views/settings-tab.php:18 ../admin-views/settings-tab.php:19
+#: ../admin-views/settings-tab.php:37 ../admin-views/settings-tab.php:46
+msgid "Click here"
+msgstr "Klik di sini"
+
+#: ../admin-views/settings-tab.php:19
+#, php-format
+msgid "%s to view or create Facebook Apps"
+msgstr "%s untuk melihat atau membuat Facebook Apps"
+
+#: ../admin-views/settings-tab.php:21
+msgid "Selecting pages or organizations to import events with"
+msgstr "Memilih halaman atau organisasi untuk impor event dengan"
+
+#: ../admin-views/settings-tab.php:22
+msgid ""
+"You can retrieve and import events belonging to a Facebook organization or a "
+"Facebook page. You will need the username(s) or ID of each organization or "
+"page that you want to fetch events from. We do not currently support "
+"retrieving events from personal profiles. If you want to import an event "
+"from an individual, you can do that with the event ID on the"
+msgstr ""
+"Anda dapat mengambil dan mengimpor event milik sebuah organisasi Facebook "
+"atau halaman Facebook. Anda akan membutuhkan username atau ID dari masing-"
+"masing organisasi atau halaman yang Anda ingin mengambil event darinya. Saat "
+"ini kami tidak mendukung mengambil event dari profil pribadi. Jika Anda "
+"ingin mengimpor event dari seorang individu, Anda dapat melakukannya dengan "
+"ID event pada"
+
+#: ../admin-views/settings-tab.php:22
+msgid "Import: Facebook page"
+msgstr "Impor: Halaman Facebook"
+
+#: ../admin-views/settings-tab.php:23
+#, php-format
+msgid ""
+"A page or organization's username or ID can be found in the URL used to "
+"access its profile. Modern Tribe's page is %s and the username is "
+"'ModernTribeInc'. If a page or organization doesn't have a username, you "
+"will see the ID (numerical) in the URL.</p>"
+msgstr ""
+"Username atau ID halaman atau organisasi dapat ditemukan di URL yang "
+"digunakan untuk mengakses profilnya. Halaman Modern Tribe adalah %s dan "
+"username adalah 'ModernTribeInc'. Jika halaman atau organisasi tidak "
+"memiliki username, Anda akan melihat ID (numerik) dalam URL.</p>"
+
+#: ../admin-views/settings-tab.php:32
+msgid "Account Settings"
+msgstr "Pengaturan Akun"
+
+#: ../admin-views/settings-tab.php:36
+msgid "Facebook App ID"
+msgstr "App ID Facebook"
+
+#: ../admin-views/settings-tab.php:37
+#, php-format
+msgid "<p>%s to view or create your Facebook Apps"
+msgstr "<p> %s untuk melihat atau membuat Facebook Apps Anda"
+
+#: ../admin-views/settings-tab.php:45
+msgid "Facebook App secret"
+msgstr "Facebook App secret"
+
+#: ../admin-views/settings-tab.php:46
+#, php-format
+msgid "<p>%s to view or create your App Secret"
+msgstr "<p> %s untuk melihat atau membuat App Secret"
+
+#: ../admin-views/settings-tab.php:54
+msgid "Organization and page usernames / IDs to fetch events from"
+msgstr "Organisasi dan halaman username / ID untuk mengambil event dari"
+
+#: ../admin-views/settings-tab.php:55
+msgid "Please put one entry per line."
+msgstr "Silakan memasukkan satu entri per baris."
+
+#: ../admin-views/settings-tab.php:55
+msgid "Follow the instructions above to find usernames or IDs."
+msgstr "Ikuti petunjuk di atas untuk mencari username atau ID."
+
+#: ../admin-views/settings-tab.php:55
+msgid ""
+"Events can only be fetched from organizations and pages, not individuals."
+msgstr "Event hanya dapat diambil dari organisasi dan halaman, bukan individu."
+
+#: ../admin-views/settings-tab.php:64
+msgid "Import Settings"
+msgstr "Impor Pengaturan"
+
+#: ../admin-views/settings-tab.php:68
+msgid "Default status to use for imported events"
+msgstr "Status default digunakan untuk event-event yang diimpor"
+
+#: ../admin-views/settings-tab.php:69
+msgid "Published"
+msgstr "Diterbitkan"
+
+#: ../admin-views/settings-tab.php:69
+msgid "Draft"
+msgstr "Konsep"
+
+#: ../admin-views/settings-tab.php:69
+msgid "Pending Review"
+msgstr "Ulasan Pending"
+
+#: ../admin-views/settings-tab.php:75
+msgid "Enable Google Maps on imported events"
+msgstr "Aktifkan Google Maps pada event yang diimpor"
+
+#: ../admin-views/settings-tab.php:76
+msgid ""
+"Check to enable maps for imported events in the frontend. Please enable "
+"Google Maps on the \"General\" tab to ensure your events will have map "
+"options."
+msgstr ""
+"Centang untuk mengaktifkan peta untuk event yang diimpor di frontend. "
+"Aktifkan Google Maps pada tab \"Umum\" untuk memastikan event Anda akan "
+"memiliki pilihan peta."
+
+#: ../admin-views/settings-tab.php:83
+msgid "Auto import from Facebook"
+msgstr "Impor otomatis dari Facebook"
+
+#: ../admin-views/settings-tab.php:84
+msgid ""
+"If selected, events will be automatically imported from Facebook at the set "
+"interval."
+msgstr ""
+"Jika terpilih, acara akan otomatis diimpor dari Facebook pada interval "
+"ditetapkan."
+
+#: ../admin-views/settings-tab.php:90
+msgid "Import frequency"
+msgstr "Frekuensi Impor"
+
+#: ../admin-views/settings-tab.php:91
+msgid ""
+"How often should we fetch events from Facebook. Only applies if Auto Import "
+"is set."
+msgstr ""
+"Seberapa sering kita harus mengambil event dari Facebook. Hanya berlaku jika "
+"Auto Impor diatur."
+
+#: ../admin-views/settings-tab.php:92
+msgid "Weekly"
+msgstr "Mingguan"
+
+#: ../admin-views/settings-tab.php:92
+msgid "Daily"
+msgstr "Harian"
+
+#: ../admin-views/settings-tab.php:92
+msgid "Twice daily"
+msgstr "Dua kali sehari"
+
+#: ../admin-views/settings-tab.php:92
+msgid "Hourly"
+msgstr "Per jam"
+
+#: ../the-events-calendar-facebook-importer.php:151
+#, php-format
+msgid ""
+"As of version 1.0.6, you need to enter your own Facebook App ID and App "
+"secret. Visit %s to generate yours. Enter your App ID and App Secret on the "
+"<a href='%s'>event's settings page</a>. "
+msgstr ""
+"Mulai versi 1.0.6, Anda harus memasukkan sendiri Facebook App ID dan App "
+"secret Anda. Kunjungi %s untuk meng-generate. Masukkan App ID dan App Secret "
+"di <a href='%s'>halaman pengaturan acara</a>. "
+
+#: ../the-events-calendar-facebook-importer.php:178
+#, php-format
+msgid ""
+"Signing up for a Facebook App ID and Secret only takes a second. Visit %s to "
+"create yours. "
+msgstr ""
+"Sign up untuk Facebook App ID dan Secret hanya membutuhkan waktu satu detik. "
+"Kunjungi %s untuk membuat. "
+
+#: ../the-events-calendar-facebook-importer.php:179
+#, php-format
+msgid "Visit %s to learn more about Facebook App Ids and Secrets. "
+msgstr ""
+"Kunjungi %s untuk mempelajari lebih lanjut tentang Facebook App Id dan "
+"Secret. "
+
+#: ../the-events-calendar-facebook-importer.php:180
+#, php-format
+msgid ""
+"You must enter a Facebook App ID and App Secret to continue importing events "
+"from Facebook. Visit %s to create yours. "
+msgstr ""
+"Anda harus memasukkan Facebook App ID dan App Secret untuk terus mengimpor "
+"acara dari Facebook. Kunjungi %s untuk membuat. "
+
+#: ../the-events-calendar-facebook-importer.php:366
+msgid "Could not successfully import the image for unknown reasons."
+msgstr "Tidak berhasil mengimpor gambar untuk alasan yang tidak diketahui."
+
+#: ../the-events-calendar-facebook-importer.php:433
+msgid "The return argument should be object or id"
+msgstr "Argumen kembali harus objek atau id"
+
+#: ../the-events-calendar-facebook-importer.php:482
+msgid "Object type provided is invalid"
+msgstr "Jenis objek yang diberikan tidak valid"
+
+#: ../the-events-calendar-facebook-importer.php:749
+#, php-format
+msgid "%s. Event Image Error: Failed to save record into database."
+msgstr "%s . Error Gambar Event: Gagal menyimpan rekord ke dalam database."
+
+#: ../the-events-calendar-facebook-importer.php:752
+#, php-format
+msgid "%s. Event Image Error: The file cannot be saved."
+msgstr "%s . Error Gambar Event: File tidak dapat disimpan."
+
+#: ../the-events-calendar-facebook-importer.php:755
+#, php-format
+msgid "%s. Event Image Error: \"%s\" is not a valid image. %s"
+msgstr "%s . Error Gambar Event: \"%s\"bukan merupakan gambar yang valid. %s"
+
+#: ../the-events-calendar-facebook-importer.php:791
+#, php-format
+msgid "The event \"%s\" was already imported from Facebook."
+msgstr "Event \"%s\" sebelumnya sudah diimpor dari Facebook."
+
+#: ../the-events-calendar-facebook-importer.php:795
+#, php-format
+msgid ""
+"Either the event with ID %s does not exist, is marked as private on Facebook "
+"or we couldn't reach the Facebook API"
+msgstr ""
+"Entah event dengan ID %s tidak ada, ditandai sebagai pribadi di Facebook "
+"atau kita tidak bisa mencapai Facebook API"
+
+#: ../the-events-calendar-facebook-importer.php:854
+msgid "The Facebook event IDs provided must be numeric and one per line."
+msgstr "Event ID Facebook yang diberikan harus numerik dan satu per baris."
+
+#: ../the-events-calendar-facebook-importer.php:869
+msgid "Import: Facebook"
+msgstr "Impor: Facebook"
+
+#: ../the-events-calendar-facebook-importer.php:913
+#: ../the-events-calendar-facebook-importer.php:1161
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../the-events-calendar-facebook-importer.php:964
+msgid ""
+"No valid events were provided for import. The import failed as a result."
+msgstr ""
+"Tidak ada event yang valid diberikan untuk impor. Impor gagal sebagai "
+"hasilnya."
+
+#: ../the-events-calendar-facebook-importer.php:990
+#, php-format
+msgctxt "%s is the name of the Facebook user or page"
+msgid "Events from %s:"
+msgstr "Event dari %s :"
+
+#: ../the-events-calendar-facebook-importer.php:995
+#, php-format
+msgid ""
+"%s appears to be an individual. At this time events can only be fetched from "
+"organizations and pages, not individuals. If you would like to import an "
+"event from an individual, you can do so by entering the Facebook event ID in "
+"the box below."
+msgstr ""
+"%s tampaknya seorang individu. Pada saat ini event hanya dapat diambil dari "
+"organisasi dan halaman, bukan individu. Jika Anda ingin mengimpor event dari "
+"seorang individu, Anda dapat melakukannya dengan memasukkan event ID "
+"Facebook dalam kotak di bawah."
+
+#: ../the-events-calendar-facebook-importer.php:1016
+#, php-format
+msgid "Facebook API Error: %s"
+msgstr "Error Facebook API: %s"
+
+#: ../the-events-calendar-facebook-importer.php:1045
+msgid "(previously imported)"
+msgstr "(sebelumnya diimpor)"
+
+#: ../the-events-calendar-facebook-importer.php:1059
+#, php-format
+msgctxt "%s is the name of the Facebook user or page"
+msgid "%s does not have any Facebook events"
+msgstr "%s tidak memiliki Facebook event"
+
+#: ../the-events-calendar-facebook-importer.php:1131
+msgid "Once Weekly"
+msgstr "Sekali per Minggu"
+
+#: ../the-events-calendar-facebook-importer.php:1152
+msgid "Import"
+msgstr "Impor"
+
+#: ../the-events-calendar-facebook-importer.php:1170
+msgid "Facebook Events"
+msgstr "Facebook Events"
+
+#: ../the-events-calendar-facebook-importer.php:1185
+msgid "Settings"
+msgstr "Pengaturan"
+
+#: ../the-events-calendar-facebook-importer.php:1231
+msgid "The Events Calendar"
+msgstr "The Events Calendar"
+
+#: ../the-events-calendar-facebook-importer.php:1232
+#, php-format
+msgid ""
+"To begin using The Events Calendar: Facebook Events, please install the "
+"latest version of %s."
+msgstr ""
+"Untuk mulai menggunakanThe Events Calendar: Facebook Events, silahkan "
+"install versi terbaru dari %s."
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:9
+#: ../vendor/pue-client/admin-views/license-key.view.php:13
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:291
+msgid "License Key"
+msgstr "Kunci Lisensi"
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:10
+msgid "A valid license key is required for support and updates."
+msgstr "Kunci lisensi yang valid diperlukan untuk dukungan dan update."
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:16
+msgid "Replace empty fields"
+msgstr "Ganti field kosong"
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:25
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:292
+msgid "A valid license key is required for support and updates"
+msgstr "Kunci lisensi yang valid diperlukan untuk dukungan dan update"
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:360
+msgid "License key(s) updated."
+msgstr "Kunci lisensi diperbarui."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:400
+msgid "Sorry, key validation server is not available."
+msgstr "Maaf, Server validasi kunci tidak tersedia."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:402
+msgid "Sorry, this key is expired."
+msgstr "Maaf, kunci ini kadaluarsa."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:404
+msgid "Sorry, this key is out of installs."
+msgstr "Maaf, tombol ini keluar dari instalasi."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:406
+msgid "Sorry, this key is not valid."
+msgstr "Maaf, kunci ini tidak valid."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:409
+#, php-format
+msgid "Valid Key! Expires on %s"
+msgstr "Kunci Valid! Berakhir pada %s"
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:413
+#, php-format
+msgid ""
+"Hmmm... something's wrong with this validator. Please contact <a href=\"%s"
+"\">support.</a>"
+msgstr ""
+"Hmmm ... ada yang salah dengan validator ini. Silahkan hubungi <a href=\"%s"
+"\">dukungan.</a>"

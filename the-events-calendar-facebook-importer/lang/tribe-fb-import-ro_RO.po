@@ -1,0 +1,513 @@
+# Copyright (C) 2012 The Events Calendar: Facebook Importer
+# This file is distributed under the same license as the The Events Calendar: Facebook Importer package.
+msgid ""
+msgstr ""
+"Project-Id-Version: The Events Calendar: Facebook Events 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-03 22:07-0500\n"
+"PO-Revision-Date: 2014-01-26 12:26+0200\n"
+"Last-Translator: Arian - www.administrare-cantine.ro <arianserv@gmail.com>\n"
+"Language-Team: Arian | www.administrare-cantine.ro <arianserv@gmail.com>\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_ex;_x;_n;_c;_n_noop;_nc;__ngetttext;"
+"__ngettext_noop;_nx;_nx_noop;esc_attr__;esc_html__;est_attr_e;esc_html_e;"
+"esc_attr_x;esc_html_x\n"
+"X-Poedit-Basepath: ./\n"
+"X-Generator: Poedit 1.6.3\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../the-events-calendar-facebook-importer.php:135
+#, php-format
+msgid ""
+"As of version 1.0.6, you need to enter your own Facebook App ID and App "
+"secret. Visit %s to generate yours. Enter your App ID and App Secret on the "
+"<a href='%s'>event's settings page</a>. "
+msgstr ""
+"Ca şi ăn versiunea 1.0.6, trebuie să vă introduceţi propriul App ID şi App "
+"secret Facebook. Vizitaţi %s pentru a vi le genera. Introduceţi propriul App "
+"ID şi App secret în <a href='%s'>pagina de configurări eveniment</a>. "
+
+#: ../the-events-calendar-facebook-importer.php:162
+#, php-format
+msgid ""
+"Signing up for a Facebook App ID and Secret only takes a second. Visit %s to "
+"create yours. "
+msgstr ""
+"Înscrierea pentru un App ID şi un App secret pentru Facebook durează puţin "
+"timp. Vizitaţi %s pentru a vă crea propriile ID-uri."
+
+#: ../the-events-calendar-facebook-importer.php:163
+#, php-format
+msgid "Visit %s to learn more about Facebook App Ids and Secrets. "
+msgstr ""
+"Vizitaţi %s pentru a afla mai multe despre App Id-uri şi secrete Facebook."
+
+#: ../the-events-calendar-facebook-importer.php:164
+#, php-format
+msgid ""
+"You must enter a Facebook App ID and App Secret to continue importing events "
+"from Facebook. Visit %s to create yours. "
+msgstr ""
+"Pentru a continua cu importarea evenimentelor de pe Faccebook, trebuie să "
+"introduceţi un App ID şi un App Secret pentru Facebook. Vizitaţi %s pentru a "
+"vă crea propriile ID-uri."
+
+#: ../the-events-calendar-facebook-importer.php:355
+msgid "Could not successfully import the image for unknown reasons."
+msgstr "Nu am putut importa imaginea, din motive necunoscute"
+
+#: ../the-events-calendar-facebook-importer.php:419
+msgid "The return argument should be object or id"
+msgstr "Argumentul de răspuns trebuie să fie un obiect sau un ID"
+
+#: ../the-events-calendar-facebook-importer.php:468
+msgid "Object type provided is invalid"
+msgstr "Tipul de obiect specificat este invalid"
+
+#: ../the-events-calendar-facebook-importer.php:740
+#, php-format
+msgid "%s. Event Image Error: Failed to save record into database."
+msgstr ""
+"%s. Eroare Imagine Eveniment: Salvarea înregistrării in baza de date a eşuat."
+
+#: ../the-events-calendar-facebook-importer.php:743
+#, php-format
+msgid "%s. Event Image Error: The file cannot be saved."
+msgstr "%s. Eroare Imagine Eveniment: Fişierul nu poate fi salvat."
+
+#: ../the-events-calendar-facebook-importer.php:746
+#, php-format
+msgid "%s. Event Image Error: \"%s\" is not a valid image. %s"
+msgstr "%s. Eroare Imagine Eveniment: \"%s\" nu este o imagine validă. %s"
+
+#: ../the-events-calendar-facebook-importer.php:785
+#, php-format
+msgid "The event \"%s\" was already imported from Facebook."
+msgstr "Evenimentul \"%s\" a fost deja importat de pe Facebook."
+
+#: ../the-events-calendar-facebook-importer.php:789
+#, php-format
+msgid ""
+"Either the event with ID %s does not exist, is marked as private on Facebook "
+"or we couldn't reach the Facebook API"
+msgstr ""
+"Ori evenimentul cu ID-ul %s nu există, este marcat ca şi privat în Facebook "
+"sau nu putem accesa API Facebook"
+
+#: ../the-events-calendar-facebook-importer.php:827
+msgid "The Facebook event IDs provided must be numeric and one per line."
+msgstr ""
+"ID-ul evenimentulu Facebook furnizat, trebuie să fie de tip numeric şi nuami "
+"unul per linie."
+
+#: ../the-events-calendar-facebook-importer.php:842
+msgid "Import: Facebook"
+msgstr "Import: Facebook"
+
+#: ../the-events-calendar-facebook-importer.php:883
+#: ../the-events-calendar-facebook-importer.php:1091
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../the-events-calendar-facebook-importer.php:934
+msgid ""
+"No valid events were provided for import. The import failed as a result."
+msgstr ""
+"Nici-un eveniment valid nu a fost furnizat pentru import. Ca rezultat, "
+"importarea a eşuat."
+
+#: ../the-events-calendar-facebook-importer.php:961
+msgid "Facebook API Error: "
+msgstr "Eroare API Facebook:"
+
+#: ../the-events-calendar-facebook-importer.php:974
+msgid "(previously imported)"
+msgstr "(importate anterior)"
+
+#: ../the-events-calendar-facebook-importer.php:1061
+msgid "Once Weekly"
+msgstr "O dată pe săptămână"
+
+#: ../the-events-calendar-facebook-importer.php:1082
+msgid "Import"
+msgstr "Import"
+
+#: ../the-events-calendar-facebook-importer.php:1100
+msgid "Facebook Events"
+msgstr "Evenimente Facebook"
+
+#: ../the-events-calendar-facebook-importer.php:1115
+msgid "Settings"
+msgstr "Configurări"
+
+#: ../the-events-calendar-facebook-importer.php:1161
+msgid "The Events Calendar"
+msgstr "Calendarul de Evenimente"
+
+#: ../the-events-calendar-facebook-importer.php:1162
+#, php-format
+msgid ""
+"To begin using <b>The Events Calendar: Facebook Events</b>, please install "
+"the latest version of %s."
+msgstr ""
+"Pentru a ăncepe utilizarea <b>Calndarului de Evenimente: Evenimente "
+"Facebook</b>, vă rugăm să instalaţi ultima versiune a %s."
+
+#: ../admin-views/import-page.php:8
+msgid "settings page"
+msgstr "pagină configurări"
+
+#: ../admin-views/import-page.php:9
+msgid "Go take a look at your event(s)"
+msgstr "Aruncaţi o privire asupra evenimentului(lor) dvs."
+
+#: ../admin-views/import-page.php:16 ../admin-views/settings-tab.php:14
+msgid "Import Facebook Events"
+msgstr "Import Evenimente Facebook"
+
+#: ../admin-views/import-page.php:20
+msgid "The following errors have occurred:"
+msgstr "Au apărut următoarele erori: "
+
+#: ../admin-views/import-page.php:27
+msgid "Please note that as a result, no events were successfully imported."
+msgstr ""
+"Vă rugăm să notaţi ca şi rezultat, nici-un eveniment nu a fost importat cu "
+"succes."
+
+#: ../admin-views/import-page.php:29
+msgid "Please note that other events have been successfully imported."
+msgstr "Vă rugăm să notaţi că alte evenimente au fost importate cu succes."
+
+#: ../admin-views/import-page.php:45
+msgid "The following errors have occurred during importing images:"
+msgstr "Au apărut următoarele erori în timpul importării imaginilor:"
+
+#: ../admin-views/import-page.php:51
+msgid ""
+"Please note that this does not effect importing of associated events unless "
+"noted."
+msgstr ""
+"Vă rugăm să notaţi că acesta nu afectează importarea evenimentelor asociate, "
+"doar dacă nu se specifică acest lucru."
+
+#: ../admin-views/import-page.php:56
+msgid "How to Import Facebook Events"
+msgstr "Cum să Importaţi Evenimente Facebook"
+
+#: ../admin-views/import-page.php:58
+#, php-format
+msgid ""
+"Select which events you want to import from specific Facebook Pages or Users "
+"by entering their details on the  %s. Return to this page to choose which of "
+"their events you would like to import."
+msgstr ""
+"Selectaţi ce eveniment doriţi să-l importaţi dintr-o anumită Pagină sau "
+"Utilizator Facebook, prin introducerea detaliilor sale în %s. Reveniţi la "
+"acestă pagină pentru a alege care din evenimentele sale doriţi să le "
+"importaţi. "
+
+#: ../admin-views/import-page.php:60
+msgid ""
+"Since you've already setup some Facebook organization(s) or page(s) to "
+"import from, you can import their events below. Visit the settings page to "
+"modify the Facebook organization(s) or page(s) you want to import from."
+msgstr ""
+"Din moment ce aţi configurat deja o anumită(e) organizaţie(ii) sau pagină(i) "
+"de la care să importaţi, puteţi deja să le importaţi evenimentele de mai "
+"jos. Vizitaţi pagina de configurări pentru a modifica organizaţia(ile) sau "
+"pagina(ile) Facebook de la care să importaţi evenimente. "
+
+#: ../admin-views/import-page.php:62
+msgid ""
+"You can also import any specific event by entering Facebook event IDs in the "
+"text area below."
+msgstr ""
+"Puteţi de asemenea importa orice eveniment specific, introducând ID-ul "
+"evenimentului Facebook în zona text de mai jos."
+
+#: ../admin-views/import-page.php:63
+#, php-format
+msgid ""
+"You can determine an event's Facebook ID by looking at the URL of the event. "
+"For example, the ID of this event: %s would be %s"
+msgstr ""
+"Puteţi determina ID-ul evenimentului Facebook, privind la adresa URL a "
+"acelui eveniment. De exemplu, ID-ul acestui eveniment:%s va fi %s"
+
+#: ../admin-views/import-page.php:72
+msgid "Events from Facebook organizations(s) or page(s) you've added:"
+msgstr ""
+"Evenimentele din organizaţia(ile) sau pagina(ile) Facebook pe care le-aţi "
+"adăugat: "
+
+#: ../admin-views/import-page.php:78
+msgid "Import events by their Facebook ID:"
+msgstr "Importare evenimente după ID-urile lor Facebook:"
+
+#: ../admin-views/import-page.php:81
+msgid "One event ID per line"
+msgstr "Un singur eveniment pe linie"
+
+#: ../admin-views/import-page.php:86
+msgid "Import events"
+msgstr "Iport evenimente"
+
+#: ../admin-views/import-page.php:104
+msgid "Please select or enter the ID of at least one event to import"
+msgstr ""
+"Vă rugăm selectaţi sau introduceţi ID-ul cel puţin al unui eveniment pentru "
+"a-l importa"
+
+#: ../admin-views/settings-tab.php:15
+msgid "Getting Started"
+msgstr "Noțiuni de bază"
+
+#: ../admin-views/settings-tab.php:16
+msgid ""
+"You need a Facebook App ID and App Secret to access data via the Facebook "
+"Graph API to import your events from Facebook."
+msgstr ""
+"Aveţi nevoie de un App ID şi de un App Secret Facebook pentru a acesa datele "
+"prin intermediul Facebook Graph API, pentru a vă importa evenimentele din "
+"Facebook."
+
+#: ../admin-views/settings-tab.php:18
+#, php-format
+msgid "%s to learn more about Facebook Apps"
+msgstr "%s pentru a afla mai multe despre Facebook Apps"
+
+#: ../admin-views/settings-tab.php:18 ../admin-views/settings-tab.php:19
+#: ../admin-views/settings-tab.php:37 ../admin-views/settings-tab.php:46
+msgid "Click here"
+msgstr "Apăsaţi aici"
+
+#: ../admin-views/settings-tab.php:19
+#, php-format
+msgid "%s to view or create Facebook Apps"
+msgstr "%s pentru a vizualiza ori crea Facebook Apps"
+
+#: ../admin-views/settings-tab.php:21
+msgid "Selecting pages or organizations to import events with"
+msgstr ""
+"Selectarea paginilor sau a organizaţiilor cu care care se importă evenimente"
+
+#: ../admin-views/settings-tab.php:22
+msgid ""
+"You can retrieve and import events belonging to a Facebook organization or a "
+"Facebook page. You will need the username(s) or ID of each organization or "
+"page that you want to fetch events from. We do not currently support "
+"retrieving events from personal profiles. If you want to import an event "
+"from an individual, you can do that with the event ID on the"
+msgstr ""
+"Puteţi prelua şi importa evenimente ce aparţin organizaţiilor sau paginilor "
+"Facebook. Veţi avea nevoie de nume utilizator(i) sau de ID-urile fiecărei "
+"organizaţii sau pagini de la care veţi importa evenimente. Momentan nu "
+"suportăm preluarea evenimentelor din profilele personale. Dacă doriţi "
+"importarea unui eveniment dintr-un cont individual, puteţi face acest lucru "
+"cu ID-ul evenimentului din "
+
+#: ../admin-views/settings-tab.php:22
+msgid "Import: Facebook page"
+msgstr "Import: pagină Facebook "
+
+#: ../admin-views/settings-tab.php:23
+#, php-format
+msgid ""
+"A page or organization's username or ID can be found in the URL used to "
+"access its profile. Modern Tribe's page is %s and the username is "
+"'ModernTribeInc'. If a page or organization doesn't have a username, you "
+"will see the ID (numerical) in the URL.</p>"
+msgstr ""
+"Numele de utilizator sau ID-ul unei pagini sau organizaţii poate fi găsit în "
+"adresa URL folosită pentru accesarea profilului respectiv. Pagina Modern "
+"Tribe este %s şi numele de utilizator este 'ModernTribeInc'. Dacă o pagină "
+"sau o organizaţie nu are un nume-utilizator, veţi vedea ID-ul (numeric) în "
+"adresa URL.</p>"
+
+#: ../admin-views/settings-tab.php:32
+msgid "Account Settings"
+msgstr "Configurări Cont"
+
+#: ../admin-views/settings-tab.php:36
+msgid "Facebook App ID"
+msgstr "Facebook App ID"
+
+#: ../admin-views/settings-tab.php:37
+#, php-format
+msgid "<p>%s to view or create your Facebook Apps"
+msgstr "<p>%s pentru a vă vizualiza ori crea propriul Facebook Apps"
+
+#: ../admin-views/settings-tab.php:45
+msgid "Facebook App secret"
+msgstr "Facebook App secret"
+
+#: ../admin-views/settings-tab.php:46
+#, php-format
+msgid "<p>%s to view or create your App Secret"
+msgstr "<p>%s pentru a vă vizualiza ori crea propriul App Secret"
+
+#: ../admin-views/settings-tab.php:54
+msgid "Organization and page usernames / IDs to fetch events from"
+msgstr ""
+"Numele-de-utilizator /ID-urile organizaţiilor şi paginilor de la care se "
+"importă evenimente"
+
+#: ../admin-views/settings-tab.php:55
+msgid "Please put one entry per line."
+msgstr "Vă rugăm să specificaţi doar una per linie."
+
+#: ../admin-views/settings-tab.php:55
+msgid "Follow the instructions above to find usernames or IDs."
+msgstr ""
+"Urmăriţi instrucşiunile de mai sus pentru a găsi numele-de-utilizatori sau "
+"ID-urile."
+
+#: ../admin-views/settings-tab.php:55
+msgid ""
+"Events can only be fetched from organizations and pages, not individuals."
+msgstr ""
+"Evenimentele pot fi importate doar din pagini şi organizaţii, nu și din "
+"conturile personale. "
+
+#: ../admin-views/settings-tab.php:64
+msgid "Import Settings"
+msgstr "Configurări Importări"
+
+#: ../admin-views/settings-tab.php:68
+msgid "Default status to use for imported events"
+msgstr "Statusul implicit ce va fi folosit pentru evenimente importate"
+
+#: ../admin-views/settings-tab.php:69
+msgid "Published"
+msgstr "Publicat"
+
+#: ../admin-views/settings-tab.php:69
+msgid "Draft"
+msgstr "Ciornă"
+
+#: ../admin-views/settings-tab.php:69
+msgid "Pending Review"
+msgstr "În Așteptarea Examinării"
+
+#: ../admin-views/settings-tab.php:75
+msgid "Enable Google Maps on imported events"
+msgstr "Activaţi Hărţi Google pentru evenimente importate"
+
+#: ../admin-views/settings-tab.php:76
+msgid ""
+"Check to enable maps for imported events in the frontend. Please enable "
+"Google Maps on the \"General\" tab to ensure your events will have map "
+"options."
+msgstr ""
+"Bifaţi pentru activarea în interfaţă a hărţilor pentru evenimentele "
+"importate. Vă rugăm să activaţi Hărţile Google din fila \"General\", pentru "
+"a vă sigura că evenimentele dvs. vor fi însoţite de opţiunile pentru hărţi. "
+
+#: ../admin-views/settings-tab.php:83
+msgid "Auto import from Facebook"
+msgstr "Auto import din Facebook"
+
+#: ../admin-views/settings-tab.php:84
+msgid ""
+"If selected, events will be automatically imported from Facebook at the set "
+"interval."
+msgstr ""
+"Dacă este selectat, evenimentele vor fi automat importate din Facebook, "
+"conform intervalului stabilit."
+
+#: ../admin-views/settings-tab.php:90
+msgid "Import frequency"
+msgstr "Frecvenţă Importări"
+
+#: ../admin-views/settings-tab.php:91
+msgid ""
+"How often should we fetch events from Facebook. Only applies if Auto Import "
+"is set."
+msgstr ""
+"Cât de des vom importa evenimente din Facebook. Aplicabil doar dacă Auto "
+"Importarea este activată."
+
+#: ../admin-views/settings-tab.php:92
+msgid "Weekly"
+msgstr "Săptămânal"
+
+#: ../admin-views/settings-tab.php:92
+msgid "Daily"
+msgstr "Zilnic"
+
+#: ../admin-views/settings-tab.php:92
+msgid "Twice daily"
+msgstr "De 2 ori pe zi"
+
+#: ../admin-views/settings-tab.php:92
+msgid "Hourly"
+msgstr "În fiecare Oră"
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:9
+#: ../vendor/pue-client/admin-views/license-key.view.php:13
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:291
+msgid "License Key"
+msgstr "Cheie de Licenţă"
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:10
+msgid "A valid license key is required for support and updates."
+msgstr "Pentru suport şi actualizări, este necesară o cheie validă de licenţă."
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:16
+msgid "Replace empty fields"
+msgstr "Înlocuire cîmpuri goale"
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:25
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:292
+msgid "A valid license key is required for support and updates"
+msgstr "Pentru suport şi actualizări, este necesară o cheie validă de licenţă."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:360
+msgid "License key(s) updated."
+msgstr "Cheia(le) de licenţă au fost actualizate."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:400
+msgid "Sorry, key validation server is not available."
+msgstr "Ne pare rău, serverul de validare al cheii nu este disponibil."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:402
+msgid "Sorry, this key is expired."
+msgstr "Ne pare rău, cheia a expirat."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:404
+msgid "Sorry, this key is out of installs."
+msgstr "Ne pare rău, cheia este în afara procesului de instalare."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:406
+msgid "Sorry, this key is not valid."
+msgstr "Ne pare rău, cheia NU este validă."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:409
+#, php-format
+msgid "Valid Key! Expires on %s"
+msgstr "Cheie Validă! Expiră pe %s"
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:413
+#, php-format
+msgid ""
+"Hmmm... something's wrong with this validator. Please contact <a href=\"%s"
+"\">support.</a>"
+msgstr ""
+"Hmmm... este ceva anormal cu acest validator. Vă rugăm să contactaţi <a href="
+"\"%s\">echipa de suport.</a>"
+
+#~ msgid "Events from %s:"
+#~ msgstr "Evenimente din %s:"
+
+#~ msgid "%s does not have any Facebook events"
+#~ msgstr "%s nu are nici-un eveniment Facebook"
+
+#~ msgid "The selected event has been successfully imported."
+#~ msgstr "Evenimentul selectat a fost importat cu succes."

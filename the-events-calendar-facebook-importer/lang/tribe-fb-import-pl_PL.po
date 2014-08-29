@@ -1,0 +1,503 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: The Events Calendar: Facebook Events v3.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-08-27 08:52:27+0000\n"
+"Last-Translator: Arkadiusz Śnieżek <biuro@sniezek.eu>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin-views/import-page.php:8
+#@ tribe-fb-import
+msgid "settings page"
+msgstr "Ustawienia"
+
+#: admin-views/import-page.php:9
+#@ tribe-fb-import
+msgid "Go take a look at your event(s)"
+msgstr "Przejdź, aby zobaczyć swoje wydarzenie"
+
+#: admin-views/import-page.php:16
+#: admin-views/settings-tab.php:14
+#@ tribe-fb-import
+msgid "Import Facebook Events"
+msgstr "Importuj wydarzenia z Facebooka"
+
+#: admin-views/import-page.php:20
+#@ tribe-fb-import
+msgid "The following errors have occurred:"
+msgstr "Niniejsze błędy wystąpiły w:"
+
+#: admin-views/import-page.php:27
+#@ tribe-fb-import
+msgid "Please note that as a result, no events were successfully imported."
+msgstr "Żadne wydarzenia nie zostały zaimportowane."
+
+#: admin-views/import-page.php:29
+#@ tribe-fb-import
+msgid "Please note that other events have been successfully imported."
+msgstr "Brawo! Pozostałe wydarzenia zostały zaimportowane."
+
+#: admin-views/import-page.php:36
+#, php-format
+#@ tribe-fb-import
+msgid "The selected event has been successfully imported."
+msgid_plural "The %d selected events have been successfully imported."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: admin-views/import-page.php:45
+#@ tribe-fb-import
+msgid "The following errors have occurred during importing images:"
+msgstr "Znaleziono błędy podczas importowania zdjęć:"
+
+#: admin-views/import-page.php:51
+#@ tribe-fb-import
+msgid "Please note that this does not effect importing of associated events unless noted."
+msgstr "Nie ma to wpływu na importowane wydarzeń towarzyszących (chyba że takowe wybrano)"
+
+#: admin-views/import-page.php:56
+#@ tribe-fb-import
+msgid "How to Import Facebook Events"
+msgstr "Jak importować wydarzenia z Facebooka"
+
+#: admin-views/import-page.php:58
+#, php-format
+#@ tribe-fb-import
+msgid "Select which events you want to import from specific Facebook Pages or Users by entering their details on the  %s. Return to this page to choose which of their events you would like to import."
+msgstr "Wybierając tę opcję pobierasz poszczególne wydarzenia z dowolnego profilu stron lub organizacji. Najpierw odwiedź stronę %s wprowadzając odpowiednia dane. Powróć na tę stronę, jeśli chcesz dokonać zmian lub importować wybrane wydarzenia."
+
+#: admin-views/import-page.php:60
+#@ tribe-fb-import
+msgid "Since you've already setup some Facebook organization(s) or page(s) to import from, you can import their events below. Visit the settings page to modify the Facebook organization(s) or page(s) you want to import from."
+msgstr "Dzięki temu, że poprawnie ustawiono wszystkie parametry, możesz pobierać wydarzenia ze stron i profili organizacji. W każdej chwili możesz zmienić ustawienia wtyczki do pobierania wydarzeń z innych stron i profilii na Facebooku."
+
+#: admin-views/import-page.php:62
+#@ tribe-fb-import
+msgid "You can also import any specific event by entering Facebook event IDs in the text area below."
+msgstr "Możesz również importować dowolne wydarzenia poprzez umieszczenie dowolnego ID wydarzenia w polu poniżej."
+
+#: admin-views/import-page.php:63
+#, php-format
+#@ tribe-fb-import
+msgid "You can determine an event's Facebook ID by looking at the URL of the event. For example, the ID of this event: %s would be %s"
+msgstr "Jeśli denerwuje Cię wpisywanie ID wydarzeń, możesz umieszczać je za pomocą adresów URL. Np. ID tego wydarzenia: %s może wyglądać tak: %s"
+
+#: admin-views/import-page.php:72
+#@ tribe-fb-import
+msgid "Events from Facebook organizations(s) or page(s) you've added:"
+msgstr "Wydarzenia z Facebooka jakie zostały dodane:"
+
+#: admin-views/import-page.php:78
+#@ tribe-fb-import
+msgid "Import events by their Facebook ID:"
+msgstr "Importuj wydarzenia za pomocą Facebook ID:"
+
+#: admin-views/import-page.php:81
+#@ tribe-fb-import
+msgid "One event ID per line"
+msgstr "ID wydarzenia w osobnych liniach"
+
+#: admin-views/import-page.php:86
+#@ tribe-fb-import
+msgid "Import events"
+msgstr "Importuj wydarzenia"
+
+#: admin-views/import-page.php:104
+#@ tribe-fb-import
+msgid "Please select or enter the ID of at least one event to import"
+msgstr "Wybierz lub wprowadź identyfikator przynajmniej jednego wydarzenia, aby zaimportować"
+
+#: admin-views/settings-tab.php:15
+#@ tribe-fb-import
+msgid "Getting Started"
+msgstr "Podręcznik użytkownika"
+
+#: admin-views/settings-tab.php:16
+#@ tribe-fb-import
+msgid "You need a Facebook App ID and App Secret to access data via the Facebook Graph API to import your events from Facebook."
+msgstr "Musisz posiadać Facebook App ID oraz App Secred Code, aby mieć dostęp do Facebook Graph API, żeby importować Twoje wydarzenia z Facebooka"
+
+#: admin-views/settings-tab.php:18
+#, php-format
+#@ tribe-fb-import
+msgid "%s to learn more about Facebook Apps"
+msgstr "%s jeśli chcesz dowiedzieć się więcej o Facebook Apps"
+
+#: admin-views/settings-tab.php:18
+#: admin-views/settings-tab.php:19
+#: admin-views/settings-tab.php:37
+#: admin-views/settings-tab.php:46
+#@ tribe-fb-import
+msgid "Click here"
+msgstr "Naciśnij"
+
+#: admin-views/settings-tab.php:19
+#, php-format
+#@ tribe-fb-import
+msgid "%s to view or create Facebook Apps"
+msgstr "%s aby zobaczyć lub utworzyć aplikację Facebook"
+
+#: admin-views/settings-tab.php:21
+#@ tribe-fb-import
+msgid "Selecting pages or organizations to import events with"
+msgstr "Dwa sposoby na importowanie wydarzeń"
+
+#: admin-views/settings-tab.php:22
+#@ tribe-fb-import
+msgid "You can retrieve and import events belonging to a Facebook organization or a Facebook page. You will need the username(s) or ID of each organization or page that you want to fetch events from. We do not currently support retrieving events from personal profiles. If you want to import an event from an individual, you can do that with the event ID on the"
+msgstr "Możesz pobrać i zaimportować wydarzenia należące do organizacji lub na stronie. Będziesz potrzebować nazwy użytkownika (ów) lub identyfikatora każdej organizacji lub strony, z której chcesz pobrać wydarzenia. Aktualnie nie wspieramy pobierania wydarzeń z osobistych profili. Jeśli chcesz zaimportować wydarzenia z jednostki, można to zrobić z identyfikatorem wydarzenia na"
+
+#: admin-views/settings-tab.php:22
+#@ tribe-fb-import
+msgid "Import: Facebook page"
+msgstr "Importuj: strona Facebook"
+
+#: admin-views/settings-tab.php:23
+#, php-format
+#@ tribe-fb-import
+msgid "A page or organization's username or ID can be found in the URL used to access its profile. Modern Tribe's page is %s and the username is 'ModernTribeInc'. If a page or organization doesn't have a username, you will see the ID (numerical) in the URL.</p>"
+msgstr "Strona, login organizacji lub ID można znaleźć w adresie URL używany do uzyskania dostępu do danego profilu, np. strona Modern Tribe posiada adres % s, a jego nazwa użytkownika to \\\"ModernTribeInc\\\". Jeśli strona lub organizacja nie posiada nazwy użytkownika, pojawi się ID (numeryczne) w adresie URL. </ P>"
+
+#: admin-views/settings-tab.php:32
+#@ tribe-events-calendar-pro
+msgid "Account Settings"
+msgstr ""
+
+#: admin-views/settings-tab.php:36
+#@ tribe-fb-import
+msgid "Facebook App ID"
+msgstr "Facebook App ID"
+
+#: admin-views/settings-tab.php:37
+#, php-format
+#@ tribe-fb-import
+msgid "<p>%s to view or create your Facebook Apps"
+msgstr "<p>%s aby zobaczyć lub utworzyć aplikację Facebook"
+
+#: admin-views/settings-tab.php:45
+#@ tribe-fb-import
+msgid "Facebook App secret"
+msgstr "Facebook App secret"
+
+#: admin-views/settings-tab.php:46
+#, php-format
+#@ tribe-fb-import
+msgid "<p>%s to view or create your App Secret"
+msgstr "<p>%s aby zobaczyć lub utworzyć App Secret"
+
+#: admin-views/settings-tab.php:54
+#@ tribe-fb-import
+msgid "Organization and page usernames / IDs to fetch events from"
+msgstr "Nazwa strony, organizacji lub ID do pobierania wydarzeń"
+
+#: admin-views/settings-tab.php:55
+#@ tribe-fb-import
+msgid "Please put one entry per line."
+msgstr "Proszę umieszczać w osobnych wierszach"
+
+#: admin-views/settings-tab.php:55
+#@ tribe-fb-import
+msgid "Follow the instructions above to find usernames or IDs."
+msgstr "Podążaj wg instrukcji, aby wyszukać nazwy użytkownika lub ID."
+
+#: admin-views/settings-tab.php:55
+#@ tribe-fb-import
+msgid "Events can only be fetched from organizations and page, not individuals."
+msgstr "Wydarzenia mogą być pobrane tylko z profili stron lub organizacji. Indywidualne strony nie sa wspierane."
+
+#: admin-views/settings-tab.php:64
+#@ tribe-events-calendar-pro
+msgid "Import Settings"
+msgstr ""
+
+#: admin-views/settings-tab.php:68
+#@ tribe-fb-import
+msgid "Default status to use for imported events"
+msgstr "Domyśłny status dla importowanych wydarzeń"
+
+#: admin-views/settings-tab.php:69
+#@ tribe-fb-import
+msgid "Published"
+msgstr "Opublikowane"
+
+#: admin-views/settings-tab.php:69
+#@ tribe-fb-import
+msgid "Draft"
+msgstr "Szkic"
+
+#: admin-views/settings-tab.php:69
+#@ tribe-fb-import
+msgid "Pending Review"
+msgstr "Czeka na akceptację"
+
+#: admin-views/settings-tab.php:75
+#@ tribe-events-calendar
+msgid "Enable Google Maps on imported events"
+msgstr ""
+
+#: admin-views/settings-tab.php:76
+#@ tribe-fb-import
+msgid "Check to enable maps for imported events in the frontend. Please enable Google Maps on the \"General\" tab to ensure your events will have map options."
+msgstr "Zaznacz, aby aktywować mapy dla importowanych wydarzeń. Aktywuj Google Maps w zakładce Ogólne, aby korzystać z wszystkich ustawień."
+
+#: admin-views/settings-tab.php:83
+#@ tribe-fb-import
+msgid "Auto import from Facebook"
+msgstr "Autoimportowanie z Facebooka"
+
+#: admin-views/settings-tab.php:84
+#@ tribe-fb-import
+msgid "If selected, events will be automatically imported from Facebook at the set interval."
+msgstr "Jeśli jest zaznaczone, wszystkie wydarzenia będą importowane automatycznie z Facebooka"
+
+#: admin-views/settings-tab.php:90
+#@ tribe-fb-import
+msgid "Import frequency"
+msgstr "Częstość importowania"
+
+#: admin-views/settings-tab.php:91
+#@ tribe-fb-import
+msgid "How often should we fetch events from Facebook. Only applies if Auto Import is set."
+msgstr "Jak często aplikacja ma pobierać wydarzenia z Facebooka. Ta opcja działa tylko przy zaznaczonej funkcjo autoimportowania."
+
+#: admin-views/settings-tab.php:92
+#@ tribe-fb-import
+msgid "Weekly"
+msgstr "Co tydzień"
+
+#: admin-views/settings-tab.php:92
+#@ tribe-fb-import
+msgid "Daily"
+msgstr "Codziennie"
+
+#: admin-views/settings-tab.php:92
+#@ tribe-fb-import
+msgid "Twice daily"
+msgstr "Dwa razy dziennie"
+
+#: admin-views/settings-tab.php:92
+#@ tribe-fb-import
+msgid "Hourly"
+msgstr "Co godzinę"
+
+#: the-events-calendar-facebook-importer.php:135
+#, php-format
+#@ default
+msgid "As of version 1.0.6, you need to enter your own Facebook App ID and App secret. Visit %s to generate yours. Enter your App ID and App Secret on the <a href='%s'>event's settings page</a>. "
+msgstr ""
+
+#: the-events-calendar-facebook-importer.php:162
+#, php-format
+#@ default
+msgid "Signing up for a Facebook App ID and Secret only takes a second. Visit %s to create yours. "
+msgstr ""
+
+#: the-events-calendar-facebook-importer.php:163
+#, php-format
+#@ default
+msgid "Visit %s to learn more about Facebook App Ids and Secrets. "
+msgstr ""
+
+#: the-events-calendar-facebook-importer.php:164
+#, php-format
+#@ default
+msgid "You must enter a Facebook App ID and App Secret to continue importing events from Facebook. Visit %s to create yours. "
+msgstr ""
+
+#: the-events-calendar-facebook-importer.php:341
+#@ tribe-fb-import
+msgid "Could not successfully import the image for unknown reasons."
+msgstr "Nie można pobrać obrazka do wydarzenia."
+
+#: the-events-calendar-facebook-importer.php:368
+#@ tribe-fb-import
+msgid "The return argument should be object or id"
+msgstr "Argument zwrotny powinien być objektem lub ID"
+
+#: the-events-calendar-facebook-importer.php:417
+#@ tribe-fb-import
+msgid "Object type provided is invalid"
+msgstr "Typ objektu jest nieprawidłowy"
+
+#: the-events-calendar-facebook-importer.php:690
+#, php-format
+#@ tribe-fb-import
+msgid "%s. Event Image Error: Failed to save record into database."
+msgstr "%s. Błąd: Obrazek wydarzenia: nie można zapisać w bazie danych."
+
+#: the-events-calendar-facebook-importer.php:693
+#, php-format
+#@ tribe-fb-import
+msgid "%s. Event Image Error: The file cannot be saved."
+msgstr "%s. Błąd: Obrazek wydarzenia Plik nie może zostać zapisany."
+
+#: the-events-calendar-facebook-importer.php:696
+#, php-format
+#@ tribe-fb-import
+msgid "%s. Event Image Error: \"%s\" is not a valid image. %s"
+msgstr "%s. Błąd: Obrazek wydarzenia: \"%s\" nie jest prawidłowym obrazkiem. %s"
+
+#: the-events-calendar-facebook-importer.php:735
+#, php-format
+#@ tribe-fb-import
+msgid "The event \"%s\" was already imported from Facebook."
+msgstr "Wydarzenie \"%s\" zostało zaimportowane prawidłowo."
+
+#: the-events-calendar-facebook-importer.php:738
+#, php-format
+#@ tribe-fb-import
+msgid "Either the event with ID %s does not exist, is marked as private on Facebook or we couldn't reach the Facebook API"
+msgstr "Wydarzenie o podanym ID %s nie istnieje jest oznaczony jako prywatne na Facebooku lub nie mogliśmy pobrać za pomocą Facebook API"
+
+#: the-events-calendar-facebook-importer.php:776
+#@ tribe-fb-import
+msgid "The Facebook event IDs provided must be numeric and one per line."
+msgstr "ID wydarzenia musi być numeryczne oraz umieszczone w osobnych wierszach."
+
+#: the-events-calendar-facebook-importer.php:791
+#@ tribe-fb-import
+msgid "Import: Facebook"
+msgstr "Importuj: Facebook"
+
+#: the-events-calendar-facebook-importer.php:832
+#: the-events-calendar-facebook-importer.php:1039
+#@ tribe-fb-import
+#@ tribe-events-calendar
+msgid "Facebook"
+msgstr "Facebook"
+
+#: the-events-calendar-facebook-importer.php:883
+#@ tribe-fb-import
+msgid "No valid events were provided for import. The import failed as a result."
+msgstr "Brak wydarzeń do zaimprotowania. Importowanie nie powiodło się."
+
+#: the-events-calendar-facebook-importer.php:910
+#@ tribe-fb-import
+msgid "Facebook API Error: "
+msgstr "Błędy Facebook API:"
+
+#: the-events-calendar-facebook-importer.php:915
+#, php-format
+#@ tribe-fb-import
+msgctxt "%s is the name of the Facebook user or page"
+msgid "Events from %s:"
+msgstr "Wydarzenia z %s:"
+
+#: the-events-calendar-facebook-importer.php:923
+#@ tribe-fb-import
+msgid "(previously imported)"
+msgstr "(poprzednio zaimportowane)"
+
+#: the-events-calendar-facebook-importer.php:934
+#, php-format
+#@ tribe-fb-import
+msgctxt "%s is the name of the Facebook user or page"
+msgid "%s does not have any Facebook events"
+msgstr "%s nie ma żadnych wydarzeń"
+
+#: the-events-calendar-facebook-importer.php:1009
+#@ tribe-fb-import
+msgid "Once Weekly"
+msgstr "Raz w tygodniu"
+
+#: the-events-calendar-facebook-importer.php:1030
+#@ tribe-events-calendar
+msgid "Import"
+msgstr ""
+
+#: the-events-calendar-facebook-importer.php:1048
+#@ tribe-events-calendar
+msgid "Facebook Events"
+msgstr ""
+
+#: the-events-calendar-facebook-importer.php:1063
+#@ tribe-fb-import
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: the-events-calendar-facebook-importer.php:1109
+#@ tribe-fb-import
+msgid "The Events Calendar"
+msgstr "Kalendarz wydarzeń"
+
+#: the-events-calendar-facebook-importer.php:1110
+#, php-format
+#@ tribe-fb-import
+msgid "To begin using <b>The Events Calendar: Facebook Events</b>, please install the latest version of %s."
+msgstr "Aby rozpocząć korzystanie z <b> Kalendarza wydarzeń: Wydarzenia Facebook </ b>, należy zainstalować najnowszą wersję programu %s."
+
+#: vendor/pue-client/admin-views/license-key.view.php:9
+#: vendor/pue-client/admin-views/license-key.view.php:13
+#: vendor/pue-client/lib/pue_plugin_update_engine.class.php:291
+#@ tribe-plugin-update-engine
+msgid "License Key"
+msgstr ""
+
+#: vendor/pue-client/admin-views/license-key.view.php:10
+#@ tribe-plugin-update-engine
+msgid "A valid license key is required for support and updates."
+msgstr ""
+
+#: vendor/pue-client/admin-views/license-key.view.php:16
+#@ tribe-plugin-update-engine
+msgid "Replace empty fields"
+msgstr ""
+
+#: vendor/pue-client/admin-views/license-key.view.php:25
+#: vendor/pue-client/lib/pue_plugin_update_engine.class.php:292
+#@ tribe-plugin-update-engine
+msgid "A valid license key is required for support and updates"
+msgstr ""
+
+#: vendor/pue-client/lib/pue_plugin_update_engine.class.php:360
+#@ tribe-plugin-update-engine
+msgid "License key(s) updated."
+msgstr ""
+
+#: vendor/pue-client/lib/pue_plugin_update_engine.class.php:400
+#@ tribe-plugin-update-engine
+msgid "Sorry, key validation server is not available."
+msgstr ""
+
+#: vendor/pue-client/lib/pue_plugin_update_engine.class.php:402
+#@ tribe-plugin-update-engine
+msgid "Sorry, this key is expired."
+msgstr ""
+
+#: vendor/pue-client/lib/pue_plugin_update_engine.class.php:404
+#@ tribe-plugin-update-engine
+msgid "Sorry, this key is out of installs."
+msgstr ""
+
+#: vendor/pue-client/lib/pue_plugin_update_engine.class.php:406
+#@ tribe-plugin-update-engine
+msgid "Sorry, this key is not valid."
+msgstr ""
+
+#: vendor/pue-client/lib/pue_plugin_update_engine.class.php:409
+#, php-format
+#@ tribe-plugin-update-engine
+msgid "Valid Key! Expires on %s"
+msgstr ""
+
+#: vendor/pue-client/lib/pue_plugin_update_engine.class.php:413
+#, php-format
+#@ plugin-update-engine
+msgid "Hmmm... something's wrong with this validator. Please contact <a href=\"%s\">support.</a>"
+msgstr ""
+

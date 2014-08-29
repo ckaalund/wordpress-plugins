@@ -1,0 +1,1851 @@
+msgid ""
+msgstr "Project-Id-Version: Event Organiser\n"
+"Report-Msgid-Bugs-To: stephenh1988@gmail.com\n"
+"POT-Creation-Date: 2008-09-01 09:37+0000\n"
+"PO-Revision-Date: 2013-12-04 20:12:37+0000\n"
+"Last-Translator: stephenharris <stephenh1988@gmail.com>\n"
+"Language-Team: \n"
+"Language: Russian (Russian Federation)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+""
+
+#: templates/archive-event.php:56 templates/archive-event.php:111
+#: templates/taxonomy-event-category.php:49
+#: templates/taxonomy-event-category.php:107
+#: templates/taxonomy-event-tag.php:49 templates/taxonomy-event-tag.php:107
+#: templates/taxonomy-event-venue.php:49
+#: templates/taxonomy-event-venue.php:106
+msgid " <span class=\"meta-nav\">&larr;</span> Newer events"
+msgstr " <span class=\\\"meta-nav\\\">&larr;</span> Раньше"
+
+#: includes/class-event-organiser-im-export.php:282
+msgid "%d categories were created"
+msgstr "%d категорий создано"
+
+#: includes/class-event-organiser-im-export.php:269
+msgid "%d events were successfully imported"
+msgstr "%d событий успешно импортировано"
+
+#: includes/class-event-organiser-im-export.php:275
+msgid "%d venues were created"
+msgstr "%d мест создано"
+
+# / TRANSLATORS: [this plugin] has only been tested up to [required plugin] [required plugin version]
+#: event-organiser-debug.php:418
+msgid "%s has only been tested up to %s %s"
+msgstr "%s протестирована только до версии  %s %s"
+
+# / TRANSLATORS: [this plugin] requires [required plugin] version [required plugin version] or higher
+#: event-organiser-debug.php:427
+msgid "%s requires %s version %s or higher"
+msgstr "Для %s требуется %s версии %s или выше"
+
+#: event-organiser-manage.php:199
+msgid "&mdash; No Change &mdash;"
+msgstr "&mdash; Нет изменений &mdash;"
+
+#: classes/class-eo-event-list-widget.php:91
+msgid "'No events' message"
+msgstr "Сообщение 'Нет событий'"
+
+#: includes/class-event-organiser-im-export.php:279
+msgid "1 category was created"
+msgstr "Создана одна категория "
+
+#: includes/class-event-organiser-im-export.php:266
+msgid "1 event was successfully imported"
+msgstr "Успешно импортировано одно событие"
+
+#: includes/class-event-organiser-im-export.php:272
+msgid "1 venue was created"
+msgstr "Создано одно место"
+
+#: event-organiser-calendar.php:211
+msgid "24 hour time"
+msgstr "24 часа"
+
+#: includes/event-organiser-register.php:633
+msgid "<h4>City & State Fields Added</h4>City and state / province fields for "
+"venues have now been added. </br> If you'd like, Event Organiser can <a "
+"href='%s'>attempt to auto-fill them</a>. You can always manually change the "
+"details aftewards."
+msgstr "<h4>Добавлены поля \\\"Город\\\" и Штат/провинция\\\"</h4> Теперь у событий "
+"есть поля \\\"Город\\\" и Штат/провинция\\\". </br> Если хотите,  Event "
+"Organiser может попытаться <a href='%s'>заполнять их автоматически</a>. Вы "
+"всегда сможете исправить эту информацию позже."
+
+#: includes/event-organiser-register.php:640
+msgid "<h4>The Default Templates Have Changed</h4>Don't panic! If you've set up "
+"your own templates in your theme you won't notice any change. </br> If you "
+"haven't and want the old templates back, <a "
+"href='http://wp-event-organiser.com/blog/new-default-templates-in-1-7'>see "
+"this post<a/>."
+msgstr "<h4>Изменились шаблоны по умолчанию</h4>Без паники! Если вы установили сови "
+"собственные шаблоны, вы даже не заметите никакой разницы. </br> Если вы "
+"пользовались шаблонами по умолчанию и хотит их вернуть,  <a "
+"href='http://wp-event-organiser.com/blog/new-default-templates-in-1-7'>прочтите "
+"этот пост<a/>."
+
+#: classes/class-eo-widget-categories.php:10
+msgid "A list or dropdown of event categories"
+msgstr "Список или выпадающий список категорий событий"
+
+#: classes/class-eo-widget-venues.php:11
+msgid "A list or dropdown of event venues"
+msgstr "Список или выпадающий список мест проведения событий"
+
+#: event-organiser-settings.php:132
+msgid "Add an 'events' link to the navigation menu:"
+msgstr "Добавить ссылку на события в меню:"
+
+#: includes/event-organiser-cpt.php:483
+msgid "Add Event"
+msgstr "Добавить событие"
+
+#: event-organiser-go-pro.php:82
+msgid "Add information on your venue pages with venue custom fields, or give your "
+"venues more attentioned with their own 'featured image'"
+msgstr ""
+
+#: event-organiser-venues.php:230 event-organiser-venues.php:268
+msgid "Add New"
+msgstr "Добавить"
+
+#: includes/event-organiser-cpt.php:68
+msgid "Add New Category"
+msgstr "Добавить новую категорию"
+
+#: includes/event-organiser-cpt.php:143
+msgid "Add New Event"
+msgstr "Добавить новое событие"
+
+#: includes/event-organiser-cpt.php:101
+msgid "Add New Tag"
+msgstr "Добавить новый ярлык"
+
+#: event-organiser-venues.php:272 includes/event-organiser-cpt.php:35
+msgid "Add New Venue"
+msgstr "Добавить новое место"
+
+#: includes/event-organiser-cpt.php:106
+msgid "Add or remove tags"
+msgstr "Добавить или удалить ярлыки"
+
+#: includes/event-organiser-cpt.php:38
+msgid "Add or remove venues"
+msgstr "Добавить или удалить места"
+
+#: includes/event-organiser-ajax.php:545
+msgid "Add To Google Calendar"
+msgstr "Добавить в Google Calendar"
+
+#: event-organiser-venues.php:345
+msgid "Add Venue"
+msgstr "Добавить место"
+
+#: event-organiser-settings.php:57
+msgid "Add-on Licence keys"
+msgstr ""
+
+#: event-organiser-go-pro.php:76
+msgid "Additional shortcodes & improved UI"
+msgstr ""
+
+#: includes/event-organiser-venue-functions.php:882
+msgid "Address"
+msgstr "Адрес"
+
+#: includes/event-organiser-cpt.php:63
+msgid "All Categories"
+msgstr "Все категории"
+
+#: includes/event-organiser-cpt.php:428
+msgid "All dates and times must be entered in the specified format. This format can "
+"changed in the settings page."
+msgstr "Все даты и время должны быть введены в указанном формате. Формат даты можно "
+"изменить на странице настроек."
+
+#: includes/event-organiser-ajax.php:540
+#: includes/event-organiser-event-functions.php:1298
+msgid "All Day"
+msgstr "Весь день"
+
+#: event-organiser-edit.php:117
+msgid "All day"
+msgstr "Весь день"
+
+#: includes/event-organiser-cpt.php:146
+msgid "All events"
+msgstr "Все события"
+
+#: includes/event-organiser-cpt.php:95
+msgid "All Tags"
+msgstr "Все ярлыки"
+
+#: classes/class-eo-calendar-widget.php:91
+#: classes/class-eo-event-list-widget.php:47
+#: includes/event-organiser-cpt.php:31
+msgid "All Venues"
+msgstr "Все места"
+
+#: templates/taxonomy-event-category.php:120
+msgid "Apologies, but no events were found for the requested category. "
+msgstr "Извините, в запрашиваемой категории не найдено событий."
+
+#: templates/taxonomy-event-tag.php:120
+msgid "Apologies, but no events were found for the requested tag. "
+msgstr "Извините, для запрашиваемого ярлыка событий не найдено."
+
+#: templates/taxonomy-event-venue.php:118
+msgid "Apologies, but no events were found for the requested venue. "
+msgstr "Извините, событий в запрашиваемом месте не найдено."
+
+#: templates/archive-event.php:123
+msgid "Apologies, but no results were found for the requested archive. "
+msgstr "Извините,  для запрашиваемого архива ничего не найдено."
+
+#: event-organiser-settings.php:168
+msgid "Are current events past?"
+msgstr "Текущие события прошли?"
+
+#: classes/class-eo-event-list-widget.php:62
+msgid "ASC"
+msgstr "По возрастанию"
+
+#: includes/event-organiser-cpt.php:616
+msgid "Assign the category a colour."
+msgstr "Задать цвет категории."
+
+#: event-organiser-settings.php:112
+msgid "Author"
+msgstr "Автор"
+
+#: event-organiser-debug.php:76
+msgid "Below any <strong>known</strong> plug-in and theme conflicts are highlighted "
+"in red."
+msgstr "Ниже все <strong>известные</strong> конфликты с плагинами и темами выделены "
+"красным."
+
+#: includes/event-organiser-ajax.php:347
+msgid "Break this series"
+msgstr "Разорвать связи"
+
+#: event-organiser-go-pro.php:56
+msgid "But that's not all &hellip;"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:479
+msgid "By clicking the relevant tab, you can view events in Month, Week or Day "
+"mode. You can also filter the events by events by category and venue. The "
+"'go to date' button allows you to quickly jump to a specific date."
+msgstr "Нажав на соответствующую вкладку, вы можете просматривать события в режиме "
+"месяца, недели или дня. Вы также можете отфильтровать события по событиям, "
+"категориям и месту проведения. Кнопка \\\"Переход к текущей дате\\\" "
+"позволяет быстро перейти к определенной дате."
+
+#: event-organiser-calendar.php:204
+msgid "Calendar options"
+msgstr "Параметры календаря"
+
+#: event-organiser-calendar.php:22 event-organiser-calendar.php:23
+msgid "Calendar View"
+msgstr "В виде календаря"
+
+#: event-organiser-calendar.php:283 event-organiser-calendar.php:290
+#: event-organiser-edit.php:239
+msgid "Cancel"
+msgstr "Отменить"
+
+#: classes/class-eo-widget-categories.php:19 event-organiser-manage.php:26
+#: includes/event-organiser-cpt.php:71
+#: includes/event-organiser-event-functions.php:1382
+#: templates/event-meta-event-single.php:68
+msgid "Categories"
+msgstr "Категории"
+
+#: event-organiser-settings.php:235
+msgid "Check this option to prevent any stylesheets from Event Organiser being "
+"loaded on the front-end"
+msgstr ""
+
+#: event-organiser-edit.php:76
+msgid "Check to edit this event and its reoccurrences"
+msgstr "Отметить, чтобы отредактировать событие и его повторения"
+
+#: event-organiser-settings.php:603
+msgid "Choose a custom permalink structure for events, venues, event categories and "
+"event tags."
+msgstr "Выберите свою собственную структуру постоянных ссылок для событий, категорий "
+"и ярлыков событий."
+
+#: includes/event-organiser-cpt.php:104
+msgid "Choose from the most used tags"
+msgstr "Выбрать из наиболее используемых ярлыков"
+
+#: includes/event-organiser-cpt.php:437
+msgid "Choose the reoccurrence end date. No further occurrences are added after "
+"this date, but an occurrence that starts before may finish after this date."
+msgstr "Выберите дату окончания повторения. Повторений не будет добавлено после этой "
+"даты, но повторение, начавшееся раньше, может закончиться после этой даты."
+
+#: includes/event-organiser-venue-functions.php:883
+msgid "City"
+msgstr "Город"
+
+#: includes/event-organiser-cpt.php:610 includes/event-organiser-cpt.php:633
+msgid "Color"
+msgstr "Цвет"
+
+#: event-organiser-settings.php:116
+msgid "Comments"
+msgstr "Комментарии"
+
+#: includes/event-organiser-venue-functions.php:886
+msgid "Country"
+msgstr "Страна"
+
+#: event-organiser-calendar.php:245
+msgid "Create an event"
+msgstr "Создать событие"
+
+#: includes/event-organiser-cpt.php:423
+msgid "Creating events"
+msgstr "Создание событий"
+
+#: includes/event-organiser-cpt.php:424
+msgid "Creating events:"
+msgstr "Создание событий:"
+
+#: event-organiser-calendar.php:240
+msgid "Current date/time"
+msgstr "Текущая дата/время"
+
+#: event-organiser-edit.php:127
+msgid "custom"
+msgstr "пользовательский"
+
+#: includes/event-organiser-cpt.php:219
+msgid "Custom field deleted."
+msgstr "Произвольное поле удалено."
+
+#: includes/event-organiser-cpt.php:218
+msgid "Custom field updated."
+msgstr "Произвольное поле обновлено."
+
+#: event-organiser-settings.php:115
+msgid "Custom Fields"
+msgstr "Произвольные поля"
+
+#: includes/event-organiser-event-functions.php:706
+msgid "custom reoccurrence"
+msgstr "пользовательское повторение"
+
+#: event-organiser-edit.php:126
+msgid "daily"
+msgstr "ежедневно"
+
+#: event-organiser-settings.php:137
+msgid "Date Format:"
+msgstr "Формат даты:"
+
+#: event-organiser-calendar.php:56 includes/event-organiser-register.php:55
+#: includes/event-organiser-register.php:227
+msgid "day"
+msgstr "день"
+
+#: classes/class-eo-agenda-widget.php:33 event-organiser-calendar.php:230
+msgid "Day"
+msgstr "День"
+
+#: event-organiser-settings.php:271
+msgid "Day archive"
+msgstr "Архив за день"
+
+#: event-organiser-edit.php:161
+msgid "day of month"
+msgstr "день месяца"
+
+#: event-organiser-edit.php:165
+msgid "day of week"
+msgstr "день недели"
+
+#: includes/event-organiser-register.php:228
+msgid "days"
+msgstr "дни"
+
+#: event-organiser-settings.php:143
+msgid "dd-mm-yyyy"
+msgstr "дд-мм-гггг"
+
+#: includes/event-organiser-cpt.php:492
+msgid "Debugging Event Organiser"
+msgstr ""
+
+#: classes/class-eo-venue-list-table.php:70
+#: classes/class-eo-venue-list-table.php:127
+msgid "Delete"
+msgstr "Удалить"
+
+#: event-organiser-settings.php:36 event-organiser.php:103
+#: includes/event-organiser-install.php:114
+msgid "Delete Events"
+msgstr "Удалить событие"
+
+#: event-organiser-settings.php:180
+msgid "Delete expired events:"
+msgstr "Удалить прошедшие события:"
+
+#: event-organiser-settings.php:38 event-organiser.php:105
+#: includes/event-organiser-install.php:116
+msgid "Delete Other's Events"
+msgstr "Удалить события другого пользователя"
+
+#: includes/event-organiser-ajax.php:333
+msgid "Delete this occurrence"
+msgstr "Удалить это повторение"
+
+#: includes/event-organiser-cpt.php:468
+msgid "Delete will permanently remove the venue"
+msgstr "Нажатие 'Удалить' окончательно удалит место"
+
+#: classes/class-eo-event-list-widget.php:63
+msgid "DESC"
+msgstr "По убыванию"
+
+#: event-organiser-settings.php:229
+msgid "Disable CSS:"
+msgstr ""
+
+#: includes/event-organiser-register.php:677
+msgid "Dismiss"
+msgstr "Отменить"
+
+#: includes/event-organiser-register.php:676
+msgid "Dismiss this notice"
+msgstr "Закрыть это сообщение"
+
+#: classes/class-eo-widget-categories.php:96
+#: classes/class-eo-widget-venues.php:95
+msgid "Display as dropdown"
+msgstr "Показывать в виде выпадающего списка"
+
+#: event-organiser-settings.php:129 event-organiser-settings.php:156
+msgid "Display past events on calendars, event lists and archives (this can be "
+"over-ridden by shortcode attributes and widget options)."
+msgstr "Показать прошедшие события в календарях, списках событий и архивах (это "
+"может быть переопределено аттрибутами шорткода и в опциях виджета)."
+
+#: classes/class-eo-calendar-widget.php:22
+msgid "Displays a calendar of your events"
+msgstr "Показывает календарь ваших событий"
+
+#: classes/class-eo-event-list-widget.php:22
+msgid "Displays a list of events"
+msgstr "Показывает список событий"
+
+#: classes/class-eo-agenda-widget.php:11
+msgid "Displays a list of events, grouped by date"
+msgstr "Показывает список событий, сгруппированных по дате"
+
+#: event-organiser-settings.php:629
+msgid "Do not add to menu"
+msgstr "Не добавлять в меню"
+
+#: includes/class-event-organiser-im-export.php:97
+msgid "Download Export File"
+msgstr "Скачать файл экспорта"
+
+#: event-organiser-debug.php:84
+msgid "Download system information file"
+msgstr ""
+
+#: includes/event-organiser-ajax.php:255
+msgid "Draft"
+msgstr "Черновик"
+
+#: classes/class-eo-venue-list-table.php:69 templates/single-event.php:71
+msgid "Edit"
+msgstr "Редактировать"
+
+#: includes/event-organiser-cpt.php:66
+msgid "Edit Category"
+msgstr "Редактировать категорию"
+
+#: includes/event-organiser-ajax.php:314 includes/event-organiser-cpt.php:144
+msgid "Edit Event"
+msgstr "Редактировать событие"
+
+#: event-organiser-settings.php:34 event-organiser.php:101
+#: includes/event-organiser-install.php:112
+msgid "Edit Events"
+msgstr "Редактировать событие"
+
+#: event-organiser-settings.php:37 event-organiser.php:104
+#: includes/event-organiser-install.php:115
+msgid "Edit Others' Events"
+msgstr "Редактировать события других пользователей"
+
+#: includes/event-organiser-cpt.php:99
+msgid "Edit Tag"
+msgstr "Редактировать ярлыки"
+
+#: includes/event-organiser-cpt.php:467
+msgid "Edit takes you to the editing screen for that venue. You can also reach that "
+"screen by clicking on the venue title."
+msgstr "Нажав 'Редактировать' вы попадете на страницу редактирования этого места. На "
+"нее можно попасть также нажав на название места."
+
+#: event-organiser-venues.php:267 includes/event-organiser-cpt.php:33
+msgid "Edit Venue"
+msgstr "Редактировать место"
+
+#: event-organiser-settings.php:244
+msgid "Enable event pretty permalinks:"
+msgstr "Включить правильные ссылки события:"
+
+#: event-organiser-settings.php:189
+msgid "Enable events ICAL feed:"
+msgstr "Включить ленту ICAL:"
+
+#: event-organiser-settings.php:206
+msgid "Enable templates:"
+msgstr "Включить шаблоны:"
+
+#: includes/event-organiser-ajax.php:283
+msgid "End"
+msgstr "Конец"
+
+#: event-organiser-edit.php:105 event-organiser-manage.php:28
+msgid "End Date/Time"
+msgstr "Дата/время окончания"
+
+#: event-organiser-edit.php:88
+msgid "Ensure dates are entered in %1$s format and times in %2$s (24 hour) format"
+msgstr "Убедитесь, что даты введены в формате %1$s и время в формате %2$s (24 часа)"
+
+#: includes/class-event-organiser-im-export.php:251
+msgid "Error:"
+msgstr ""
+
+#: event-organiser-manage.php:19 includes/event-organiser-cpt.php:141
+msgid "Event"
+msgstr "Событие"
+
+#: event-organiser-settings.php:263
+msgid "Event (archive)"
+msgstr "Событие (архив)"
+
+#: event-organiser-settings.php:254
+msgid "Event (single)"
+msgstr "Событие (одно)"
+
+#: classes/class-eo-widget-categories.php:11 event-organiser-settings.php:282
+#: includes/event-organiser-cpt.php:60
+msgid "Event Categories"
+msgstr "Категории событий"
+
+#: classes/class-eo-calendar-widget.php:77
+#: classes/class-eo-event-list-widget.php:39
+msgid "Event categories"
+msgstr "Категории событий"
+
+#: templates/taxonomy-event-category.php:31
+msgid "Event Category Archives: %s"
+msgstr "Архивы категории событий: %s"
+
+#: classes/class-eo-agenda-widget.php:43
+msgid "Event date/time format"
+msgstr "Формат даты/времени события"
+
+#: event-organiser-edit.php:376
+msgid "Event dates were not saved."
+msgstr "Даты события не сохранены"
+
+#: event-organiser-calendar.php:311
+msgid "Event Detail"
+msgstr "Подробная информация о событии"
+
+#: event-organiser-calendar.php:309 event-organiser-edit.php:14
+#: templates/event-meta-event-single.php:37
+msgid "Event Details"
+msgstr "Подробная информация о событии"
+
+#: includes/event.php:721
+msgid "Event does not contain any dates."
+msgstr ""
+
+#: includes/event-organiser-cpt.php:229
+msgid "Event draft updated. <a target=\"_blank\" href=\"%s\">Preview event</a>"
+msgstr "Черновик события обновлён. <a target=\"_blank\" href=\"%s\">Посмотреть "
+"событие</a>"
+
+#: classes/class-eo-event-list-widget.php:79
+msgid "Event list widget placeholders"
+msgstr "Заглушки для виджета со списком событий"
+
+#: event-organiser-settings.php:557
+msgid "Event management permissions"
+msgstr ""
+
+#: event-organiser-settings.php:29
+msgid "Event Organiser"
+msgstr "Event Organiser"
+
+#: event-organiser-add-ons.php:19 event-organiser-add-ons.php:95
+msgid "Event Organiser Extensions"
+msgstr ""
+
+#: event-organiser-add-ons.php:99
+msgid "Event Organiser offers a range of extension which add additional features to "
+"the plug-in."
+msgstr ""
+
+#: event-organiser-go-pro.php:55
+msgid "Event Organiser Pro is a premium add-on bringing advanced booking management "
+"to Event Organiser."
+msgstr ""
+
+#: event-organiser-settings.php:28
+msgid "Event Organiser Settings"
+msgstr "Параметры органайзера"
+
+#: event-organiser-settings.php:219
+msgid "Event page:"
+msgstr "Страница события:"
+
+#: includes/event-organiser-cpt.php:223
+msgid "Event published. <a href=\"%s\">View event</a>"
+msgstr "Событие опубликовано. <a href=\"%s\">Посмотреть событие</a>"
+
+#: includes/event-organiser-cpt.php:222
+msgid "Event restored to revision from %s"
+msgstr "Событие восстановлено до редакции от %s"
+
+#: includes/event-organiser-cpt.php:224
+msgid "Event saved."
+msgstr "Событие сохранено."
+
+#: includes/event-organiser-cpt.php:226
+msgid "Event scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" "
+"href=\"%2$s\">Preview event</a>"
+msgstr "Событие запланировано на: <strong>%1$s</strong>. <a target=\"_blank\" "
+"href=\"%2$s\">Показать событие</a>"
+
+#: includes/event-organiser-cpt.php:225
+msgid "Event submitted. <a target=\"_blank\" href=\"%s\">Preview event</a>"
+msgstr "Событие отправлено. <a target=\"_blank\" href=\"%s\">Посмотреть событие</a>"
+
+#: templates/taxonomy-event-tag.php:31
+msgid "Event Tag Archives: %s"
+msgstr "Архивы ярлыка события: %s"
+
+#: event-organiser-settings.php:118 event-organiser-settings.php:290
+#: includes/event-organiser-cpt.php:92
+msgid "Event Tags"
+msgstr "Ярлыки события"
+
+#: event-organiser-calendar.php:254
+msgid "Event Title"
+msgstr "Заголовок события"
+
+#: includes/event-organiser-cpt.php:220
+msgid "Event updated."
+msgstr "Событие обновлено."
+
+#: includes/event-organiser-cpt.php:217
+msgid "Event updated. <a href=\"%s\">View event</a>"
+msgstr "Событие обновлено. <a href=\"%s\">Посмотреть событие</a>"
+
+#: classes/class-eo-calendar-widget.php:88
+msgid "Event venue"
+msgstr "Место проведения события"
+
+#: classes/class-eo-widget-venues.php:12 includes/event-organiser-cpt.php:28
+msgid "Event Venues"
+msgstr "Места проведения событий"
+
+#: classes/class-eo-event-list-widget.php:23 event-organiser-venues.php:434
+#: event-organiser.php:127 includes/event-organiser-cpt.php:140
+#: includes/event-organiser-cpt.php:152
+#: includes/event-organiser-install.php:96 templates/archive-event.php:42
+msgid "Events"
+msgstr "События"
+
+#: classes/class-eo-agenda-widget.php:19
+msgid "Events Agenda"
+msgstr "Повестка дня событий"
+
+#: event-organiser-settings.php:218
+msgid "Events archives:"
+msgstr "Архивы событий:"
+
+#: templates/taxonomy-event-venue.php:31
+msgid "Events at: %s"
+msgstr "События в: %s"
+
+#: classes/class-eo-calendar-widget.php:24 event-organiser-calendar.php:226
+msgid "Events Calendar"
+msgstr "Календарь событий"
+
+#: event-organiser-settings.php:221
+msgid "Events Category page:"
+msgstr "Страница категории событий:"
+
+#: event-organiser-manage.php:147
+msgid "Events within %d months"
+msgstr "События в течение %d месяцев"
+
+#: event-organiser-manage.php:145
+msgid "Events within %d weeks"
+msgstr "События в течение %d недель"
+
+#: event-organiser-manage.php:146
+msgid "Events within 1 month"
+msgstr "События в течение одного месяца"
+
+#: event-organiser-manage.php:144
+msgid "Events within 1 week"
+msgstr "События в течение одной недели"
+
+#: event-organiser-manage.php:148
+msgid "Events within 1 year"
+msgstr "События в течение одного года"
+
+#: event-organiser-manage.php:143
+msgid "Events within 24 hours"
+msgstr "События в течение 24 часов"
+
+#: templates/archive-event.php:34 templates/archive-event.php:37
+#: templates/archive-event.php:40
+msgid "Events: "
+msgstr "События:"
+
+#: includes/event-organiser-event-functions.php:715
+#: includes/event-organiser-register.php:236
+msgid "every %d days"
+msgstr "каждые %d дня(ей)"
+
+#: includes/event-organiser-event-functions.php:736
+#: includes/event-organiser-register.php:240
+msgid "every %d months on the"
+msgstr "каждые %d месяцев"
+
+#: includes/event-organiser-event-functions.php:723
+#: includes/event-organiser-register.php:238
+msgid "every %d weeks on"
+msgstr "каждые %d недель по"
+
+#: includes/event-organiser-event-functions.php:767
+msgid "every %d years"
+msgstr "каждые %d лет"
+
+#: includes/event-organiser-register.php:242
+msgid "every %d years on the"
+msgstr "каждые %d лет"
+
+#: includes/event-organiser-event-functions.php:713
+#: includes/event-organiser-register.php:235
+msgid "every day"
+msgstr "каждый день"
+
+#: includes/event-organiser-event-functions.php:734
+#: includes/event-organiser-register.php:239
+msgid "every month on the"
+msgstr "каждый месяц"
+
+#: includes/event-organiser-event-functions.php:721
+#: includes/event-organiser-register.php:237
+msgid "every week on"
+msgstr "каждую неделю по"
+
+#: includes/event-organiser-event-functions.php:765
+msgid "every year"
+msgstr "каждый год"
+
+#: includes/event-organiser-register.php:241
+msgid "every year on the"
+msgstr "каждый год"
+
+#: event-organiser-settings.php:114
+msgid "Excerpt"
+msgstr "Отрывок"
+
+#: event-organiser-settings.php:198
+msgid "Exclude events from searches:"
+msgstr "Исключить события из поиска:"
+
+#: event-organiser-manage.php:142
+msgid "Expired events"
+msgstr "Прошедшие события"
+
+#: event-organiser-settings.php:21
+msgid "Export"
+msgstr "Экспорт"
+
+#: includes/class-event-organiser-im-export.php:91
+msgid "Export Events"
+msgstr "Экспорт событий"
+
+#: event-organiser-add-ons.php:20
+msgid "Extensions"
+msgstr ""
+
+#: includes/class-eo-ical-parser.php:124
+msgid "Feed not found"
+msgstr ""
+
+#: includes/class-event-organiser-im-export.php:61
+msgid "File Error encountered: %d"
+msgstr "Произошла ошибка файла: % d"
+
+#: includes/class-event-organiser-im-export.php:73
+msgid "File size: %s. File type: %s"
+msgstr "Размер файла: %s. Тип файла: %s"
+
+#: event-organiser-add-ons.php:130 event-organiser-go-pro.php:90
+msgid "Find out more &hellip;"
+msgstr ""
+
+#: includes/event-organiser-event-functions.php:693
+#: includes/event-organiser-register.php:245
+msgid "first"
+msgstr "первый"
+
+#: event-organiser-go-pro.php:71
+msgid "Flexible Booking Options"
+msgstr ""
+
+#: event-organiser-settings.php:212
+msgid "For each of the pages, the corresponding template is used. To use your own "
+"template simply give it the same name and store in your theme folder. By "
+"default, if Event Organiser cannot find a template in your theme directory, "
+"it will use its own default template. To prevent this, uncheck this option. "
+"WordPress will then decide which template from your theme's folder to use."
+msgstr "Для каждой из страниц используется соответствующий шаблон. Чтобы "
+"использовать собственный шаблон, надо просто дать ему такое же имя и "
+"сохранить в папке темы. По умолчанию, если плагин не находит шаблон в "
+"каталоге темы, используется его собственный шаблон по умолчанию. Чтобы "
+"избежать этого, отключите эту опцию. WordPress затем решит какой шаблон из "
+"папки вашей темы использовать."
+
+#: includes/event-organiser-cpt.php:490
+msgid "For more information"
+msgstr "За дополнительной информацией"
+
+#: event-organiser-settings.php:224
+msgid "For more information see documentation <a href='%s'>on editing the "
+"templates</a>"
+msgstr ""
+
+#: includes/event-organiser-event-functions.php:693
+#: includes/event-organiser-register.php:245
+msgid "fourth"
+msgstr "четвёртый"
+
+#: event-organiser-manage.php:141
+msgid "Future events"
+msgstr "Будущие события"
+
+#: event-organiser-settings.php:18 event-organiser-settings.php:58
+msgid "General"
+msgstr "Общие"
+
+#: event-organiser-go-pro.php:52
+msgid "Get Event Organiser Pro"
+msgstr ""
+
+#: event-organiser-go-pro.php:24
+msgid "Get Event Organiser Pro Add-On"
+msgstr ""
+
+#: event-organiser-venues.php:414
+msgid "Get Link"
+msgstr "Получить ссылку"
+
+#: event-organiser-go-pro.php:77
+msgid "Give your users the ability to search and filter through your events with "
+"the event search shortcode. Event Organiser Pro also adds a text editor "
+"button to make inserting and configuring your shortcodes that bit easier. "
+msgstr ""
+
+#: event-organiser-go-pro.php:25
+msgid "Go Pro"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:493
+msgid "Go Pro!"
+msgstr ""
+
+#: event-organiser-calendar.php:59 includes/event-organiser-register.php:58
+msgid "go to date"
+msgstr "перейти к дате"
+
+#: event-organiser-go-pro.php:96
+msgid "Go to Event Organiser settings"
+msgstr ""
+
+#: classes/class-eo-agenda-widget.php:31
+msgid "Group by"
+msgstr "Группировать по"
+
+#: classes/class-eo-agenda-widget.php:39
+msgid "Group date format"
+msgstr "Сгруппировать формат даты"
+
+#: classes/class-eo-event-list-widget.php:71 event-organiser-settings.php:159
+msgid "Group occurrences"
+msgstr "Сгруппировать повторения события"
+
+#: includes/event-organiser-register.php:222
+msgid "Hide dates"
+msgstr "Не показывать даты"
+
+#: includes/event-organiser-register.php:225
+msgid "Hour"
+msgstr "Час"
+
+#: includes/event-organiser-cpt.php:465
+msgid "Hovering over a row in the venues list will display action links that allow "
+"you to manage that venue. You can perform the following actions:"
+msgstr "При наведении курсора на строку в списке мест отображаются ссылки на "
+"действия, которые позволят вам управлять этим местом. Вы можете выполнять "
+"следующие действия:"
+
+#: event-organiser-settings.php:177
+msgid "If 'no' is selected, an occurrence of an event is only past when it has "
+"finished. Otherwise, an occurrence is considered 'past' as soon as it "
+"starts."
+msgstr "Если выбрано 'нет', то событие станет прошедшим, когда оно завершится. В "
+"противном случае, событие станновится 'прошедшим' как только начнётся."
+
+#: includes/event-organiser-cpt.php:438
+msgid "If monthly reoccurrence is selected, select whether this should repeat on "
+"that date of the month (e.g. on the 24th) or on the day of the month (e.g. "
+"on the third Tuesday) "
+msgstr "Если выбрано ежемесячное повторение, укажите будет ли оно повторяться по "
+"определенным числам  (например, 24-е число каждого месяца) или по "
+"определенным дням недели (например, каждая третья среда месяца)"
+
+#: event-organiser-settings.php:165
+msgid "If selected only one occurrence of an event will be displayed on event lists "
+"and archives (this can be over-ridden by shortcode attributes and widget "
+"options."
+msgstr "Если отмечено, только одно повторение события будет отображаться в списках "
+"событий и архивах (это может быть переопределено атрибутами шорткода и в "
+"опциях виджета)."
+
+#: event-organiser-settings.php:186
+msgid "If selected the event will be automatically trashed 24 hours after the last "
+"occurrence finishes."
+msgstr "Если выбрано, то событие автоматически будет удалено через 24 часа после "
+"окончания."
+
+#: event-organiser-settings.php:195
+msgid "If selected, visitors can subscribe to your events with the url: %s"
+msgstr "Если выбрано, посетители смогут подписаться на ваши события по ссылке: %s"
+
+#: includes/event-organiser-cpt.php:439
+msgid "If weekly reoccurrence is selected, select which days of the week the event "
+"should be repeated. If no days are selected, the day of the start date is "
+"used"
+msgstr "Если выбрано еженедельное повторение, укажите в какой день недели оно будет "
+"повторяться. Если день не выбран, то будет установлен день начала"
+
+#: event-organiser-settings.php:250
+msgid "If you have pretty permalinks enabled, select to have pretty premalinks for "
+"events."
+msgstr "Если вы настроили правильные ссылки, отметьте  чекбокс, чтобы использовать "
+"правильные ссылки и для событий."
+
+#: event-organiser-settings.php:21
+msgid "Import"
+msgstr "Импорт"
+
+#: includes/class-event-organiser-im-export.php:103
+msgid "Import an ICS file."
+msgstr "Импорт ICS файла."
+
+#: includes/class-event-organiser-im-export.php:105
+msgid "Import categories"
+msgstr "Импорт категорий"
+
+#: includes/class-event-organiser-im-export.php:100
+msgid "Import Events"
+msgstr "Импорт событий"
+
+#: includes/class-event-organiser-im-export.php:104
+msgid "Import venues"
+msgstr "Импорт мест"
+
+#: classes/class-eo-agenda-widget.php:47
+msgid "Include 'Add To Google' link"
+msgstr "Включить ссылку 'Добавить в Гугл'"
+
+#: classes/class-eo-calendar-widget.php:46
+#: classes/class-eo-event-list-widget.php:67
+msgid "Include past events"
+msgstr "Включить прошедшие события"
+
+#: event-organiser-edit.php:180
+msgid "Include/Exclude occurrences"
+msgstr "Включить/Исключить повторения"
+
+#: includes/class-eo-ical-parser.php:700
+msgid "Invalid date \"%s\". Date expected in YYYYMMDD format."
+msgstr ""
+
+#: includes/class-eo-ical-parser.php:738
+msgid "Invalid datetime \"%s\". Date expected in YYYYMMDDTHHiissZ or "
+"YYYYMMDDTHHiiss format."
+msgstr ""
+
+#: includes/class-event-organiser-im-export.php:71
+msgid "Invalid file uploaded. The file must be a ics calendar file of type "
+"'text/calendar', no larger than 2MB."
+msgstr "Загружен файл неправильного формата. Файл должен быть в формате календаря "
+"ics типа 'text/calendar', размер не должен превышать 2МВ."
+
+#: includes/event.php:601
+msgid "Invalid monthly schedule (invalid ordinal)"
+msgstr "Неверное месячное расписание (недопустмое порядковое числительное)"
+
+#: event-organiser-debug.php:245
+msgid "Known plug-in & theme conflicts, highlighted in red, may be minor or have a "
+"simple resolution. Please contact support."
+msgstr "Известные конфликты плагина и темы выделенные красным, не представляют "
+"серьезных проблем или могут быть легко устранены. Пожалуйста, свяжитесь со "
+"службой поддержки."
+
+#: includes/event-organiser-event-functions.php:693
+#: includes/event-organiser-register.php:245
+msgid "last"
+msgstr "последний"
+
+#: templates/archive-event.php:55 templates/archive-event.php:110
+#: templates/taxonomy-event-category.php:48
+#: templates/taxonomy-event-category.php:106
+#: templates/taxonomy-event-tag.php:48 templates/taxonomy-event-tag.php:106
+#: templates/taxonomy-event-venue.php:48
+#: templates/taxonomy-event-venue.php:105
+msgid "Later events <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Позже <span class=\\\"meta-nav\\\">&rarr;</span>"
+
+#: classes/class-eo-calendar-widget.php:66
+msgid "Link directly to event for days with only one event"
+msgstr ""
+
+#: classes/class-eo-calendar-widget.php:80
+#: classes/class-eo-event-list-widget.php:41
+msgid "List category slug(s), seperate by comma. Leave blank for all"
+msgstr "Перечислите слаги категории через запятую. Оставьте пустым, если хотите "
+"включить все"
+
+#: event-organiser-calendar.php:233
+#: includes/event-organiser-event-functions.php:1332
+msgid "Loading&#8230;"
+msgstr "Загрузка&#8230;"
+
+#: includes/event-organiser-cpt.php:228
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: event-organiser-settings.php:41 event-organiser.php:108
+#: includes/event-organiser-install.php:119
+msgid "Manage Event Categories & Tags"
+msgstr "Управление ярлыками и категориями события"
+
+#: event-organiser-settings.php:40 event-organiser.php:107
+#: includes/event-organiser-install.php:118
+msgid "Manage Venues"
+msgstr "Управление событиями"
+
+#: includes/event-organiser-register.php:226
+msgid "Minute"
+msgstr "Минута"
+
+#: event-organiser-settings.php:144
+msgid "mm-dd-yyyy"
+msgstr "мм-дд-гггг"
+
+#: event-organiser-calendar.php:58 includes/event-organiser-register.php:57
+#: includes/event-organiser-register.php:231
+msgid "month"
+msgstr "месяц"
+
+#: classes/class-eo-agenda-widget.php:35 event-organiser-calendar.php:230
+msgid "Month"
+msgstr "Месяц"
+
+#: event-organiser-settings.php:270
+msgid "Month archive"
+msgstr "Архив за месяц"
+
+#: event-organiser-edit.php:127
+msgid "monthly"
+msgstr "ежемесячно"
+
+#: includes/event-organiser-register.php:232
+msgid "months"
+msgstr "месяцы"
+
+#: event-organiser-debug.php:72
+msgid "Most bugs arise from theme or plug-in conflicts. You can check this by "
+"disabling all other plug-ins and switching to TwentyTweleve."
+msgstr "Большинство ошибок возникает из-за конфликтов с темой илидругими плагинами. "
+"Проверить, это ли  явлется причиной вышей проблемы, можно отключив все "
+"остальные плагины и переключившись на тему TwentyTweleve."
+
+#: includes/event-organiser-cpt.php:69
+msgid "New Category Name"
+msgstr "Название новой категории"
+
+#: includes/event-organiser-cpt.php:145
+msgid "New Event"
+msgstr "Новое событие"
+
+#: includes/event-organiser-cpt.php:102
+msgid "New Tag Name"
+msgstr "Название нового ярлыка"
+
+#: includes/event-organiser-cpt.php:36
+msgid "New Venue Name"
+msgstr "Название нового места"
+
+#: classes/class-eo-calendar-widget.php:266
+msgid "Next month"
+msgstr "Следующий месяц"
+
+#: event-organiser-debug.php:178 event-organiser-debug.php:182
+#: event-organiser-debug.php:186 event-organiser-settings.php:174
+msgid "No"
+msgstr "Нет"
+
+#: includes/event-organiser-cpt.php:70
+msgid "No categories found"
+msgstr "Категории не найдены"
+
+#: includes/event-organiser-cpt.php:149
+msgid "No events found"
+msgstr "Событий не найдено"
+
+#: includes/event-organiser-cpt.php:150
+msgid "No events found in Trash"
+msgstr "В корзине событий не найдено"
+
+#: includes/class-event-organiser-im-export.php:242
+msgid "No events were imported."
+msgstr "События не импортированы."
+
+#: includes/class-event-organiser-im-export.php:68
+msgid "No file detected."
+msgstr "Файл не обнаружен."
+
+#: includes/event-organiser-cpt.php:103
+msgid "No tags found"
+msgstr "Ярлыки не найдены"
+
+#: includes/event-organiser-ajax.php:594
+msgid "No Venue"
+msgstr "Нет мест"
+
+#: includes/event-organiser-cpt.php:37
+msgid "No venues found"
+msgstr "Мест не найдено"
+
+#: event-organiser-settings.php:574
+msgid "None"
+msgstr "Нет"
+
+#: templates/archive-event.php:119 templates/taxonomy-event-category.php:116
+#: templates/taxonomy-event-tag.php:116 templates/taxonomy-event-venue.php:115
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: classes/class-eo-event-list-widget.php:35
+msgid "Number of events"
+msgstr "Количество событий"
+
+#: event-organiser-calendar.php:192
+msgid "Occurrence deleted."
+msgstr "Повторение удалено."
+
+#: includes/event.php:841
+msgid "Occurrence not deleted. Occurrence not found."
+msgstr ""
+
+#: event-organiser-edit.php:146 templates/shortcode-event-list.php:52
+#: templates/widget-event-list.php:49
+msgid "on"
+msgstr "-"
+
+#: event-organiser-edit.php:126
+msgid "once"
+msgstr "однажды"
+
+#: includes/event-organiser-event-functions.php:703
+msgid "one time only"
+msgstr "только один раз"
+
+#: includes/event-organiser-cpt.php:448
+msgid "Only pre-existing venues can be selected. To add a venue, go to the venues "
+"page."
+msgstr "Могут быть выбраны только ранее созданные места. Для добавления места, "
+"пройдите на страницу мест."
+
+#: classes/class-eo-event-list-widget.php:55
+msgid "Order by"
+msgstr "Сортировать по"
+
+#: event-organiser-edit.php:31 event-organiser-manage.php:23
+#: event-organiser-settings.php:112 includes/event-organiser-ajax.php:284
+msgid "Organiser"
+msgstr "Организатор"
+
+#: includes/event-organiser-cpt.php:458 includes/event-organiser-cpt.php:477
+msgid "Overview"
+msgstr "Обзор"
+
+#: event-organiser-settings.php:633
+msgid "Page list (fallback)"
+msgstr "Список страниц"
+
+#: includes/event-organiser-cpt.php:64 includes/event-organiser-cpt.php:65
+msgid "Parent Category"
+msgstr "Родительская категория"
+
+#: event-organiser-venues.php:407
+msgid "Permalink:"
+msgstr "Постоянная ссылка:"
+
+#: event-organiser-settings.php:20
+msgid "Permalinks"
+msgstr "Постоянные ссылки"
+
+#: event-organiser-settings.php:19
+msgid "Permissions"
+msgstr "Права доступа"
+
+#: event-organiser-settings.php:604
+msgid "Please note to enable these structures you must first have pretty permalinks "
+"enabled on WordPress in Settings > Permalinks."
+msgstr "Пожалуйста помните: чтобы включить эту структуру вы должны сначала настроить "
+"правильные ссылки в меню \\\"Параметры - Постоянные ссылки\\\"."
+
+#: includes/event-organiser-cpt.php:96
+msgid "Popular Tags"
+msgstr "Популярные ярлыки"
+
+#: includes/event-organiser-venue-functions.php:885
+msgid "Post Code"
+msgstr "Почтовый индекс"
+
+#: classes/class-eo-calendar-widget.php:263
+msgid "Previous month"
+msgstr "Предыдущий месяц"
+
+#: includes/event-organiser-ajax.php:253
+msgid "Private"
+msgstr "Личный"
+
+#: includes/event-organiser-ajax.php:251
+msgid "Protected"
+msgstr "Защищено"
+
+#: classes/class-eo-event-list-widget.php:59
+msgid "Publish date"
+msgstr ""
+
+#: event-organiser-calendar.php:286
+msgid "Publish Event"
+msgstr "опубликовать событие"
+
+#: event-organiser-settings.php:35 event-organiser.php:102
+#: includes/event-organiser-install.php:113
+msgid "Publish Events"
+msgstr "Публиковать события"
+
+#: event-organiser-settings.php:39 event-organiser.php:106
+#: includes/event-organiser-install.php:117
+msgid "Read Private Events"
+msgstr "Читать частные события"
+
+#: event-organiser-edit.php:124
+msgid "Reoccurence:"
+msgstr "Повторение:"
+
+#: event-organiser-manage.php:29
+msgid "Reoccurrence"
+msgstr "Повторение"
+
+#: event-organiser-edit.php:140
+msgid "Repeat every"
+msgstr "Повторять каждый"
+
+#: includes/event-organiser-cpt.php:433
+msgid "Repeating events"
+msgstr "Повторяющиеся события"
+
+#: event-organiser-settings.php:117
+msgid "Revisions"
+msgstr "Ревизии"
+
+#: event-organiser-settings.php:563
+msgid "Role"
+msgstr "Роль"
+
+#: event-organiser-venues.php:154
+msgid "Save"
+msgstr "Сохранить"
+
+#: event-organiser-calendar.php:282
+msgid "Save Draft"
+msgstr "Сохранить черновик"
+
+#: includes/event.php:518
+msgid "Schedule end date is before is before the start date."
+msgstr "Дата окончания расписания предшествует дате начала."
+
+#: includes/event.php:488
+msgid "Schedule not recognised."
+msgstr "Расписание не распознано."
+
+#: includes/event-organiser-cpt.php:62
+msgid "Search Categories"
+msgstr "Искать в категориях"
+
+#: includes/event-organiser-cpt.php:148
+msgid "Search events"
+msgstr "Искать в событиях"
+
+#: event-organiser-venues.php:233
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Искать в результатах поиска по запросу &#8220;%s&#8221;"
+
+#: includes/event-organiser-cpt.php:94
+msgid "Search Tags"
+msgstr "Искать в ярлыках"
+
+#: event-organiser-venues.php:243 includes/event-organiser-cpt.php:30
+msgid "Search Venues"
+msgstr "Искать в местах"
+
+#: includes/event-organiser-event-functions.php:693
+#: includes/event-organiser-register.php:245
+msgid "second"
+msgstr "второй"
+
+#: includes/event-organiser-cpt.php:491
+msgid "See the <a %s> documentation</a>"
+msgstr "Читать <a %s>документацию</a>"
+
+#: event-organiser-edit.php:211
+#: includes/event-organiser-venue-functions.php:905
+msgid "Select a venue"
+msgstr "Выбрать место"
+
+#: classes/class-eo-widget-categories.php:45
+msgid "Select Category"
+msgstr "Выбрать категорию"
+
+#: classes/class-eo-widget-venues.php:45
+msgid "Select Venue"
+msgstr ""
+
+#: event-organiser-settings.php:107
+msgid "Select which features events should support"
+msgstr "Выбрать, какими параметрами будут обладать события"
+
+#: includes/event-organiser-cpt.php:444 includes/event-organiser-cpt.php:445
+msgid "Selecting a venue"
+msgstr "Выбор места"
+
+#: event-organiser-go-pro.php:72
+msgid "Sell tickets for specific dates or sell tickets for all dates of an event - "
+"such as booking places on a course. You can offer multiple tickets, and "
+"customise the booking form to suit your needs."
+msgstr ""
+
+#: includes/event-organiser-cpt.php:107
+msgid "Separate tags with commas"
+msgstr "Разделить ярлыки запятой"
+
+#: includes/event-organiser-cpt.php:39
+msgid "Separate venues with commas"
+msgstr "Разделить места запятой"
+
+#: event-organiser-settings.php:558
+msgid "Set permissions for events and venue management"
+msgstr "Установить права для управления событиями и местами"
+
+#: includes/event-organiser-register.php:345
+msgid "Settings"
+msgstr "Настройки"
+
+#: event-organiser-edit.php:183 includes/event-organiser-register.php:221
+msgid "Show dates"
+msgstr "Показывать даты"
+
+#: classes/class-eo-widget-categories.php:99
+msgid "Show hierarchy"
+msgstr "Показать иерархию"
+
+#: includes/event-organiser-register.php:53
+msgid "Show Less"
+msgstr "Меньше"
+
+#: classes/class-eo-calendar-widget.php:56
+msgid "Show long events"
+msgstr ""
+
+#: includes/event-organiser-register.php:52
+msgid "Show More"
+msgstr "Больше"
+
+#: event-organiser-settings.php:123 event-organiser-settings.php:150
+msgid "Show past events:"
+msgstr "Показать прошедшие события:"
+
+#: event-organiser-venues.php:433
+msgid "Slug"
+msgstr "Слаг"
+
+#: includes/event-organiser-cpt.php:436
+msgid "Specify how regularly the event should repeat (default 1)"
+msgstr "Уточните, как часто будет повторяться событие (по умолчанию один раз)"
+
+#: includes/event-organiser-ajax.php:282
+#: templates/event-meta-event-single.php:58
+msgid "Start"
+msgstr "Начало"
+
+#: classes/class-eo-event-list-widget.php:57
+msgid "Start date"
+msgstr "Дата начала"
+
+#: includes/event.php:497
+msgid "Start date not provided."
+msgstr "Дата начала не указана."
+
+#: includes/event.php:515
+msgid "Start date occurs after end date."
+msgstr "Дата окончания предшествует дате начала."
+
+#: event-organiser-edit.php:92 event-organiser-manage.php:27
+msgid "Start Date/Time"
+msgstr "Дата/время начала"
+
+#: includes/event-organiser-venue-functions.php:884
+msgid "State / Province"
+msgstr "Штат/провинция"
+
+#: event-organiser-calendar.php:292
+msgid "Submit for Review"
+msgstr "Отправить на рассмотрение"
+
+#: event-organiser-debug.php:13 event-organiser-debug.php:14
+#: event-organiser-debug.php:59
+msgid "System Info"
+msgstr "Информация о системе"
+
+#: includes/event-organiser-cpt.php:105
+#: includes/event-organiser-event-functions.php:1389
+#: templates/event-meta-event-single.php:73
+msgid "Tags"
+msgstr "Ярлыки"
+
+#: classes/class-eo-event-list-widget.php:77
+msgid "Template (leave blank for default)"
+msgstr "Шаблон (по умолчанию оставить пустым)"
+
+#: event-organiser-settings.php:59
+msgid "Templates"
+msgstr "Шаблоны"
+
+#: event-organiser-debug.php:67
+msgid "The 'system info' link in under the Events admin tab is only visible to "
+"admins and only when <code>WP_DEBUG</code> is set to <code>true</code>."
+msgstr ""
+
+#: includes/event-organiser-cpt.php:427
+msgid "The end date is the date the event finishes. If the event is a reoccuring "
+"event, this is the end date of the first occurrence."
+msgstr "Дата окончания - день, когда заканчивается события. Если событие "
+"повторяющееся, то датой окончания считается конец первого повторения."
+
+#: includes/class-event-organiser-im-export.php:94
+msgid "The export button below generates an ICS file of your events that can be "
+"imported in to other calendar applications such as Google Calendar."
+msgstr "Кнопка экспорта создаёт ICS файл с вашими событиями, который может быть "
+"импортирован в другие приложения,  например, Google Calendar."
+
+#: includes/event-organiser-cpt.php:426
+msgid "The start date is the date the event starts. If the event is a reoccuring "
+"event, this is the start date of the first occurrence."
+msgstr "Дата начала - день, в который событие начинается. Если событие "
+"повторяющееся, то датой начала считается дата первого повторения."
+
+#: classes/class-eventorganiser-shortcodes.php:362
+msgid "There is no excerpt because this is a protected post."
+msgstr "Нет отрывка, потому что запись защищена."
+
+#: includes/class-eo-ical-parser.php:109
+msgid "There was an error detecting iCal source."
+msgstr ""
+
+#: includes/class-eo-ical-parser.php:164
+msgid "There was an error fetching the feed. Response code: %s."
+msgstr ""
+
+#: includes/class-eo-ical-parser.php:184
+msgid "There was an error opening the ICAL file."
+msgstr ""
+
+#: includes/event-organiser-event-functions.php:693
+#: includes/event-organiser-register.php:245
+msgid "third"
+msgstr "третий"
+
+#: event-organiser-settings.php:147
+msgid "This alters the default format for inputting dates."
+msgstr "Это изменяет формат по умолчанию для ввода даты."
+
+#: templates/event-meta-event-single.php:50
+msgid "This event finished on %s"
+msgstr "Это событие заканчивается в %s"
+
+#: includes/event-organiser-cpt.php:230
+msgid "This event has been broken from a recurring event."
+msgstr ""
+
+#: templates/event-meta-event-single.php:46
+msgid "This event is running from %1$s until %2$s. It is next occurring on %3$s"
+msgstr "Это событие проходит с %1$s до %2$s. Ближайшая дата: %3$s"
+
+#: includes/event-organiser-ajax.php:308
+msgid "This event reoccurs"
+msgstr "Это событие повторяется"
+
+#: templates/single-event.php:60
+msgid "This event was posted by <a href=\"%5$s\">%4$s</a>. Bookmark the <a "
+"href=\"%2$s\" title=\"Permalink to %3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Событие опубликовано <a href=\\\"%5$s\\\">%4$s</a>. Добавить <a "
+"href=\\\"%2$s\\\" title=\\\"Ссылка на %3$s\\\" "
+"rel=\\\"bookmark\\\">ссылку</a> в закладки."
+
+#: templates/single-event.php:58
+msgid "This event was posted in %1$s by <a href=\"%5$s\">%4$s</a>. Bookmark the <a "
+"href=\"%2$s\" title=\"Permalink to %3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Событие опубликовано в %1$s <a href=\\\"%5$s\\\">%4$s</a>. Добавить <a "
+"href=\\\"%2$s\\\" title=\\\" Ссылка на %3$s\\\" "
+"rel=\\\"bookmark\\\">ссылку</a> в закладки."
+
+#: includes/event-organiser-register.php:243
+msgid "This event will repeat"
+msgstr "Это событие повторится"
+
+#: event-organiser-edit.php:75
+msgid "This is a reoccurring event"
+msgstr "Это повторяющееся событие"
+
+#: includes/event-organiser-cpt.php:459
+msgid "This is the list of all saved events. Note that <strong> reoccurring events "
+"appear as a single row </strong> in the table and the start and end date "
+"refers to the first occurrence of that event."
+msgstr "Это список всех сохранённых событий. Обратите внимание, что <strong> "
+"повторяющиеся события отображаются в виде одной строки </ STRONG> в таблице, "
+"и дата начала и окончания относится к первому повторению этого события."
+
+#: event-organiser-debug.php:65
+msgid "This page highlights useful information for debugging. If you're reporting a "
+"bug, please include this information."
+msgstr "На этой странице выделена информация, которая может быть важна для "
+"исправления ошибок. Если вы хотите заявить об ошибке, пожалуйста, приложите "
+"эти данные к вашему заявлению."
+
+#: includes/event-organiser-cpt.php:478
+msgid "This page shows all (occurrances of) events. You can view the summary of an "
+"event by clicking on it. If you have the necessary permissions, a link to "
+"the event's edit page will appear also."
+msgstr "Эта страница покажет все события (или их повторения). Вы можете посмотреть "
+"сводку события, нажав на него. Если у вас достаточно прав, вам будет видна "
+"также и ссылка на страницу редактирования события."
+
+#: event-organiser-settings.php:113
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: classes/class-eo-agenda-widget.php:27
+#: classes/class-eo-calendar-widget.php:36
+#: classes/class-eo-event-list-widget.php:31
+#: classes/class-eo-event-list-widget.php:58
+msgid "Title"
+msgstr "Заголовок"
+
+#: classes/class-eo-widget-categories.php:92
+#: classes/class-eo-widget-venues.php:91
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: event-organiser-debug.php:74
+msgid "To help speed things along, if you report a bug please indicate if you have "
+"done so. Once the plug-in or theme has been identified it is often easy to "
+"resolve the issue."
+msgstr "Чтобы исправление ошибок шло быстрее, укажите, что вы отправили заявление об "
+"ошибке. Зачастую легче исправлять баги, когда известен плагин и тема."
+
+#: includes/event-organiser-cpt.php:434
+msgid "To repeat an event according to some regular pattern, use the reoccurrence "
+"dropdown menu to select how the event is to repeat. Further options then "
+"appear, "
+msgstr "Чтобы повторить событие с некоторой закономерностью, используйте выпадающее "
+"меню для выбора способа повторения события. Дополнительные опции появятся,"
+
+#: event-organiser-calendar.php:55 includes/event-organiser-register.php:54
+msgid "today"
+msgstr "сегодня"
+
+#: includes/class-eo-ical-parser.php:117
+msgid "Unable to read iCal file"
+msgstr ""
+
+#: event-organiser-debug.php:448
+msgid "unknown"
+msgstr "неизвестный"
+
+#: event-organiser-edit.php:170
+#: includes/event-organiser-event-functions.php:772
+#: includes/event-organiser-register.php:244
+msgid "until"
+msgstr "до"
+
+#: templates/event-meta-event-single.php:88
+msgid "Upcoming Dates"
+msgstr "Ближайшие даты"
+
+#: includes/event-organiser-cpt.php:67
+msgid "Update Category"
+msgstr "Обновить категорию"
+
+#: includes/event-organiser-cpt.php:100
+msgid "Update Tag"
+msgstr "Обновить ярлык"
+
+#: event-organiser-venues.php:345 includes/event-organiser-cpt.php:34
+msgid "Update Venue"
+msgstr "Обновить место"
+
+#: includes/class-event-organiser-im-export.php:109
+msgid "Upload ICS file"
+msgstr "Закачать ICS файл"
+
+#: includes/event-organiser-cpt.php:447
+msgid "Use the venues input field to search for existing venues"
+msgstr "Используйте поле ввода для поиска существующих мест"
+
+#: classes/class-eo-event-list-widget.php:44 event-organiser-edit.php:208
+#: event-organiser-manage.php:25 event-organiser-venues.php:426
+#: includes/event-organiser-event-functions.php:1372
+#: templates/event-meta-event-single.php:63
+msgid "Venue"
+msgstr "Место"
+
+#: event-organiser-venues.php:170
+msgid "Venue <strong>created</strong>"
+msgstr "Место <strong>создано</strong>"
+
+#: event-organiser-venues.php:171
+msgid "Venue <strong>updated</strong>"
+msgstr "Место <strong>обновлено</strong>"
+
+#: event-organiser-venues.php:86
+msgid "Venue <strong>was not</strong> created"
+msgstr "Место <strong>не было</strong> создано"
+
+#: event-organiser-venues.php:49
+msgid "Venue <strong>was not</strong> updated"
+msgstr "Место <strong>не было</strong> обновлено"
+
+#: event-organiser-go-pro.php:81
+msgid "Venue custom fields & thumbnails"
+msgstr ""
+
+#: event-organiser-venues.php:300
+msgid "Venue Location"
+msgstr "Расположение места"
+
+#: event-organiser-venues.php:401
+msgid "Venue name"
+msgstr "Название места"
+
+#: event-organiser-edit.php:221
+msgid "Venue Name"
+msgstr "Название места"
+
+#: event-organiser-settings.php:220
+msgid "Venue page:"
+msgstr "Страница места:"
+
+#: event-organiser-venues.php:172
+msgid "Venue(s) <strong>deleted</strong>"
+msgstr "Места <strong>удалены</strong>"
+
+#: event-organiser-venues.php:142
+msgid "Venue(s) <strong>were not </strong> deleted"
+msgstr "Места <strong>не были</strong> удалены"
+
+#: classes/class-eo-widget-venues.php:20 event-organiser-settings.php:274
+#: event-organiser-venues.php:13 event-organiser-venues.php:14
+#: event-organiser-venues.php:162 event-organiser-venues.php:229
+msgid "Venues"
+msgstr "Места"
+
+#: classes/class-eo-venue-list-table.php:71
+#: includes/event-organiser-ajax.php:544
+msgid "View"
+msgstr "Посмотреть"
+
+#: event-organiser-calendar.php:60 event-organiser-manage.php:113
+#: includes/event-organiser-register.php:59
+msgid "View all categories"
+msgstr "Смотреть все категории"
+
+#: event-organiser-manage.php:140
+msgid "View all events"
+msgstr "Смотреть все события"
+
+#: event-organiser-calendar.php:61 event-organiser-manage.php:127
+#: includes/event-organiser-register.php:60
+msgid "View all venues"
+msgstr "Смотреть все места"
+
+#: includes/event-organiser-cpt.php:147
+msgid "View Event"
+msgstr "Смотреть событие"
+
+#: event-organiser-venues.php:415 includes/event-organiser-cpt.php:32
+msgid "View Venue"
+msgstr "Смотреть место"
+
+#: includes/event-organiser-cpt.php:469
+msgid "View will take you to the venue's page"
+msgstr "Нажав 'Посмотреть' вы попадете на страницу места"
+
+#: includes/class-event-organiser-im-export.php:261
+msgid "Warning:"
+msgstr ""
+
+#: event-organiser-calendar.php:57 includes/event-organiser-register.php:56
+#: includes/event-organiser-register.php:229
+msgid "week"
+msgstr "неделя"
+
+#: classes/class-eo-agenda-widget.php:34 event-organiser-calendar.php:230
+msgid "Week"
+msgstr "Неделя"
+
+#: event-organiser-edit.php:126
+msgid "weekly"
+msgstr "еженедельно"
+
+#: includes/event-organiser-register.php:230
+msgid "weeks"
+msgstr "недели"
+
+#: event-organiser-calendar.php:250
+msgid "When"
+msgstr "Когда"
+
+#: event-organiser-calendar.php:258 includes/event-organiser-ajax.php:296
+msgid "Where"
+msgstr "Где"
+
+#: includes/event-organiser-register.php:233
+msgid "year"
+msgstr "год"
+
+#: event-organiser-settings.php:269
+msgid "Year archive"
+msgstr "Архив за год"
+
+#: event-organiser-edit.php:127
+msgid "yearly"
+msgstr "ежегодно"
+
+#: includes/event-organiser-register.php:234
+msgid "years"
+msgstr "годы"
+
+#: event-organiser-debug.php:178 event-organiser-debug.php:182
+#: event-organiser-debug.php:186 event-organiser-settings.php:175
+msgid "Yes"
+msgstr "Да"
+
+#: includes/event-organiser-cpt.php:484
+msgid "You can create an event on this Calendar, by clicking on day or dragging "
+"over multiple days (in Month view) or multiple times (in Week and Day view). "
+"You can give the event a title, specify a venue and provide a descripton. "
+"The event can be immediately published or saved as a draft. In any case, the "
+"event is created and you are forwarded to that event's edit page."
+msgstr "Вы можете создавать события в этом календаре, нажав на день или захватив "
+"курсором несколько дней (в месячном представлении) или несколько часов (в "
+"недельном или дневном представлении). Вы можете дать событию название, "
+"указать место и дать описание. Это событие может быть немедленно "
+"опубликовано или сохранено как черновик. В обоих случаях, событие создается, "
+"и вы перенаправляетесь на страницу редактирования."
+
+#: classes/class-eo-event-list-widget.php:81
+msgid "You can use specified tags as placeholders for event information which you "
+"want to appear in the widget. <a href=\"%s\" target=\"_blank\"> Find out "
+"more</a>."
+msgstr "Указанные теги можно использовать как заглушки для информации о события, "
+"которая должны показываться в виджете. <a href=\\\"%s\\\" "
+"target=\\\"_blank\\\"> Как это делается</a>."
+
+#: event-organiser-venues.php:115
+msgid "You do not have permission to delete this venue"
+msgstr "У вас нет прав для удаления этого места"
+
+#: event-organiser-venues.php:42 event-organiser-venues.php:71
+msgid "You do not have permission to edit this venue."
+msgstr "У вас нет прав для редактирования места."
+
+#: event-organiser-venues.php:37
+msgid "You do not have permission to manage venues"
+msgstr "У вас нет прав управлять местами"
+
+#: event-organiser-calendar.php:108
+msgid "You do not have sufficient permissions to create events. "
+msgstr "У вас недостаточно прав для создания событий"
+
+#: event-organiser-calendar.php:182
+msgid "You do not have sufficient permissions to delete this event. "
+msgstr "У вас недостаточно прав для удаления события"
+
+#: event-organiser-calendar.php:164
+msgid "You do not have sufficient permissions to edit this event. "
+msgstr "У вас недостаточно прав для редактирования этого события"
+
+#: includes/class-event-organiser-im-export.php:160
+msgid "You do not have sufficient permissions to import events."
+msgstr "У вас недостаточно прав для импорта событий."
+
+#: event-organiser-settings.php:605
+msgid "You may also need to go to WordPress Settings > Permalinks and click 'Save "
+"Changes' before any changes will take effect."
+msgstr "Возможно, вам нужно зайти в WordPress Settings > Permalinks и нажать "
+"\\\"Сохранить изменения\\\", чтобы изменения вступили в силу."
+
+#: event-organiser-settings.php:145
+msgid "yyyy-mm-dd"
+msgstr "гггг-мм-дд"
+
+#: includes/class-eo-ical-parser.php:359 includes/class-eo-ical-parser.php:384
+msgid "[Line %1$d]"
+msgstr ""
+
+#: includes/class-eo-ical-parser.php:352 includes/class-eo-ical-parser.php:377
+msgid "[Lines %1$d-%2$d]"
+msgstr ""
+
