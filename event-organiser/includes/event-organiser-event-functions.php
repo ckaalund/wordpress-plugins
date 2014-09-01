@@ -98,7 +98,7 @@ function eo_get_events($args=array()){
 		$args = array();
 
 	//These are preset to ensure the plugin functions properly
-	$required = array('post_type'=> 'event','suppress_filters'=>false);
+	$required = array('post_type'=>eventorganiser_get_option('new_post_type_event'),'suppress_filters'=>false); //ck changed
 
 	//These are the defaults
 	$defaults = array(

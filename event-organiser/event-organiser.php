@@ -145,6 +145,8 @@ function eventorganiser_get_option( $option = false, $default = false ){
 		'runningisnotpast' => 0,
 		'hide_addon_page' => 0,
 		'disable_css' => 0,
+		'new_post_type_event' => 'tribe_events', //ck added
+		'new_post_type_venue' => 'venue', //ck added
 	);
 	$options = get_option( 'eventorganiser_options', $defaults );
 	$options = wp_parse_args( $options, $defaults );

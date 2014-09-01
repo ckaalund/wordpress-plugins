@@ -251,7 +251,7 @@ function eo_insert_event( $post_data = array(), $event_data = array() ){
 	$post_data = apply_filters( 'eventorganiser_insert_event_post_data', $post_data, $post_data, $event_data );
 		
 	//Finally we create event (first create the post in WP)
-	$post_input = array_merge(array('post_title'=>'untitled event'), $post_data, array('post_type'=>'event'));			
+	$post_input = array_merge(array('post_title'=>'untitled event'), $post_data, array('post_type'=>eventorganiser_get_option('new_post_type_event'))); //ck changed
 	$post_id = wp_insert_post($post_input, true);
 
 	//Did the event insert correctly? 
@@ -440,11 +440,14 @@ function  _eventorganiser_insert_occurrences( $post_id, $event_data ){
 	unset( $event_data['schedule_start'] );
 	unset( $event_data['schedule_last'] );
 		
-	update_post_meta( $post_id, '_eventorganiser_event_schedule', $event_data );
-	update_post_meta( $post_id, '_eventorganiser_schedule_start_start', $start->format('Y-m-d H:i:s') );
-	update_post_meta( $post_id, '_eventorganiser_schedule_start_finish', $end->format('Y-m-d H:i:s') );
-	update_post_meta( $post_id, '_eventorganiser_schedule_last_start', $schedule_last->format('Y-m-d H:i:s') );
-	update_post_meta( $post_id, '_eventorganiser_schedule_last_finish', $schedule_last_end->format('Y-m-d H:i:s') );
+	// update_post_meta( $post_id, '_eventorganiser_event_schedule', $event_data ); //ck commented out
+	update_post_meta( $post_id, '_EventStartDate', $start->format('Y-m-d H:i:s') ); //ck changed
+	update_post_meta( $post_id, '_EventEndDate', $end->format('Y-m-d H:i:s') ); //ck changed
+	update_post_meta( $post_id,'_EventOrigin', 'ics-importer'); //ck added
+	update_post_meta( $post_id,'_EventShowMap', 1); //ck added
+	update_post_meta( $post_id,'_EventShowMapLink', false); //ck added
+	// update_post_meta( $post_id, '_eventorganiser_schedule_last_start', $schedule_last->format('Y-m-d H:i:s') ); //ck commented out
+	// update_post_meta( $post_id, '_eventorganiser_schedule_last_finish', $schedule_last_end->format('Y-m-d H:i:s') ); //ck commented out
 		
 	return $post_id;
 }
