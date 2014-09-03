@@ -67,14 +67,32 @@ class EO_Sync_Ical{
 		}
 			
 	}
-	
+
+	function set_constants(){
+		$this->hook = 'edit.php?post_type=tribe_events';
+		$this->title = __( 'Import: ICAL', 'tribe-events-calendar' );
+		$this->menu = __( 'Import: ICAL', 'tribe-events-calendar' );
+		$this->permissions = 'manage_options';
+		$this->slug = 'ical-import';
+	}
+
+	function add_page(){		
+		add_submenu_page($this->hook,$this->title, $this->menu, $this->permissions,$this->slug,  array($this,'display_feeds'));
+		// add_action('load-' . $this->page,  array($this,'page_actions'),9);
+		// add_action('admin_print_scripts-' . $this->page,  array($this,'page_styles'),10);
+		// add_action('admin_print_styles-' . $this->page,  array($this,'page_scripts'),10);
+		// add_action("admin_footer-" . $this->page, array($this,'footer_scripts') );
+	}
+
 	function hooks(){
 
 		add_action( 'after_setup_theme', array( $this, 'setup_constants' ) );
 		
 		add_action( 'init', array( $this, 'register_feed_posttype' ) );
+		add_action('init', array($this,'set_constants'));
 	
-		add_action( 'eventorganiser_event_settings_imexport', array( $this, 'display_feeds' ), 5 );
+		// add_action( 'eventorganiser_event_settings_imexport', array( $this, 'display_feeds' ), 5 );
+		add_action('admin_menu', array($this,'add_page'));
 	
 		add_action( 'wp_ajax_add-eo-feed', array( $this, 'ajax_add_feed' ) );
 		add_action( 'wp_ajax_delete-eo-feed', array( $this, 'ajax_delete_feed' ) );
