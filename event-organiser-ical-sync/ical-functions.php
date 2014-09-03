@@ -403,30 +403,48 @@ function eo_fetch_feed( $feed_id ){
 
 		//Handle venue
 		if( !empty( $event['event-venue'] ) ){
-			//While events may only have 1 venue, $event_post['tax_input']['event-venue'] must be an array
-			$found_venue = eo_get_venue_by( 'name', sanitize_term_field( 'name', $event['event-venue'], 0, 'event-venue', 'db' ) );
-			
+			$venue = $event['event-venue'];
+			if( !empty($venue['name']) ) {
+				$found_venue = get_page_by_title( $venue['name'], OBJECT, eventorganiser_get_option('new_post_type_venue') );
+			} else {
+				#ck: Get venue post by street address
+				if( !empty($venue['street']) ) {
+					$args = array(
+						'post_type' => 'tribe_venue',
+						'post_status' => 'publish',
+						'meta_query' => array(
+							array(
+								'key' => '_VenueAddress',
+								'value' => $venue['street']
+							)
+						)
+					);
+					$found_venues = get_posts($args);
+					if ( !empty($found_venues) ) {
+						$found_venue = $found_venues[0];
+					} else {
+						$found_venue = NULL;
+					}
+				} else {
+					$found_venue = NULL;
+				}
+			}
 			if( $found_venue ){
-				$venue_id = (int) $found_venue->term_id;
+				$venue_id = (int) $found_venue->ID;
 			}else{
-				$venue = $event['event-venue'];
 				
 				//If lat/lng meta data is set, include that
 				$args = array();
-				if( isset( $ical->venue_meta[$venue]['latitude'] ) && isset( $ical->venue_meta[$venue]['longtitude'] ) ){
-					$args['latitude'] = $ical->venue_meta[$venue]['latitude'];
-					$args['longtitude'] = $ical->venue_meta[$venue]['longtitude'];
+				if ( isset( $event['geo']) ) {
+					$args['latitude'] = $event['geo']['lat'];
+					$args['longtitude'] = $event['geo']['lng'];
 				}
 				
-				$new_venue = eo_insert_venue( $venue, $args );
-
-				if( !is_wp_error( $new_venue ) && !$new_venue ){
-					$venue_id = (int) $new_venue['term_id'];
-				}
+				$venue_id = eo_insert_tribe_venue( $venue, $args );
 			}
 				
 			if( $venue_id ){
-				wp_set_object_terms( $event_id, array( $venue_id ), 'event-venue' );
+				update_post_meta( $event_id, '_EventVenueID', $venue_id );
 			}
 		}
 

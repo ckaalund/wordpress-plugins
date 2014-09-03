@@ -591,6 +591,32 @@ function eo_get_venues($args=array()){
  * @param array $args Array as accepted by wp_update_term and including the 'core' metadata
  * @return array|WP_Error Array of term ID and term-taxonomy ID or a WP_Error on error
  */
+	function eo_insert_tribe_venue($venue, $args){
+	
+		// $resp = wp_insert_term($name,'event-venue',$term_args);
+		$venue_id = wp_insert_post( array(
+				'post_type' => eventorganiser_get_option('new_post_type_venue'),
+				'post_status' => 'publish',
+				'post_title' => $venue['name'],
+		));
+
+		if( $venue_id ){
+			update_post_meta( $venue_id, '_VenueOrigin', 'ics-importer' );
+			update_post_meta( $venue_id, '_VenueAddress', $venue['street'] );
+			update_post_meta( $venue_id, '_VenueVenue', $venue['name'] );
+			update_post_meta( $venue_id, '_VenueCity', $venue['city'] );
+			update_post_meta( $venue_id, '_VenueZip', $venue['zip'] );
+			update_post_meta( $venue_id, '_VenueCountry', $venue['country'] );
+			update_post_meta( $venue_id, '_VenueGeoAddress', $venue['full_address'] );
+			if ( isset($args['latitude']) && isset($args['longtitude']) ) {
+				update_post_meta( $venue_id, '_VenueLat', $args['latitude'] );
+				update_post_meta( $venue_id, '_VenueLng', $args['longtitude'] );				
+			}
+		}
+
+		return $venue_id;
+	}
+
 	function eo_insert_venue($name, $args=array()){
 		$term_args = array_intersect_key($args, array('name'=>'','term_id'=>'','term_group'=>'','term_taxonomy_id'=>'','alias_of'=>'','parent'=>0,'slug'=>'','count'=>''));
 		$meta_args = array_intersect_key($args, array('description'=>'','address'=>'','postcode'=>'','city'=>'','state'=>'','country'=>'','latitude'=>'','longtitude'=>''));

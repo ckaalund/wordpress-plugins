@@ -378,12 +378,12 @@ class EO_ICAL_Parser{
 						$this->current_event['_lines']['end'] = $this->line;
 						
 						//Now we've finished passing the event, move venue data to $this->venue_meta
-						if( isset( $this->current_event['geo'] ) && !empty( $this->current_event['event-venue'] ) ){
-							$venue = $this->current_event['event-venue'];
-							$this->venue_meta[$venue]['latitude'] = $this->current_event['geo']['lat'];
-							$this->venue_meta[$venue]['longtitude'] = $this->current_event['geo']['lng'];
-							unset( $this->current_event['geo'] );
-						}
+						// if( isset( $this->current_event['geo'] ) && !empty( $this->current_event['event-venue'] ) ){
+						// 	$venue = $this->current_event['event-venue'];
+						// 	$this->venue_meta[$venue]['latitude'] = $this->current_event['geo']['lat'];
+						// 	$this->venue_meta[$venue]['longtitude'] = $this->current_event['geo']['lng'];
+						// 	unset( $this->current_event['geo'] );
+						// }
 						
 						if( empty( $this->current_event['uid'] ) ){
 							$this->report_warning( 
@@ -630,15 +630,24 @@ class EO_ICAL_Parser{
 		
 			//Event venues, assign to existing venue - or if set, create new one
 		case 'LOCATION':
-			if( !empty( $value ) ):
+			if( !empty( $value ) ){
+				$venue = $this->parse_event_venue_location($value);
+				$venue_name = trim($venue['name']);
+				if ($venue_name) {
+					if( !isset( $this->venues[$venue_name] ) )
+						$this->venues[$venue_name] = $venue_name;
+				}					
+				$this->current_event['event-venue'] = $venue;
+				// $this->current_event['event-venue-address'] = $venue;
+			}
+		break;
 
-			$venue_name = trim($value);
-				
-			if( !isset( $this->venues[$venue_name] ) )
-				$this->venues[$venue_name] = $venue_name;
-				
-			$this->current_event['event-venue'] = $venue_name;
-			endif;
+		case 'GEO':
+			$lat_lng = array_map( 'floatval', explode( ';', $value ) );
+			if( count( $lat_lng ) === 2 ){
+				$keys = array( 'lat', 'lng' );
+				$this->current_event['geo'] = array_combine( $keys, $lat_lng );
+			}
 		break;
 
 		case 'CATEGORIES':
@@ -666,14 +675,6 @@ class EO_ICAL_Parser{
 
 			$this->current_event['post_status'] = isset( $map[$value] ) ? $map[$value] : $this->default_status;
 		break;
-
-		case 'GEO':
-			$lat_lng = array_map( 'floatval', explode( ';', $value ) );
-			if( count( $lat_lng ) === 2 ){
-				$keys = array( 'lat', 'lng' );
-				$this->current_event['geo'] = array_combine( $keys, $lat_lng );
-			}
-		break;
 			
 		//An url associated with the event
 		case 'URL':
@@ -683,6 +684,39 @@ class EO_ICAL_Parser{
 		
 			endswitch;
 
+	}
+
+	/**
+	* Convert LOCATION string into the right parts of address: Name, street, city, country
+	*
+	* Example input:
+	*    meetup: Café Nutid (Sankt Peders Stræde 1\, Copenhagen\, Denmark)
+	*    google calendar: Njalsgade\, 2300 København\, Danmark
+	*/
+	protected function parse_event_venue_location($location){
+		if (strpos($location,'(') !== false && strpos($location,')') !== false) {
+			#then this is probably a meetup string
+			preg_match("/(.*)\((.*)\)/", $location, $parsed_location);
+			$venue_name = $parsed_location[1];
+			$venue_address = preg_split("/\\\,/", $parsed_location[2]);
+		} else {
+			$venue_name = '';
+			$venue_address = preg_split("/\\\,/", $location);
+		}
+		$full_address = implode(", ", $venue_address);
+
+		$country = array_pop($venue_address);
+		$city = array_pop($venue_address);
+		if (preg_match("/\d{4}/", $city)) {
+			preg_match("/(\d{4})/", $city, $result);
+			$zip = $result[0];
+			$city = preg_replace("/\d{4}/", "", $city);
+		} else {
+			$zip = '';
+		}
+		$street = implode(", ", $venue_address);
+
+		return array('name' => trim($venue_name), 'street' => trim($street), 'city' => trim($city), 'zip' => trim($zip), 'country' => trim($country), 'full_address' => trim($full_address));
 	}
 
 	protected function parse_ical_html( $text ){
