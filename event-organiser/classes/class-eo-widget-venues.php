@@ -20,7 +20,7 @@ class EO_Widget_Venues extends WP_Widget {
 	public static function register() {
 		$supports = eventorganiser_get_option( 'supports' );
 		if( in_array( 'event-venue', $supports ) ){
-			register_widget( __CLASS__ );
+			// register_widget( __CLASS__ );
 		}
 	}
 

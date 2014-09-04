@@ -30,7 +30,7 @@ class EO_Calendar_Widget extends WP_Widget
   	 * @return void.
   	 */
   	public static function register() {
-  		register_widget( __CLASS__ );
+  		// register_widget( __CLASS__ );
   	}
  
 	function form( $instance )  {

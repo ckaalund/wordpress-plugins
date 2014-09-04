@@ -29,7 +29,7 @@ class EO_Event_List_Widget extends WP_Widget{
 	 * @return void.
 	 */
 	public static function register() {
-		register_widget( __CLASS__ );
+		// register_widget( __CLASS__ );
 	}
 
  

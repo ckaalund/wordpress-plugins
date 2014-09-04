@@ -214,7 +214,7 @@ $args = array(
 	 * @param array $args Settings passed to `register_post_type()` in the second argument.
 	 */
 	$args = apply_filters( 'eventorganiser_event_properties', $args );
-	register_post_type( 'event', $args );
+	// register_post_type( 'event', $args );
 }
 add_action('init', 'eventorganiser_cpt_register');
 
