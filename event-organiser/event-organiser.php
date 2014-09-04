@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Event Organiser
+Plugin Name: Event Organiser edited
 Plugin URI: http://www.wp-event-organiser.com
 Version: 2.8.5
 Description: Creates a custom post type 'events' with features such as reoccurring events, venues, Google Maps, calendar views and events and venue pages
@@ -38,6 +38,12 @@ Domain Path: /languages
 /**
  * Set the plug-in database version
  */ 
+add_filter('site_transient_update_plugins', 'remove_update_notification');
+function remove_update_notification($value) {
+	unset($value->response[ plugin_basename(__FILE__) ]);
+	return $value;
+}
+
 define( 'EVENT_ORGANISER_VER', '2.8.5' );
 
 
