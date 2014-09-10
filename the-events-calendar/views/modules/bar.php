@@ -37,7 +37,6 @@ $current_url = esc_url( add_query_arg( $wp->query_string, '', home_url( $wp->req
 		<div id="tribe-bar-views">
 			<div class="tribe-bar-views-inner tribe-clearfix">
 				<h3 class="tribe-events-visuallyhidden"><?php _e( 'Event Views Navigation', 'tribe-events-calendar' ) ?></h3>
-				<label><?php _e( 'View As', 'tribe-events-calendar' ); ?></label>
 				<select class="tribe-bar-views-select tribe-no-param" name="tribe-bar-view">
 					<?php foreach ( $views as $view ) : ?>
 						<option <?php echo tribe_is_view($view['displaying']) ? 'selected' : 'tribe-inactive' ?> value="<?php echo $view['url'] ?>" data-view="<?php echo $view['displaying'] ?>">
@@ -54,7 +53,6 @@ $current_url = esc_url( add_query_arg( $wp->query_string, '', home_url( $wp->req
 			<div class="tribe-bar-filters-inner tribe-clearfix">
 				<?php foreach ( $filters as $filter ) : ?>
 					<div class="<?php echo esc_attr( $filter['name'] ) ?>-filter">
-						<label class="label-<?php echo esc_attr( $filter['name'] ) ?>" for="<?php echo esc_attr( $filter['name'] ) ?>"><?php echo $filter['caption'] ?></label>
 						<?php echo $filter['html'] ?>
 					</div>
 				<?php endforeach; ?>

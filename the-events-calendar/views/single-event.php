@@ -18,7 +18,7 @@ $event_id = get_the_ID();
 
 <div id="tribe-events-content" class="tribe-events-single vevent hentry">
 
-	<p class="tribe-events-back"><a href="<?php echo tribe_get_events_link() ?>"> <?php _e( '&laquo; All Events', 'tribe-events-calendar' ) ?></a></p>
+	<p class="tribe-events-back"><a href="<?php echo tribe_get_events_link() ?>"> <?php _e( '< All Events', 'tribe-events-calendar' ) ?></a></p>
 
 	<!-- Notices -->
 	<?php tribe_events_the_notices() ?>
@@ -79,8 +79,8 @@ $event_id = get_the_ID();
 		<!-- Navigation -->
 		<h3 class="tribe-events-visuallyhidden"><?php _e( 'Event Navigation', 'tribe-events-calendar' ) ?></h3>
 		<ul class="tribe-events-sub-nav">
-			<li class="tribe-events-nav-previous"><?php tribe_the_prev_event_link( '<span>&laquo;</span> %title%' ) ?></li>
-			<li class="tribe-events-nav-next"><?php tribe_the_next_event_link( '%title% <span>&raquo;</span>' ) ?></li>
+			<li class="tribe-events-nav-previous"><?php tribe_the_prev_event_link( '<span><</span> %title%' ) ?></li>
+			<li class="tribe-events-nav-next"><?php tribe_the_next_event_link( '%title% <span>></span>' ) ?></li>
 		</ul><!-- .tribe-events-sub-nav -->
 	</div><!-- #tribe-events-footer -->
 
